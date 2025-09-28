@@ -5,7 +5,7 @@ updated: 2020-10-29T00:00:00.000Z
 
 # 开源项目中的沟通规范
 
-虽然项目用于沟通的工具在不断发展，但项目参与者之间沟通的最佳实践很少改变。本章将涵盖项目沟通的基础知识，并就如何通过最佳地使用特定工具和平台为全球受众提供服务提供建议。我们将看到如何在你的社区中维持高效沟通的某些规范和技术将在任何地方都适用，无论项目选择什么沟通工具或平台。我们将以一些观察结束，涉及开源项目中不断变化的工具和沟通实践可能给外部观察者——特别是学术研究人员——带来的挑战，以及以有利于所有项目参与者的方式缓解这些挑战的建议。
+虽然项目用于沟通的工具在不断发展，但项目参与者之间沟通的最佳实践很少改变。本章将涵盖项目沟通的基础知识，并就如何通过最佳地使用特定工具和平台为全球受众提供服务提供建议。我们将看到如何在你的社区中维持高效沟通的某些规范和技术将在任何地方都适用，无论项目选择什么沟通工具或平台。我们将以一些观察结束，涉及开源项目中不断变化的工具和沟通实践可能给外部观察者——特别是学术研究人员——带来的挑战，以及以有利于所有项目参与者的方式缓解这些[^1]: 有关示例风格指南，请参阅[PEP 8 — Python代码风格指南](https://www.python.org/dev/peps/pep-0008/)或[为Mozilla Firefox贡献的风格指南](https://firefox-source-docs.mozilla.org/code-quality/coding-style/index.html)，这是一个在开发中使用多种编程语言的项目。战的建议。
 
 ## 自由和开源软件项目中沟通平台的演进
 
@@ -93,145 +93,145 @@ updated: 2020-10-29T00:00:00.000Z
 
 #### 入门指南
 
-The processes for creating good "getting started" documentation—occasionally called "onboarding documentation"—are outside the scope of this chapter. (Refer to the dedicated onboarding chapter in this guidebook for more detail.) Here, suffice it to say that open source project websites should feature a section aimed at helping new users and potential contributors get started using the software. Clearly labeling that section "getting started" or "new users" makes finding that section easy when people need it. Further differentiating between "new users" and "new contributors" in your onboarding documentation is even better, as these two audiences have very different needs. Clearly pointing to these resources for newcomers on the project website helps to keep the project's other communication channels—like the forums and real-time chat rooms—free from frequently repeated inquiries about how to get started.
+创建良好"入门"文档——有时称为"入职文档"——的过程超出了本章的范围。（有关更多详细信息，请参阅本指南书中专门的入职章节。）在此，可以说开源项目网站应该包含一个旨在帮助新用户和潜在贡献者开始使用软件的部分。清楚地标记该部分为"入门指南"或"新用户"使人们在需要时容易找到该部分。在入职文档中进一步区分"新用户"和"新贡献者"更好，因为这两个受众有非常不同的需求。在项目网站上清楚地指向新手的这些资源有助于保持项目的其他沟通渠道——如论坛和实时聊天室——免受关于如何开始的频繁重复询问。
 
 {% hint style="success" %}
-In your project's "getting started" guide for new users and participants, include any information you can about other places those unfamiliar with the project can get help. For example, you may have a Slack channel called "newbies" staffed by folks who enjoy mentoring and helping people get started, whereas ongoing development discussions may take place in the "developer" channel.
+在你的项目的新用户和参与者"入门指南"中，包含任何你能提供的关于不熟悉项目的人可以在其他地方获得帮助的信息。例如，你可能有一个名为"新手"的Slack频道，由喜欢指导和帮助人们开始的人员配备，而正在进行的开发讨论可能在"开发者"频道进行。
 {% endhint %}
 
 #### 常见问题
 
-Another excellent location to feature basic information about your project is a frequently asked questions (FAQ) page. If project development is just beginning, a basic FAQ detailing what the project is, what the code base is used for, and how someone can get access to the code is sufficient. However, as more people join the project—new users, developers, documentarians, etc.—you will likely find yourself answering the same basic questions repeatedly. (And in the process you'll discover that many aspects of the projects are not as obvious to newcomers as they are to you.) These repeat questions represent opportunities to improve your documentation and to seek help from your community.
+展示项目基本信息的另一个绝佳位置是常见问题（FAQ）页面。如果项目开发刚刚开始，一个详细说明项目是什么、代码库用于什么以及如何获得代码访问权限的基本FAQ就足够了。然而，随着更多人加入项目——新用户、开发者、文档撰写者等——你可能会发现自己重复回答相同的基本问题。（在这个过程中，你会发现项目的许多方面对新手来说并不像对你那样显而易见。）这些重复问题代表了改进文档和寻求社区帮助的机会。
 
-Keep your FAQ updated and easy to locate. But even better: ask community participants to help you improve it. When answering a question for a newcomer, be it via email on the project mailing list or in real-time chat, ask the newcomer to write up the question and answer for inclusion in the project FAQ. By asking for help from your community, you do several things:
+保持FAQ更新且易于查找。但更好的是：请社区参与者帮助你改进它。当为新手回答问题时，无论是通过项目邮件列表上的电子邮件还是在实时聊天中，请新手写出问题和答案以纳入项目FAQ。通过向你的社区寻求帮助，你可以做到几件事：
 
-1. Get help keeping your documentation relevant and timely.
-2. Demonstrate that community contributions to the project are welcome and encouraged.
-3. Invite further contribution from someone who has already shown interest in the project by asking for their help.
+1. 获得帮助保持文档相关且及时。
+2. 证明欢迎并鼓励社区对项目的贡献。
+3. 通过请求帮助，邀请已经对项目表现出兴趣的人进一步贡献。
 
-Ideally, newcomers would have the ability to edit the FAQ themselves. Sending instructions for how to edit the FAQ along with your request to contribute to it—thus lowering the barrier to entry—makes receiving a contribution more likely. If your project maintains a contributors list, make sure to include the people contributing to your FAQ in it. People love seeing their work and contributions (however small) acknowledged. Doing so gives contributors a sense of belonging and commitment to the project. People who feel their work is appreciated and respected are more likely to stick around and contribute to the project, whether by filing issues or adding new features.
+理想情况下，新手应该有能力自己编辑FAQ。在请求贡献时发送如何编辑FAQ的说明——从而降低准入门槛——使收到贡献更有可能。如果你的项目维护贡献者列表，请确保将为FAQ做出贡献的人包括在内。人们喜欢看到他们的工作和贡献（无论多小）得到认可。这样做给贡献者一种归属感和对项目的承诺感。那些感到自己的工作得到赞赏和尊重的人更可能留下来并为项目做出贡献，无论是通过提交问题还是添加新功能。
 
 #### 记录项目目标和非目标
 
-Your project's website should also make clear the _purpose_ of the project and the _activities_ the project has as its focus. People have difficulty understanding how they can best fit into a community and how they can contribute if they do not understand what activities are currently in progress and what is planned for the future.
+你的项目网站还应该明确项目的_目的_和项目专注的_活动_。如果人们不了解当前正在进行的活动和未来的计划，他们很难理解如何最好地融入社区以及如何做出贡献。
 
-One common tool to communicate these goals is a project roadmap. Even if your project does not yet have sufficient resources to develop this kind of roadmap, you should still find some way to ensure users and would-be contributors understand the project landscape. For instance, a weekly recap of project activities and planned activities for the coming week or month is an excellent start, and it's something you can offer through a quick blog or forum post. Such works are an excellent resource for newcomers orienting themselves to the project and are a wonderful place to point interested parties to learn more as part of their onboarding process.
+传达这些目标的一个常见工具是项目路线图。即使你的项目还没有足够的资源来开发这种路线图，你仍然应该找到某种方式来确保用户和潜在贡献者了解项目格局。例如，每周回顾项目活动和计划未来一周或一个月的活动是一个很好的开始，你可以通过快速的博客或论坛帖子提供这些。这些作品是新手熟悉项目的绝佳资源，也是作为入职过程的一部分指向感兴趣各方学习更多内容的绝佳场所。
 
-Communicating your project's _non-goals_ is equally important. Due to the vibrant nature of open source projects, it is only natural that someone will find a use for a project that the project's creators never intended and will wish to extend the project's capabilities to target that specific use case. If the project maintainers do not intend for the project to have a wider focus than what is already offered, letting these would-be contributors know this in advance will save everyone time and disappointment. In this era of [easy forking](https://en.wikipedia.org/wiki/Fork_\(software_development\)), it is relatively easy for those who would use some parts of the project but not others to develop and maintain a code base that better matches their own needs—all without asking the maintainers of the original project to deviate from their intended vision and the project scope they've set.
+传达你项目的_非目标_同样重要。由于开源项目的活力本质，很自然地会有人为项目找到项目创建者从未打算的用途，并希望扩展项目的能力来针对特定的用例。如果项目维护者不打算让项目拥有比已经提供的更广泛的焦点，提前让这些潜在贡献者知道这一点将为每个人节省时间和失望。在这个[易于分叉](https://en.wikipedia.org/wiki/Fork_\(software_development\))的时代，那些想使用项目的某些部分但不是其他部分的人相对容易开发和维护更好地匹配他们自己需求的代码库——所有这些都不需要要求原项目的维护者偏离他们预期的愿景和他们设定的项目范围。
 
-Documenting non-goals is also particularly important for commercially focused projects, where a contributor's desire to create a feature as open source may be in conflict with vendor goals for creating proprietary features. Contributors may still choose to create that feature as open source, but they should know from the start that upstream maintainers do not intend to include their work as part of the project's code base. Some may choose to not implement the feature, knowing that a vendor is creating it for them; still others may choose not to implement the feature if they know it will not be included in the project's mainline source tree, as they do not wish to incur the burden of ongoing maintenance themselves. And others may choose to go ahead and create something that works well for them and release it as open source, regardless of whether the feature is incorporated into the project's main source repositories.
+记录非目标对于商业导向的项目也特别重要，在这些项目中，贡献者希望将功能创建为开源的愿望可能与供应商创建专有功能的目标相冲突。贡献者仍然可以选择将该功能创建为开源，但他们应该从一开始就知道上游维护者不打算将他们的工作作为项目代码库的一部分包括在内。有些人可能选择不实现该功能，知道供应商正在为他们创建它；还有一些人可能选择不实现该功能，如果他们知道它不会被包含在项目的主线源树中，因为他们不希望承担持续维护的负担。而其他人可能选择继续创建对他们有效的东西并将其作为开源发布，无论该功能是否被纳入项目的主要源代码库。
 
-Most important here is that no one feels _surprised_ by the direction a project will take. No project needs to accept every contribution, but having contributors invest time and energy into developing something only to discover it will not be accepted due to a conflict with an unknown roadmap (commercial or otherwise) creates tension in the community and a lack of trust in the project maintainers. It can even encourage adoption of open source alternatives to the vendor's product.
+这里最重要的是没有人对项目将要采取的方向感到_惊讶_。没有项目需要接受每个贡献，但让贡献者投入时间和精力开发某些东西，却发现由于与未知路线图（商业或其他）的冲突而不会被接受，这会在社区中产生紧张关系和对项目维护者缺乏信任。它甚至可能鼓励采用供应商产品的开源替代品。
 
 ### 未按预期工作：充分利用问题跟踪器
 
-This section details how an issue tracker can be used as an essential communication tool.
+本节详细介绍了如何将问题跟踪器用作必要的沟通工具。
 
 #### 什么是问题跟踪器？
 
-An _issue tracker_ (sometimes also known as a _bug tracker_, _issues list_, or _issue queue_) is a tool that allows people to submit reports when they encounter instances where they believe the software is [not working as intended](#user-content-fn-4)[^4]. As a way to monitor pending tasks and allow for collaborative commenting and review of work in progress, some projects manage their entire development workflow via their issue trackers.
+_问题跟踪器_（有时也称为_错误跟踪器_、_问题列表_或_问题队列_）是一个工具，允许人们在遇到认为软件[未按预期工作](#user-content-fn-4)[^4]的情况时提交报告。作为监控待处理任务并允许协作评论和审查正在进行工作的方式，一些项目通过其问题跟踪器管理其整个开发工作流程。
 
-In this section, we'll discuss using an issue tracker for the purpose of reporting failures with the software. By reporting your issue using a project's issue tracker, you ensure maintainers who are looking out for problems see your report and act upon it.
+在本节中，我们将讨论使用问题跟踪器来报告软件故障的目的。通过使用项目的问题跟踪器报告你的问题，你可以确保关注问题的维护者看到你的报告并采取行动。
 
 #### 为什么要提交问题？
 
-While filing an issue may seem more cumbersome than simply asking for help in real-time chat, it is important to do for several reasons:
+虽然提交问题可能看起来比简单地在实时聊天中寻求帮助更麻烦，但这样做很重要，有几个原因：
 
-Project contributors cannot keep track of all conversations occurring across various platforms, but they can always refer to the issue tracker to improve the project.
+项目贡献者无法跟踪各个平台上发生的所有对话，但他们总是可以参考问题跟踪器来改进项目。
 
-Real-time chat and social media are ephemeral communication channels. The issue tracker is a purpose built tool for recording and reviewing problems with the software. Software projects often define their upcoming work plans by using their issue tracker as a key component—and perhaps their sole tool—to prioritize all possible areas to work on. (Simply put, the project's issue tracker is very often synonymous with the project's to-do list.) If your problem does not make its way into the issue tracker, it will likely not be addressed simply because a very busy person has forgotten the details of the problem. For this reason, you will often find that one of the first requests you receive when asking for help is to file an issue so the project maintainers can keep track of the problem.
+实时聊天和社交媒体是短暂的沟通渠道。问题跟踪器是专门为记录和审查软件问题而构建的工具。软件项目经常通过使用其问题跟踪器作为关键组件——也许是他们的唯一工具——来定义即将到来的工作计划，以优先考虑所有可能的工作领域。（简单地说，项目的问题跟踪器很常常与项目的待办事项列表同义。）如果你的问题没有进入问题跟踪器，它很可能不会得到解决，仅仅因为一个非常忙碌的人忘记了问题的细节。因此，你经常会发现当寻求帮助时收到的第一个请求之一是提交问题，以便项目维护者可以跟踪问题。
 
-Filing an issue allows you and the project contributors to communicate asynchronously about the problem, as all parties can refer back to and access the issue description and follow up comments at any time.
+提交问题允许你和项目贡献者就问题进行异步沟通，因为所有各方都可以随时参考和访问问题描述和后续评论。
 
-When you've uncovered a problem with the software, you might discover that the problem is actually the root cause of _another_ problem, or there may be a way in which _several_ problems are related. Issue tracking software allows project developers to group related issues together, which may aid in diagnosing a problem's root cause.
+当你发现软件问题时，你可能会发现该问题实际上是_另一个_问题的根本原因，或者可能有_几个_问题相关的方式。问题跟踪软件允许项目开发者将相关问题组合在一起，这可能有助于诊断问题的根本原因。
 
-People often encounter the same issues with software, and many of them are filing issues with the project. Having multiple reports of the same problem can be very time consuming for the project maintainers, as they then need to respond to each individual reporter about work in progress. Fortunately, issue trackers make this process easier for maintainers by allowing them to quickly close issues by stating they are duplicates of an existing one (and then asking the bug reporter to track work-in-progress in the "original" report).
+人们经常遇到软件的相同问题，其中许多人正在向项目提交问题。有多个相同问题的报告对项目维护者来说可能非常耗时，因为他们需要向每个个人报告者回应正在进行的工作。幸运的是，问题跟踪器通过允许维护者快速关闭问题来使这个过程变得更容易，说明它们是现有问题的重复（然后要求错误报告者在"原始"报告中跟踪正在进行的工作）。
 
-Project maintainers can then engage in broadcast-style communication to everyone experiencing the problem in one place, streamling their workflow while still helping everyone who needs assistance.
+项目维护者然后可以在一个地方与遇到问题的每个人进行广播式沟通，简化他们的工作流程，同时仍然帮助每个需要帮助的人。
 
 #### 使问题跟踪器易于查找
 
-Make sure the location of your project's issue tracker is prominently displayed in your FAQ, as well as in your usage and development documentation. If people cannot figure out where to submit an issue, they will ask someone in the project where to do so. Supporting well-meaning users by offering repeated answers to basic questions like this one can be quite time consuming.
+确保你的项目问题跟踪器的位置在你的FAQ以及使用和开发文档中突出显示。如果人们无法找出在哪里提交问题，他们会询问项目中的某人在哪里这样做。通过对这样的基本问题提供重复答案来支持善意的用户可能非常耗时。
 
-Do yourself and your community a favor and make your issue tracker very easy to find.
+为你自己和你的社区帮个忙，使你的问题跟踪器非常容易找到。
 
 #### 使用问题模板
 
-Not everyone who uses your software will be familiar with your community's conventions for filing a useful bug report. To save you and the bug reporter time, offer an issue template to ensure you receive the information you need to reproduce the reported error and effectively triage it. For example, you may need to know what version of the software or what operating system was in use when an error occurred. If common information is required for reproducing errors, ask for it in an issue template.
+不是每个使用你软件的人都会熟悉你社区提交有用错误报告的约定。为了节省你和错误报告者的时间，提供一个问题模板以确保你收到重现报告错误和有效分类所需的信息。例如，你可能需要知道发生错误时使用的软件版本或操作系统。如果重现错误需要通用信息，在问题模板中要求它。
 
-Common fields in issue templates include a summary of the issue, steps to reproduce it, the actual behavior the user observes, the intended behavior for the software, and a request for log files or screenshots to help guide the issue reviewer in better understanding the bug report. Several issue trackers support templates for bug reports, including [GitHub](https://docs.github.com/en/github/building-a-strong-community/configuring-issue-templates-for-your-repository), [GitLab](https://docs.gitlab.com/ee/user/project/description_templates.html), [Redmine](https://www.redmine.org/plugins/redmine_issue_templates), and [Trac](https://trac-hacks.org/wiki/TracTicketTemplatePlugin).
+问题模板中的常见字段包括问题摘要、重现步骤、用户观察到的实际行为、软件的预期行为，以及请求日志文件或屏幕截图以帮助指导问题审查者更好地理解错误报告。几个问题跟踪器支持错误报告模板，包括[GitHub](https://docs.github.com/en/github/building-a-strong-community/configuring-issue-templates-for-your-repository)、[GitLab](https://docs.gitlab.com/ee/user/project/description_templates.html)、[Redmine](https://www.redmine.org/plugins/redmine_issue_templates)和[Trac](https://trac-hacks.org/wiki/TracTicketTemplatePlugin)。
 
-If you find yourself asking for the same information over and over again in response to different bug reports, then congratulations. You have uncovered an area of your template in need of improvement.
+如果你发现自己在回应不同的错误报告时一遍又一遍地要求相同的信息，那么恭喜你。你已经发现了模板中需要改进的区域。
 
 #### 寻求帮助：为问题打标签以提高清晰度并鼓励贡献
 
-Most modern issue trackers allow users to label issues they file, which can be useful for organizing project work. By differentiating between different types of requests—features for development, software errors, etc.—a project's maintainers can be more organized and triage issues more efficiently. Further, many people interested in contributing to open source software projects are looking for issues on which they can work to better understand the project's development mechanics. If you will actively use labels in your issue tracker, make sure to document the label definitions in your development documentation so those labels are used consistently (or restrict the addition of issue labels to project maintainers only). A list of labels used inconsistently is no more helpful than a list of undifferentiated issues.
+大多数现代问题跟踪器允许用户为他们提交的问题打标签，这对组织项目工作很有用。通过区分不同类型的请求——开发功能、软件错误等——项目的维护者可以更有组织性并更有效地分类问题。此外，许多有兴趣为开源软件项目做出贡献的人正在寻找他们可以工作的问题，以更好地理解项目的开发机制。如果你将在问题跟踪器中积极使用标签，请确保在开发文档中记录标签定义，以便这些标签被一致使用（或仅限制项目维护者添加问题标签）。不一致使用的标签列表并不比无差别问题列表更有帮助。
 
-Labeling issues as "for newcomers" or "help wanted" allows project maintainers to flag issues particularly suited to contributors who have just joined the project. Labeling issues in this way shows that the project is prepared to onboard new contributors and that maintainers welcome community assistance in a particular area. Don't be afraid to file issues against project documentation, the website,or anything else you feel is amiss. If there's a place current and potential contributors can help make the project better, file these in your issue tracker with a clear label that shows them they can contribute.
+将问题标记为"新手适用"或"寻求帮助"允许项目维护者标记特别适合刚加入项目的贡献者的问题。以这种方式标记问题表明项目准备入职新贡献者，维护者欢迎社区在特定领域的帮助。不要害怕针对项目文档、网站或你认为有问题的任何其他内容提交问题。如果有地方当前和潜在贡献者可以帮助使项目更好，将这些提交到你的问题跟踪器中，并使用清晰的标签显示他们可以贡献。
 
-Just make _very clear_ (either in the text of the "help wanted" issue or via a link to other project documentation) how you wish others to engage with the project when working on these types of issues. (The [Apache Subversion Issues page](https://subversion.apache.org/reporting-issues.html) is an excellent example of clearly articulating needs to the user community before they file an issue.) It is best to encourage contributors working on these issues to engage with the project maintainers along the way, so their contributions have a higher chance of acceptance into the project. Nothing squelches a contributor's enthusiasm like showing up with a working solution to the stated problem only to be told their particular implementation will not meet the project's needs.
+只需_非常清楚地_说明（无论是在"寻求帮助"问题的文本中还是通过链接到其他项目文档）你希望其他人在处理这些类型的问题时如何与项目互动。（[Apache Subversion问题页面](https://subversion.apache.org/reporting-issues.html)是在用户社区提交问题之前清楚阐述需求的绝佳例子。）最好鼓励处理这些问题的贡献者在过程中与项目维护者互动，这样他们的贡献更有可能被项目接受。没有什么比带着对已述问题的有效解决方案出现，却被告知他们的特定实现不能满足项目需求更能打击贡献者的热情了。
 
 #### 清晰友好地沟通
 
-Whether you are a user of the project reporting an issue or a project maintainer reviewing a pull request, it is always important to communicate about the issue _clearly_ and _kindly_. When a tool is not working, the person using it can become frustrated. Likewise, a person developing a project as a hobby is unlikely to respond well to demands on their time to fix a problem they do not have. Remember to be gracious and thankful in your discussions with other project participants, as everyone sharing their knowledge is contributing to the project's overall health and wellbeing.
+无论你是报告问题的项目用户还是审查拉取请求的项目维护者，就问题进行_清晰_和_友好_的沟通总是很重要的。当工具不工作时，使用它的人可能会感到沮丧。同样，将项目作为业余爱好开发的人不太可能对要求他们花时间修复他们没有的问题做出良好反应。记住在与其他项目参与者的讨论中要优雅和感激，因为每个分享知识的人都在为项目的整体健康和福祉做出贡献。
 
 #### 当问题成为激烈辩论的主题时
 
-At times, the details of addressing a particular issue can cause tension or arguments within the community.
+有时，解决特定问题的细节可能会在社区内引起紧张或争论。
 
-While healthy and respectful debate is part of any thriving project—software or otherwise—tempers can flare easily, and ([as has been well documented](#user-content-fn-5)[^5]) people tend to behave with less civility online than they would in person.
+虽然健康和尊重的辩论是任何蓬勃发展的项目——软件或其他——的一部分，但情绪很容易激动，并且（[正如已被充分记录的](#user-content-fn-5)[^5]）人们倾向于在线上的行为比面对面时更不文明。
 
-If an issue has become especially contentious and discourse has become rude or inflammatory, restrict access to that issue for a stated period of time (say 24 to 48 hours) to allow people time to calm down, reflect, and state their argument in a more even-tempered and constructive manner.
+如果一个问题变得特别有争议，话语变得粗鲁或煽动性，在规定的时间段内（比如24到48小时）限制对该问题的访问，让人们有时间冷静下来、反思，并以更平和和建设性的方式陈述他们的论点。
 
 #### 提交问题的快速提示
 
-Thank the people creating the software for their time and energy, especially if you are new to the project. The individuals spending their (spare) time creating free and open source software for you to use are also people who want to know their time is valued and their work appreciated.
+感谢创建软件的人们付出的时间和精力，特别是如果你是项目的新手。那些花费（空闲）时间为你创建免费和开源软件的个人也是希望知道他们的时间受到重视和工作得到赞赏的人。
 
-Include as much information as you possibly can about the error you have encountered. If the project uses issue templates, fill one out as completely as possible.
+包含尽可能多的关于你遇到的错误的信息。如果项目使用问题模板，请尽可能完整地填写一个。
 
-If you do not have the information requested or cannot determine how to get it yourself, simply note what you have attempted to do in order to get the information. These details help maintainers determine what they might need to do to assist you.
+如果你没有请求的信息或无法确定如何自己获取，只需记录你为获取信息而尝试做的事情。这些细节帮助维护者确定他们可能需要做什么来帮助你。
 
-If a project does not use issue templates, look at other issues that have been "closed‒fixed" or at merged pull requests to see how other people have filed bug reports. If the issue was fixed, chances are quite good that you'll be able to use these historical artifacts as examples of the sort of information necessary for reproducing an error. Replicate what you find in these reports and add more detail as you are able.
+如果项目不使用问题模板，查看其他已"关闭-修复"的问题或合并的拉取请求，看看其他人如何提交错误报告。如果问题已修复，很有可能你能够使用这些历史文物作为重现错误所需信息类型的例子。复制你在这些报告中发现的内容，并尽可能添加更多细节。
 
 #### 回应问题的快速提示
 
-> "While the size and skill of the development community constrains the rate at which tickets can be resolved, the project should at least try to acknowledge each ticket the moment it appears. Even if the ticket lingers for a while, a response encourages the reporter to stay involved, because she feels that a human has registered what she has done (remember that filing a ticket usually involves more effort than, say, posting an email)."
+> "虽然开发社区的规模和技能限制了票据解决的速度，但项目至少应该尝试在每个票据出现的那一刻就确认它。即使票据停留一段时间，回应也会鼓励报告者保持参与，因为她感到有人类记录了她所做的事情（记住提交票据通常比，比如发布电子邮件涉及更多努力）。"
 >
-> —[Karl Fogel, Producing Open Source Software](#user-content-fn-6)[^6]
+> —[Karl Fogel，《生产开源软件》](#user-content-fn-6)[^6]
 
-Thank the submitter for filing the issue. Helping a project improve is an excellent contribution to that project's health. Further, by being gracious, kind and welcoming, you encourage continued participation and contribution from the issue reporter.
+感谢提交者提交问题。帮助项目改进是对该项目健康的优秀贡献。此外，通过优雅、友善和欢迎的态度，你鼓励问题报告者继续参与和贡献。
 
-When closing an issue as "won't fix," explain why the issue will not be fixed. Maintainers shouldn't feel compelled to accept every pull request or fix every reported issue, but they should at least let bug reporters know _why_ they won't be addressing certain issues.
+当将问题标记为"不予修复"时，解释为什么该问题不会得到修复。维护者不应该感到有必要接受每个拉取请求或修复每个报告的问题，但他们至少应该让错误报告者知道_为什么_他们不会解决某些问题。
 
-In particular, if someone has submitted an issue along with code to fix a problem or implement a new feature, it is vital to tell them why their work has not been accepted by the project. Not doing so makes the contributor feel like they've wasted their time and should devote their energies to a different software project. In an ideal world, you are able to include a link to a published project roadmap that explains why the submission does not meet the needs of the project. (Refer to above.)
+特别是，如果有人在提交问题的同时提供了修复问题或实现新功能的代码，告诉他们为什么项目没有接受他们的工作是至关重要的。不这样做会让贡献者觉得他们浪费了时间，应该将精力投入到其他软件项目中。在理想的世界中，你能够包含一个指向已发布项目路线图的链接，解释为什么提交不符合项目需求。（参见上文。）
 
-For new contributor submissions, fix minor issues with the patch yourself along with a note about what you fixed and why. Having a patch rejected for minor nits discourages additional contribution, and often it takes just as long to explain why a patch is being rejected as it does to make very small fixes. Such explanations are an excellent time to point contributors to additional project resources, such as your coding style guide, documentation on communication norms, etc.
+对于新贡献者的提交，自己修复补丁中的小问题，并附上说明你修复了什么以及为什么修复的注释。因为小细节而拒绝补丁会阻止额外的贡献，而且通常解释为什么拒绝补丁和进行非常小的修复所需的时间一样长。这样的解释是向贡献者指出额外项目资源（如编码风格指南、沟通规范文档等）的绝佳时机。
 
-For submissions coming in response to a "help wanted" issue, engage early and often with the person who has stated an interest in working on the issue. Doing so ensures that the contributor's submission will actually meet the project's needs. Further, by being available to and in regular dialogue with new contributors, you form a relationship with them that encourages mutual learning and increases the chances they will continue to contribute to the project's ongoing work.
+对于响应"寻求帮助"问题而提交的内容，要尽早并经常与表示有兴趣处理该问题的人员互动。这样做确保贡献者的提交确实满足项目的需求。此外，通过为新贡献者提供支持并与他们保持定期对话，你与他们建立了鼓励相互学习的关系，并增加了他们继续为项目持续工作做出贡献的机会。
 
 #### 在问题跟踪器中进行开发讨论和其他对话
 
-Conventional wisdom in the early days of open source software development held that communities should _not_ carry on development related discussions in the project's issue tracker. Project communities instead preferred carrying on such conversations via mailing lists or in forums for a number of reasons:
+开源软件开发早期的传统观点认为，社区_不应该_在项目的问题跟踪器中进行与开发相关的讨论。项目社区更倾向于通过邮件列表或论坛进行此类对话，原因有几个：
 
-* People following the mailing list were able to comment and express their views and needs without needing to parse through the issue tracker
-* Forum or mailing list conversations were seen as better for asynchronous and long-form communications, and popular issue trackers in the 1990s and early 2000s were an unwieldy way to engage in actual discourse.
-* Discovering why a particular technical decision was made when those details were buried in an issue tracker was difficult, especially since the issue would be in a "closed" state once the decision was made. Looking for a closed issue to explain the technical direction of the project was considered counterintuitive.
+* 关注邮件列表的人能够评论并表达他们的观点和需求，而无需解析问题跟踪器
+* 论坛或邮件列表对话被认为更适合异步和长篇通信，而1990年代和2000年代初流行的问题跟踪器是进行实际讨论的笨拙方式。
+* 当这些细节埋在问题跟踪器中时，发现为什么做出特定技术决策是困难的，特别是因为一旦做出决策，问题就会处于"已关闭"状态。寻找已关闭的问题来解释项目的技术方向被认为是违反直觉的。
 
-With the rise in popularity of GitHub as a one-stop platform for online development work, conversations in the project issue tracker have become mainstream. GitHub's issue system visually mirrors the typically expected visual interface for forum software, making discussions in its system seem natural for those who began their development careers when online forums were first gaining popularity. Further, time and resources necessary for maintaining a Mailman instance or additional forum software as part of project infrastructure became cumbersome when all other infrastructure could be managed via a single tool. The addition of features such as the ability to "+1" an issue, set fine-grained controls on notifications for specific issues, and lock specific issues so that only project maintainers may edit it (while still allowing others to view the issue) made the move to discussions in the issue tracker more palatable and effective.
+随着GitHub作为在线开发工作一站式平台的流行，项目问题跟踪器中的对话已成为主流。GitHub的问题系统在视觉上反映了论坛软件通常预期的视觉界面，使得在其系统中的讨论对于那些在在线论坛刚开始流行时开始开发生涯的人来说显得自然。此外，当所有其他基础设施都可以通过单一工具管理时，维护Mailman实例或额外论坛软件作为项目基础设施一部分所需的时间和资源变得繁重。诸如能够"+1"问题、对特定问题的通知设置细粒度控制，以及锁定特定问题使只有项目维护者可以编辑它（同时仍允许其他人查看问题）等功能的添加，使得转向问题跟踪器中的讨论更加可接受和有效。
 
-Nonetheless, interested parties should be able to follow discussions _outside_ the project's issue tracker. Only the most deeply interested and invested individuals will rigorously follow every issue update, making engaging with the project difficult for casual contributors. While excellent search capabilities in online issue trackers make finding closed issues easier, the flow of an issue discussion does not fulfill the same function as a narrative description of a particular implementation or an explanation of why a certain decision was made. Note, too, that some maintainers who are most intimately familiar with the project—those who can recall specific issue numbers for particular discussions with ease—will not always be available to help with the project work.
+尽管如此，有兴趣的各方应该能够在项目问题跟踪器_之外_关注讨论。只有最深入感兴趣和投入的个人才会严格关注每个问题更新，这使得临时贡献者难以参与项目。虽然在线问题跟踪器中优秀的搜索功能使查找已关闭问题变得更容易，但问题讨论的流程并不能履行与特定实现的叙述性描述或解释为什么做出某个决策相同的功能。还要注意，一些对项目最熟悉的维护者——那些能够轻松回忆起特定讨论的具体问题编号的人——并不总是能够帮助项目工作。
 
-Preserving the knowledge about decisions in an easy-to-access way:
+以易于访问的方式保存有关决策的知识：
 
-* Saves time for people working to uncover the why of project processes.
-* Saves time for maintainers so they need not rehash history regularly.
-* Ensures that critical details on how and why decisions were made are always available even as project membership changes.
+* 为努力揭示项目流程原因的人员节省时间。
+* 为维护者节省时间，使他们无需定期重新讨论历史。
+* 确保即使项目成员发生变化，有关如何以及为什么做出决策的关键细节始终可用。
 
 {% hint style="success" %}
-If your project carries on most of its development discussions in the issue tracker, consider taking some small steps to highlight these discussions in other ways that will be most accessible and discoverable to interested parties and wider audiences in general.
+如果你的项目在问题跟踪器中进行大部分开发讨论，考虑采取一些小步骤以其他方式突出这些讨论，这些方式对有兴趣的各方和更广泛的受众通常最易访问和发现。
 {% endhint %}
 
-For example, you may summarize the discussion of the issue in a blog, forum post, or project newsletter, thereby preserving cultural lore for the project while simultaneously informing the broader community about the change. If the project does not maintain a blog or other publication mechanism suitable for such a communication, consider adding a list of watershed issues to your project documentation so newcomers can quickly become familiar with these critical topics, and for ease of reference for long-time project participants.
+例如，你可以在博客、论坛帖子或项目通讯中总结问题的讨论，从而为项目保留文化传说，同时向更广泛的社区通知变化。如果项目不维护适合此类沟通的博客或其他发布机制，考虑在项目文档中添加重要问题列表，以便新手可以快速熟悉这些关键主题，并便于长期项目参与者参考。
 
 ### 在全球范围内良好沟通
 
@@ -241,82 +241,82 @@ For example, you may summarize the discussion of the issue in a blog, forum post
 
 #### 显著认可多语言可用的社区资源
 
-Should your project be widely adopted and grow to the point that it hosts communication channels in more than one language, make sure to list these resources prominently on your project's website. Include on the project's website a note that the project welcomes submissions from community members for resources that are not written in English. When the project receives such submissions act promptly to get them included in your project documentation.
+如果你的项目被广泛采用并发展到可以托管多种语言的沟通渠道，确保在项目网站上突出列出这些资源。在项目网站上包含一个注释，说明项目欢迎社区成员提交非英语编写的资源。当项目收到此类提交时，迅速采取行动将其纳入项目文档。
 
-As you would with any resource you point your community to, do your best to ensure the resource is helpful. If you are unable to vet the resources as helpful given currently available person-hours on the project, reference the fact that project maintainers have been unable to assess the resource themselves. Note you welcome feedback on its inclusion in the project's documentation.
+就像对待任何指向社区的资源一样，尽力确保资源是有帮助的。如果你由于项目目前可用的人力时数而无法审查资源是否有帮助，请参考项目维护者无法自己评估资源这一事实。注明你欢迎对其在项目文档中包含的反馈。
 
 #### 无论英语水平如何都要友好和欢迎
 
-As this chapter has stressed numerous times, kind and gracious communication with all those who participate in your project should be a default mode of behavior for interactions. The same holds true when communicating with people for whom writing in English is difficult. If you have trouble understanding what someone is saying or asking for, ask clarifying questions to let them know you will be happy to help them. Don't simply ignore someone or tell them they are not welcome in the project due to limited proficiency in written English.
+正如本章多次强调的，与所有参与项目的人进行友善和优雅的沟通应该是交互的默认行为模式。在与那些英语写作困难的人沟通时也是如此。如果你难以理解某人在说什么或要求什么，提出澄清问题让他们知道你很乐意帮助他们。不要简单地忽略某人或因为其书面英语能力有限而告诉他们在项目中不受欢迎。
 
 {% hint style="success" %}
-People who are not native speakers of English often begin their communication with the project with an apology for their poor English language skills. When receiving such a communication, thank the sender for writing and let them know you appreciate their efforts to communicate with the project. Where possible, point them to any resources that may be available to them in a language with which they are more familiar, for example a Spanish language forum or a Chinese language mailing list for the project.
+非英语母语的人通常以为其英语技能差而道歉开始与项目的沟通。在收到此类沟通时，感谢发送者的写作，并让他们知道你欣赏他们与项目沟通的努力。在可能的情况下，向他们指出任何可能以他们更熟悉的语言提供的资源，例如项目的西班牙语论坛或中文邮件列表。
 {% endhint %}
 
 #### 在书面文档中避免使用习语
 
-Every language features various phrases the actual words of which do not convey the intended meaning of the phrase, such as "over the moon" to mean extremely happy or excited or "raining cats and dogs" to refer to a serious downpour of rain. For those who grow up in a particular culture, the meanings of these phrases are obvious. But they can be confusing for those who lack the proper context for them. Rather than rely on idiomatic phrases, use plain language in written documentation to ensure the writing is most accessible to all people.
+每种语言都有各种短语，其实际单词不传达短语的预期含义，例如"over the moon"表示极其高兴或兴奋，或"raining cats and dogs"指严重的倾盆大雨。对于在特定文化中成长的人来说，这些短语的含义是显而易见的。但对于那些缺乏适当背景的人来说，它们可能令人困惑。与其依赖习语短语，不如在书面文档中使用通俗语言，以确保写作对所有人最易访问。
 
 #### 扩展缩写词并提供词汇表
 
-While acronyms are a useful way for those completely familiar with a topic to save time and effort typing and speaking longer phrases, they obfuscate information for those less familiar with the topic. Further, acronyms are often overloaded, meaning that the acronym can expand several different ways depending upon the topic area. For example, someone completely new to a project may not understand that "LGTM" means "looks good to me" and that their work is therefore acceptable for merging into the project's source repository. If you regularly use particular acronyms as part of communicating in your project, take the time to create a quick glossary of these terms. Updating this glossary is a quick and easy way for volunteers to contribute.
+虽然缩写词对于完全熟悉某个主题的人来说是节省输入和说较长短语的时间和精力的有用方式，但它们对不太熟悉该主题的人来说会模糊信息。此外，缩写词经常超载，这意味着缩写词可以根据主题领域以几种不同的方式扩展。例如，对项目完全新手可能不理解"LGTM"意味着"看起来不错"，因此他们的工作可以接受合并到项目的源代码库中。如果你在项目沟通中定期使用特定缩写词，请花时间创建这些术语的快速词汇表。更新此词汇表是志愿者贡献的快速简便方式。
 
 #### 积极寻求本地化志愿者的参与
 
-As mentioned earlier in this chapter, project maintainers should always be clear about _what kind of help_ they're seeking from their communities. One key area in which to ask for help is the localization of documentation resources. Regardless of their skill level with software development practices, community members can actively grow the project and improve it by translating documentation, thereby making the project more accessible to more people and more potential contributors. Maintainers should be explicit about their desire to recruit contributors focused on localization.
+如本章前面提到的，项目维护者应该始终清楚他们从社区寻求_什么样的帮助_。一个关键的求助领域是文档资源的本地化。无论软件开发实践技能水平如何，社区成员都可以通过翻译文档积极发展项目并改进它，从而使项目对更多人和更多潜在贡献者更易访问。维护者应该明确表达他们希望招募专注于本地化的贡献者的愿望。
 
 ### 记录你的项目沟通规范
 
-When people approach a new project, they seek to understand how they can best engage with that project and interact with its community. Be sure your documentation clearly outlines your project's various communication channels.
+当人们接触一个新项目时，他们寻求了解如何最好地参与该项目并与其社区互动。确保你的文档明确概述项目的各种沟通渠道。
 
-Simply _listing_ communication channels is not sufficient. Your documentation must make clear _what_ each channel is used for, _when_ to use a particular communication mechanism, and _how_ people can expect to receive communications from the project and its community members through that channel. For example, a project with few maintainers who develop the work as a hobby project may wish to note on the project website that those developing the project do so in their spare time, so immediate responses to mailing list inquiries should not be expected. Someone whose hobby project is in use with enterprises might like to make explicit the notion that help is provided on a best effort basis. (Doing so sets expectations appropriately for those who are less familiar with how open source project communities function.)
+简单地_列出_沟通渠道是不够的。你的文档必须明确_每个渠道的用途_、_何时使用特定沟通机制_，以及人们可以期待如何_通过该渠道从项目及其社区成员那里接收沟通_。例如，一个维护者较少、将工作作为业余项目开发的项目可能希望在项目网站上注明，开发项目的人在业余时间进行此工作，因此不应期待对邮件列表询问的即时回应。某个业余项目在企业中使用的人可能希望明确表达帮助是在尽力而为的基础上提供的这一概念。（这样做为那些不太熟悉开源项目社区如何运作的人适当地设定了期望。）
 
 #### 维持文明话语
 
-As has been discussed throughout this chapter, maintaining kind and gracious communications is vital for the project's ongoing health and well-being. While assuming everyone understands what "kind and gracious communication" looks like may seem natural, one cannot assume a consistent meaning for all participants, especially when dealing with a global audience. Project maintainers and community members do well to lead by example. But it sets an appropriate tone for the project to make an explicit statement about what constitutes civil discourse, what matters are off-topic for the project, and what is expected from anyone communicating with the project, especially about matters that may cause conflict .
+正如本章所讨论的，维护友善和优雅的沟通对项目的持续健康和福祉至关重要。虽然假设每个人都理解"友善和优雅的沟通"看起来像什么可能看起来很自然，但不能假设所有参与者都有一致的理解，特别是在面对全球受众时。项目维护者和社区成员通过榜样引领做得很好。但为项目设定适当的基调，明确声明什么构成文明话语、什么事项对项目来说是离题的，以及对与项目沟通的任何人的期望，特别是关于可能引起冲突的事项。
 
-From the [Diversity Statement of the Dreamwidth Project](#user-content-fn-7)[^7]:^
+来自[Dreamwidth项目多样性声明](#user-content-fn-7)[^7]：
 
-> "We welcome people of any gender identity or expression, race, ethnicity, size, nationality, sexual orientation, ability level, neurotype, religion, elder status, family structure, culture, subculture, political opinion, identity, and self-identification. We welcome activists, artists, bloggers, crafters, dilettantes, musicians, photographers, readers, writers, ordinary people, extraordinary people, and everyone in between. We welcome people who want to change the world, people who want to keep in touch with friends, people who want to make great art, and people who just need a break after work. We welcome fans, geeks, nerds, and pixel-stained technopeasant wretches. (We welcome Internet beginners who aren't sure what any of those terms refer to.) We welcome you no matter if the Internet was a household word by the time you started secondary school or whether you were already retired by the time the World Wide Web was invented.
+> 我们欢迎任何性别认同或表达、种族、民族、体型、国籍、性取向、能力水平、神经类型、宗教、长者地位、家庭结构、文化、亚文化、政治观点、身份和自我认同的人。我们欢迎活动家、艺术家、博主、手工艺者、业余爱好者、音乐家、摄影师、读者、作家、普通人、非凡的人，以及介于两者之间的每个人。我们欢迎想要改变世界的人、想要与朋友保持联系的人、想要创造伟大艺术的人，以及下班后只是需要休息的人。我们欢迎粉丝、极客、书呆子和像素污染的技术农民。（我们欢迎不确定这些术语指什么的互联网初学者。）无论你开始中学时互联网是否已经是家喻户晓的词汇，还是万维网发明时你是否已经退休，我们都欢迎你。
 >
 > ....
 >
-> We have enough experience to know that we won't get any of this perfect on the first try. But we have enough hope, energy, and idealism to want to learn things we don't know now. We may not be able to satisfy everyone, but we can certainly work to avoid offending anyone. And we promise that if we get it wrong, we'll listen carefully and respectfully to you when you point it out to us, and we'll do our best to make good on our mistakes."
+> 我们有足够的经验知道我们不会在第一次尝试时就把所有这些做得完美。但我们有足够的希望、精力和理想主义来想要学习我们现在不知道的事情。我们可能无法满足每个人，但我们当然可以努力避免冒犯任何人。我们承诺，如果我们做错了，当你指出时我们会仔细和尊重地倾听你的意见，我们会尽力弥补我们的错误。
 
-This excerpt from the Diversity Statement of the Dreamwidth project is an excellent example of how to document project communication norms. It is clear that everyone is welcome in the project, regardless of personal background, technical skill level, or focus for using the project. It makes it clear that mistakes will be made and that people are expected to use these imperfections as learning opportunities, not excuses to belittle other people. The statement tells users and would-be contributors that they may not always get what they want from the project maintainers, but that errors will be fixed and reasonable requests will be listened to, if not acted upon. Most notably, it's a list of expected _prosocial behaviors_ rather than simply a list of what _not to do_. It identifies behavior the project maintainers and community members model and transforms it from the actions they take into words that help everyone understand what actions constitute good project citizenship.
+来自Dreamwidth项目多样性声明的这一摘录是如何记录项目沟通规范的绝佳例子。很明显，每个人都在项目中受欢迎，无论个人背景、技术技能水平或使用项目的焦点如何。它明确表示会犯错误，人们应该将这些不完美作为学习机会，而不是贬低他人的借口。该声明告诉用户和潜在贡献者，他们可能不会总是从项目维护者那里得到他们想要的，但错误会得到修复，合理的请求会被倾听，即使不被采纳。最值得注意的是，这是预期的_亲社会行为_列表，而不仅仅是_不要做什么_的列表。它识别项目维护者和社区成员建模的行为，并将其从他们采取的行动转化为帮助每个人理解什么行动构成良好项目公民身份的词汇。
 
 #### 制定项目社会契约
 
-As projects document their community communication norms, they may find developing a project social contract to be a particularly effective exercise. A project social contract documents behaviors the project expects all participants to display and sets expectations for how project members will be accountable to others. The social contract is not necessarily a list of forbidden behaviors, but rather a statement about how members of the project will choose to self-govern for everyone's success. By undertaking the process of creating a social contract through dialogue, members establish empathy with one another and set the foundation for future conversations.
+当项目记录其社区沟通规范时，他们可能发现制定项目社会契约是一个特别有效的练习。项目社会契约记录项目期望所有参与者展示的行为，并为项目成员如何对他人负责设定期望。社会契约不一定是禁止行为的列表，而是关于项目成员将如何选择为每个人的成功进行自我管理的声明。通过承担通过对话创建社会契约的过程，成员之间建立同理心并为未来的对话奠定基础。
 
-You can learn more about creating social contracts, including tips for doing so for remote teams, in [The Open Practice Library](https://openpracticelibrary.com/practice/social-contract/).
+你可以在[开放实践库](https://openpracticelibrary.com/practice/social-contract/)中了解更多关于创建社会契约的信息，包括为远程团队这样做的技巧。
 
 #### 行为准则
 
-Some projects use a code of conduct as a means to document their expectations around civil discourse. Open source projects that seek any outside contribution should always have a code of conduct. For projects that host events, whether virtual or in person, developing code of conduct specific language around events is also a best practice. Think of the code of conduct as an aspect of the project's social contract, one that includes the rules by which the community will govern itself and how each member will hold one another accountable for those moments when they could have behaved differently and achieved a better outcome. These rules must be understood and made explicit. Otherwise people will know neither what is expected of them nor whether the project is a place where they will feel welcome and comfortable contributing their time and expertise.
+一些项目使用行为准则作为记录他们对文明话语期望的手段。寻求任何外部贡献的开源项目应该始终有行为准则。对于举办活动的项目，无论是虚拟的还是面对面的，制定围绕活动的行为准则特定语言也是最佳实践。将行为准则视为项目社会契约的一个方面，其中包括社区将据以管理自身的规则，以及每个成员将如何在那些他们本可以表现不同并取得更好结果的时刻相互问责。这些规则必须被理解并明确化。否则，人们既不知道对他们的期望是什么，也不知道项目是否是一个他们会感到受欢迎并舒适地贡献时间和专业知识的地方。
 
-Refer to this guidebook's chapter on governance for more information about codes of conduct.
+有关行为准则的更多信息，请参阅本指南关于治理的章节。
 
 ### 成功与开源项目沟通
 
-So far, we've focused primarily on ways in which software project _maintainers_ can ensure the best possible outcomes for communication in their projects. However, contributors, too, can take a number of steps to ensure they're communicating effectively with their favorite open source communities. Here are just a few:
+到目前为止，我们主要关注软件项目_维护者_如何确保在他们的项目中实现最佳沟通结果的方式。然而，贡献者也可以采取一些步骤来确保他们与他们喜爱的开源社区进行有效沟通。以下只是其中几个：
 
-1. **Read the project website and documentation before jumping into discussions.**. Take the time to read about the project and understand its nuances. Demonstrate that you respect the time and attention of the people producing the project.
-2. **Do your research, and tell people you've done it.** If you run into a problem using open source software, do what you can to solve the problem yourself. There's no shame in not being able to solve the problem, and it helps your bug report. Make sure to include what steps you have taken to resolve the issue when filing a bug report or asking for help in one of the project's communication channels. Doing so saves people time and energy, as they will not ask you to try something you have already done. Listing the ways you've already attempted to help yourself is a demonstration of respect for the time and energy of the project's maintainers.
-3. **Practice [basic netiquette](https://en.wikipedia.org/wiki/Etiquette_in_technology).** Most fundamental advice for communicating on the internet is applicable in open source projects and communities. For instance, avoid typing in all capital letters, as this style is read as shouting (and one would not go about asking for help by shouting at someone). Choose a username or screen name that is reasonable and approachable, otherwise you risk not being taken seriously by others. Wait a reasonable amount of time—say 24 to 48 hours—for a response to your inquiry before trying to get a response in a different communication channel. You may find Virgina Shea's oft-cited [The Core Rules of Netiquette](http://www.albion.com/netiquette/corerules.html) to be a useful resource if you are unfamiliar with the rules of engagement in internet communications.
-4. **Post questions and communications in the appropriate places.** Encountering information in a place people don't expect can overwhelm them. For example, using a project issue tracker to let folks know you are hosting a hackfest next week is inappropriate. If the project has taken the time to let contributors know how and where to ask questions—and you should know this by following the guidance in the first item on this list—make sure to use the appropriate forum to do so. Demonstrating you have taken the time and energy to interact with the project's maintainers and other volunteers in the way they've asked shows you respect their efforts and, in turn, makes helping you be successful much easier for them.
-5. **Make the subject of your posts as meaningful as possible.** When writing the subject line of an email or forum post, make your needs explicit. For example, a subject line that says "I think I found a bug" is likely to be acted upon more slowly than one that says "external display not recognized upon upgrading to version 2.2." The second subject tells the reader that they will likely find more detail on how to diagnose the problem, and that they are dealing with someone who understands the limited amount of time and attention the reader has. The first subject does not differentiate the sender's problem in any way, and makes it difficult for your communication to be memorable to the reader. The more useful the subject of your post, the more likely you are to receive a prompt reply.
-6. **Be kind and courteous in all your communications.** Once more, let's stress that the key to effective communication in any project—open source software or otherwise—is thoughtful and gracious behavior. Do not show up at an open source project angrily demanding help for your problems, send impolite follow up messages when you do not get an immediate answer, or otherwise be unkind to the people with whom you are communicating. Do take the time to thank them for their help and for providing the project to you and everyone else. Remember you are communicating with other people, some of whom are spending their free time to write your free software. Treat them with the respect and courtesy you want for yourself.
+1. **在参与讨论之前阅读项目网站和文档**。花时间阅读有关项目的信息并理解其细微差别。表明你尊重项目制作者的时间和注意力。
+2. **进行研究，并告诉人们你已经进行了研究**。如果你在使用开源软件时遇到问题，尽你所能自己解决问题。无法解决问题并不羞耻，这有助于你的错误报告。在提交错误报告或在项目的一个沟通渠道中寻求帮助时，确保包括你为解决问题采取的步骤。这样做可以节省人们的时间和精力，因为他们不会要求你尝试你已经做过的事情。列出你已经尝试帮助自己的方式是对项目维护者时间和精力的尊重表现。
+3. **实践[基本的网络礼仪](https://en.wikipedia.org/wiki/Etiquette_in_technology)**。在互联网上沟通的最基本建议适用于开源项目和社区。例如，避免全大写字母输入，因为这种风格被读作大喊（没有人会通过对某人大喊大叫来寻求帮助）。选择一个合理和可接近的用户名或屏幕名称，否则你可能不会被他人认真对待。在尝试在不同的沟通渠道中获得回应之前，等待合理的时间——比妇如4到48小时——来获得对你查询的回应。如果你不熟悉互联网沟通的参与规则，你可能会发现Virginia Shea经常被引用的[网络礼仪核心规则](http://www.albion.com/netiquette/corerules.html)是一个有用的资源。
+4. **在适当的地方发布问题和沟通**。在人们不期望的地方遇到信息可能会让他们不知所措。例如，使用项目问题跟踪器让人们知道你下周将举办黑客节是不合适的。如果项目花时间让贡献者知道如何以及在哪里提问——你应该通过遵循此列表第一项的指导来了解这一点——确保使用适当的论坛来这样做。表明你已经花时间和精力以他们要求的方式与项目维护者和其他志愿者互动，表明你尊重他们的努力，反过来使帮助你成功对他们来说变得更容易。
+5. **使你的帖子主题尽可能有意义**。在写电子邮件或论坛帖子的主题行时，明确你的需求。例如，说“我认为我发现了一个错误”的主题行可能会比说“升级到2.2版本后外部显示器无法识别”的主题行被处理得更慢。第二个主题告诉读者，他们可能会找到如何诊断问题的更多细节，并且他们正在与一个理解读者有限的时间和注意力的人打交道。第一个主题不以任何方式区分发送者的问题，并使你的沟通对读者来说难以记住。你的帖子主题越有用，你越有可能收到及时回复。
+6. **在所有沟通中保持友善和礼貌**。再次强调，在任何项目中有效沟通的关键——无论是开源软件还是其他——是周到和优雅的行为。不要愤怒地出现在开源项目中要求帮助解决你的问题，在没有得到立即答复时发送不礼貌的后续消息，或以其他方式对与你沟通的人不友善。请花时间感谢他们的帮助，以及为你和其他所有人提供项目。记住你在与其他人沟通，其中一些人在花费他们的业余时间编写你的免费软件。以你希望得到的尊重和礼貌对待他们。
 
 ### 开源项目和学术界中沟通的发展
 
-While open source software now seems ubiquitous, we should recall that the free and open source software movements are still in their early stages. Development of the Linux operating system began in 1991. The Apache Software Foundation, steward of many of the world's most notable open source projects, was incorporated in 1999. Though 20 or 30 years seems like ancient history on the internet, it is worth noting that Ada Lovelace created the world's first algorithm back in the 1840s. Open source is still a blip (albeit a significant one) in a much longer technological timeline.
+虽然开源软件现在似乎无处不在，但我们应该回忆，自由和开源软件运动仍处于其早期阶段。Linux操作系统的开发始于1991年。Apache软件基金会是世界上许多最著名开源项目的管理者，成立于1999年。虽然20或30年在互联网上似乎像古代历史，但值得注意的是，阿达·洛夫拉斯在19世纪40年代创建了世界上第一个算法。开源在更长的技术时间线中仍然是一个短暂现象（尽管是一个重要的现象）。
 
-Due to open source's disruptive influence in the software industry, academic researchers have found open source software projects and their development methodologies particularly worthy of study.
+由于开源在软件行业中的破坏性影响，学术研究人员发现开源软件项目及其开发方法论特别值得研究。
 
-However, as projects' communication tools and platforms have evolved, researchers' ability to access project data for the purpose of study has been, at times, diminished. For example, parsing IRC logs of a project's real-time chat often yielded fruitful information about a particular project, but as some projects have moved to other chat systems, such logs are no longer commonly available (nor has there been any guaranteed longevity of the project's chat archives, depending on which communication tool the project chooses).
+然而，随着项目沟通工具和平台的发展，研究人员为研究目的访问项目数据的能力有时被削弱。例如，解析项目实时聊天的IRC日志经常产生关于特定项目的丰富信息，但随着一些项目转移到其他聊天系统，这类日志不再普遍可用（也不能保证项目聊天存档的任何持久性，这取决于项目选择哪个沟通工具）。
 
-When a project launches or consists of a small group of people working together, choices for how to communicate and where to do so often arise organically and with little consideration to the future impact of those choices. But project maintainers should thoughtfully consider how they can ensure the project's communications—which contain potentially rich sources of data and historical artifacts like lore and decisions histories—are effectively captured for both the project participants and interested observers. To understand how researchers benchmark community activity and analyse the outputs of various parts of your project, consider reviewing the work of the [Community Health Analytics in Open Source Software](https://chaoss.community/) (CHAOSS) Project.
+当项目启动或由一小群一起工作的人组成时，如何沟通和在哪里沟通的选择通常是有机产生的，对这些选择的未来影响考虑甚少。但项目维护者应该深思熟虑地考虑如何确保项目的沟通——其中包含可能丰富的数据源和历史文物，如传说和决策历史——为项目参与者和有兴趣的观察者有效地捕获。要了解研究人员如何基准社区活动并分析你项目各部分的输出，考虑审查[开源软件社区健康分析](https://chaoss.community/)（CHAOSS）项目的工作。
 
 ### 结论
 
@@ -324,14 +324,14 @@ When a project launches or consists of a small group of people working together,
 
 [^1]: For a sample style guide, see [PEP 8 — Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/) or the [style guide for contributing to Mozilla Firefox](https://firefox-source-docs.mozilla.org/code-quality/coding-style/index.html), a project that employs multiple programming languages in its development.
 
-[^2]: [https://www.drupal.org/about](https://www.drupal.org/about) accessed June 22, 2020 05:43 CET
+[^2]: [https://www.drupal.org/about](https://www.drupal.org/about) 访问于2020年6月22日 05:43 CET
 
-[^3]: Kubernetes home page, [https://kubernetes.io/](https://kubernetes.io/), accessed June 22, 2020 05:57 CET
+[^3]: Kubernetes主页，[https://kubernetes.io/](https://kubernetes.io/)，访问于2020年6月22日 05:57 CET
 
-[^4]: [5](https://www.theopensourceway.org/the_open_source_way-guidebook-2.0.html#_footnoteref_5). The authors are grateful for the work of Kent C.Dodds and Sara Drasner in their article [An Open Source Etiquette Guidebook](https://css-tricks.com/open-source-etiquette-guidebook/), accessed 24 June 2020 12:52 CET.
+[^4]: [5](https://www.theopensourceway.org/the_open_source_way-guidebook-2.0.html#_footnoteref_5). 作者感谢Kent C.Dodds和Sara Drasner在他们的文章[开源礼仪指南](https://css-tricks.com/open-source-etiquette-guidebook/)中的工作，访问于2020年6月24日 12:52 CET。
 
-[^5]: Gaia Vince, [Evolution explains why we act differently online](https://www.bbc.com/future/article/20180403-why-do-people-become-trolls-online-and-in-social-media).
+[^5]: Gaia Vince，[进化解释为什么我们在网上行为不同](https://www.bbc.com/future/article/20180403-why-do-people-become-trolls-online-and-in-social-media)。
 
-[^6]: [https://producingoss.com/en/producingoss-letter.pdf](https://producingoss.com/en/producingoss-letter.pdf), page 64, accessed 24 June 2020 11:46 CET
+[^6]: [https://producingoss.com/en/producingoss-letter.pdf](https://producingoss.com/en/producingoss-letter.pdf)，第64页，访问于2020年6月24日 11:46 CET
 
-[^7]: [https://www.dreamwidth.org/legal/diversity](https://www.dreamwidth.org/legal/diversity) accessed 2 July 2020 13:37 CET (and how leet it is :)
+[^7]: [https://www.dreamwidth.org/legal/diversity](https://www.dreamwidth.org/legal/diversity) 访问于2020年7月2日 13:37 CET (能够多么精彩 :)
