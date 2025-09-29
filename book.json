@@ -1,0 +1,8 @@
+{
+ "gitbook": "3.x.x",
+ "structure": {
+   "summary": "SUMMARY.md"
+ } ,
+ "plugins": ["hints", "tabs2"],
+ "root" : "./"
+}
