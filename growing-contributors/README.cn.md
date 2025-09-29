@@ -4,33 +4,33 @@ author: Karsten Wade <kwade@redhat.com>
 updated: 2020-12-11
 ---
 
-# Growing Contributors
+# 培养贡献者
 
-This is the longest and most thorough section of the guidebook because the challenges of creating a community around an open source software project are complex, interesting, difficult, sticky, and rewarding.
+这是指南中最长、最全面的章节，因为围绕开源软件项目创建社区的挑战是复杂的、有趣的、困难的、棘手的，同时也是有回报的。
 
-Once you reach the point where someone wants to help you make your software better, there is a sacred, ages-old responsibility you have as a human already inside of a community, responding to and enabling someone outside of that community to come in from the cold.
-This is made even more poignant when that person has come to bring not only their precious attention but an associated willingness towards effort.
-Effort to make the world a better place.
+一旦有人想要帮助您改进软件，作为已经在社区内部的人，您就有了一个神圣的、古老的责任，去响应并帮助社区外的人从寒冷中走进来。
+当这个人不仅带来他们宝贵的注意力，还带着相关的努力意愿时，这变得更加感人。
+为了让世界变得更美好而努力。
 
-Because at its core, when someone willingingly contributes to a community effort, it is from the desire we all share to see the world a better place.
-Contribution is the moment where desire becomes action.
+因为从本质上说，当有人自愿为社区努力做出贡献时，这源于我们都共同拥有的愿望——看到世界变得更美好。
+贡献是愿望转化为行动的时刻。
 
-This section contains chapters that:
+本章节包含的内容：
 
-* Explain the journey and shifts from participating to contributing.
-* Define and provide examples of what are contributions to an open source project.
-* Provide steps towards organizing a full open source project.
-* Give material for efforts and creating a program to welcome new contributors onboard the project.
-* Share the importance of having a culture of mentorship.
-* Have concrete steps towards building a mentoring program.
-* Cover the means and methods for creating and conducting governance.
-* List types of community roles and the meanings around them.
-* Focus on the importance of and techniques for self-care for community managers and contributors.
+* 解释从参与到贡献的历程和转变。
+* 定义并提供开源项目贡献内容的示例。
+* 提供组织完整开源项目的步骤。
+* 为欢迎新贡献者加入项目的努力和创建程序提供材料。
+* 分享拥有指导文化的重要性。
+* 提供建立指导计划的具体步骤。
+* 涵盖创建和进行治理的方式和方法。
+* 列出社区角色类型及其含义。
+* 关注社区管理者和贡献者自我保健的重要性和技巧。
 
-This section is useful for you if:
+本章节对您有用，如果您：
 
-* You are looking to grow a contributor base.
-* You want a deeper, more thorough understanding of one of the key topics in this section.
-* You are troubleshooting issues around your contributors or work they are doing.
-* You need some reference materials to explain to the methods and philosophy of guiding a contributor community.
-* You've been waiting all guidebook to get to this section, not wanting to skip ahead, but savoring each page.
+* 正在寻求扩大贡献者基础。
+* 希望对本章节中的关键主题有更深入、更全面的理解。
+* 正在解决围绕贡献者或他们所做工作的问题。
+* 需要一些参考材料来解释指导贡献者社区的方法和理念。
+* 您一直在等待指南的这个章节，不想跳过前面的内容，而是细细品味每一页。
