@@ -40,7 +40,7 @@
 
 ## 归属
 
-本行为准则改编自 [贡献者公约][homepage]，版本 1.4， 可在 https://www.contributor-covenant.org/version/1/4/code-of-conduct.html 获取。
+本行为准则改编自 [贡献者公约][homepage]，版本 1.4， 可在 https://www.contributor-covenant.org/zh-cn/version/3/0/code_of_conduct/ 获取。
 
 [homepage]: https://www.contributor-covenant.org
 
