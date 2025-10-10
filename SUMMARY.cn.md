@@ -3,7 +3,7 @@
 * [开源之道](README.cn.md)
 * [引言:呈现开源之道](presenting-the-open-source-way.cn.md)
 * [马上开始](getting-started/README.cn.md)
-  * [社区基础知识](getting-started/community-101.cn.md)
+  * [社区入门指南](getting-started/community-101.cn.md)
   * [社区建设要点](getting-started/essentials-of-building-a-community.cn.md)
   * [设定目标](getting-started/setting-goals.cn.md)
   * [制定开源产品战略](getting-started/creating-an-open-source-product-strategy.cn.md)
