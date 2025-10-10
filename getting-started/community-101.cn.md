@@ -4,7 +4,7 @@ author: Bryan Behrenshausen <bryan.behrenshausen@sas.com>
 updated: 2020-12-16T00:00:00.000Z
 ---
 
-# 开源社区入门指南（Community 101）
+# 开源社区入门指南
 
 本章命名为_社区入门指南（Community 101）_，借鉴了高等院校的课程编号体系。"101 课程"代表你在特定领域作为初学者最先接触的基础内容。
 
