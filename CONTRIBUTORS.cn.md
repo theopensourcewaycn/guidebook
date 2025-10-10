@@ -56,3 +56,29 @@
 * Bryan Behrenshausen
 * Paula Dickerson
 * Karsten Wade
+
+### 翻译团队
+
+* sanchuanhehe
+* Jun-TheTechShinobi
+* yamaneaugust
+* semioticrobotic
+
+## 翻译注释
+* release manager: 版本经理，符合行业习惯
+* voter: 投票者（非政治选举应该用中性词汇）
+* self-care: 自我关怀、自我关爱、自我保健→自我健康管理
+* community manager: 社区管理者（强调manager的角色而非职位属性）
+* pixel-stained technopeasant wretches：追流量的IT民工挂逼（贴近网络流行黑话）
+* mentor/mentorship：指导者/指导关系（弱化从属/权威地位、制度化的语义）
+* mentee：学习者（追求语义中性，弱化绑定意涵）
+* Chart the waters：可以翻译成“摸底”或“试水”，试水在字面上更贴切
+* micro-manager：控制狂（micro-manager是高情商说法的control freak）
+* self-care：作为专业词汇时为自我照顾，结合语境应为自我健康管理
+* burnout：很多人把它翻译成新词“倦怠”，但是语义上带有厌倦怠惰的指涉，偏离原本意涵以及和“过劳死”的联系，直接翻译成“过劳”最为恰当
+* Intensity：文中括号解释了其为高强度工作，因此翻译成更通俗“内卷”
+* Withdrawal：这个词特指社会性退缩，俗称“社恐”
+* Inner Emptiness：直译为“内心空虚”，流行语“空心病”十分贴切
+* favoritism：通常语境里是偏袒的意思，在职场里更适合翻译成“拉帮结派”
+* Through the looking glass：对应该英文成语最贴切的是“以人为鉴”
+* cookie licking：指拍马屁、膜拜，流行语“跪舔”在字面上更贴切
