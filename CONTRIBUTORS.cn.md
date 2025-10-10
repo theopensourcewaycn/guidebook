@@ -4,7 +4,7 @@
 
 * 引言: 呈现 开源之道 
   * 作者：[Karsten Wade](mailto:kwade@redhat.com)
-* 社区 101 
+* 社区入门指南
   * 作者：[Bryan Behrenshausen](mailto:bryan.behrenshausen@sas.com), [Dave Neary](mailto:dneary@redhat.com), [Karsten Wade](mailto:kwade@redhat.com)
 * 新项目清单
   * 作者：[Lisa Caywood](mailto:lcaywood@redhat.com), [Josh Berkus](mailto:jberkus@redhat.com), [Bryan Behrenshausen](mailto:bryan.behrenshausen@sas.com), [Karsten Wade](mailto:kwade@redhat.com)
