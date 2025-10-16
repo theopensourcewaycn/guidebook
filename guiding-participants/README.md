@@ -4,33 +4,33 @@ author: Karsten Wade <kwade@redhat.com>
 updated: 2020-12-11
 ---
 
-# Guiding Participants
+# 指导参与者
 
-"Participation" in an open source project is an interesting—and somewhat amorphous—concept to describe.
-The line separating "I'm just a user! Don't talk to me about anything more" and "How can I help contribute to this project?" seem clear enough.
-Yet active participation in a project begins the moment someone cares enough about the software to do more than simply consume it.
-And because open source software is by nature inclusive and participatory, most *users* become *participants* rather quickly and easily—often by simply leaving a comment on the project's blog, filing an issue in the project's tracker, or engaging with the project on social media.
-By using open source software, they've *already* begun participating in the process of making the software better.
+"参与"开源项目是一个有趣——某种程度上难以界定的——概念。
+"我只是个用户！别跟我谈其他事"和"我能如何帮助这个项目贡献？"之间的界限看似清晰分明。
+然而，当有人对软件产生足够关切，不再满足于单纯使用时，主动参与便已悄然开始。
+由于开源软件天生具有包容性和参与性，大多数用户都能快速轻松地成为参与者——往往只需在项目博客留言、在问题追踪系统提交工单，或通过社交媒体与项目互动。
+通过使用开源软件，他们其实早已参与到让软件变得更好的进程中。
 
-Here are some examples of various types of participation:
+以下是各类参与方式的示例：
 
-* Talking to a friend about how much you like the software or the goals of the open source project.
-* Engaging in a hallway or booth-side discussion about the software at a conference or event.
-* Asking, upvoting, and answering questions about the software on various forums.
-* Putting a sticker on your laptop to advertize your support of the software.
-* Giving constructive feedback to a contributor about the software or project.
-* Recommending and offering to help others adopt and use the software.
+* 和朋友聊聊你有多喜欢这款软件或该开源项目的目标。
+* 在会议或活动期间，在走廊或展位旁讨论这款软件。
+* 在各种论坛上提出、点赞和回答关于该软件的问题。
+* 在笔记本电脑上贴贴纸，宣传你对这款软件的支持。
+* 向贡献者提供关于软件或项目的建设性反馈。
+* 推荐并主动帮助他人采用和使用软件。
 
-This section contains chapters that:
+本节包含以下章节：
 
-* Discuss the ideas and forces behind the motivation to participate.
-* Present details on how active participants benefit the project.
+* 探讨参与动机背后的理念和驱动力。
+* 详细介绍活跃参与者如何为项目带来益处。
 
-This section is useful for you if:
+本节内容在以下情况特别有用：
 
-* You are looking to understand the differences among communities made up of less engaged users, enthusiastic participants, and active contributors.
-* You want to understand what attracts people to participate in a pathway toward contribution.
-* You are looking to give your participation community a better experience.
-* You wish to build bridges to enable participants to become contributors.
-* You want to explore the benefit of user feedback in open source software. 
-* You have reached the middle of this guidebook by starting at the beginning, and are working your way toward the end.
+* 你想了解由参与度较低的用户、热情参与者以及活跃贡献者组成的社区之间的差异。
+* 你想探究是什么吸引人们走上贡献之路。
+* 你希望为你的参与社区提供更好的体验。
+* 你渴望搭建桥梁，帮助参与者转变为贡献者。
+* 你想探索用户反馈在开源软件中的益处。
+* 你从本指南的开头开始阅读，现已到达中间部分，正朝着结尾逐步推进。

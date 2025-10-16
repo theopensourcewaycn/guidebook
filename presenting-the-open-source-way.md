@@ -3,82 +3,86 @@ author: Karsten Wade <kwade@redhat.com>
 updated: 2020-11-03T00:00:00.000Z
 ---
 
-# Introduction: Presenting The Open Source Way
-An English idiom says, "[There is a method to my madness](#user-content-fn-1)[^1]." Most of the time, the things we do make absolutely no sense to outside observers. Out of context, they look like sheer madness. But for those inside that messiness—inside that whirlwind of activity—there's a certain regularity, a certain predictability, and a certain motive. A method.
+# 引言: 呈现开源之道
 
-A method is a _way of doing something_, a particular manner or style of practice. The practice of open source community management can seem like its own form of incomprehensible madness, especially to someone who is unfamiliar with how open source software gets made, or those who find themselves staring down the prospect of having to coordinate others to join in making it. What this guide hopes to provide is some insight into an ever-evolving methodology, a form of practice. At its core is a simple question: What are your preferences for practicing the open source way?
+英语中有句谚语说：“[我的疯狂自有章法。](#user-content-fn-1)[^1]。” 大多数时候，我们做的事情在外界观察者眼中完全不合常理。脱离具体情境来看，这些行为简直荒谬至极。但对于身处这片混沌——这场活动旋风中心的人们而言，其中自有一种规律性、可预测性和特定动机。这就是方法之道。
 
-But beyond that, this work is really digging into the question of _why_ someone might do the work this way. Why use this or that method to organize the madness?
+方法即行事之道，是某种特定的实践方式或风格。开源社区管理的实践就像一种难以理解的疯狂形式，尤其对那些不熟悉开源软件开发流程的人，或是那些突然需要协调他人共同参与开发的人而言。本指南旨在揭示这种不断演进的方法论与实践形式，其核心只有一个简单问题：你倾向于以何种方式实践开源之道？
 
-So from this introduction you should take two important points:
+但更深层次而言，这项工作真正探讨的是：人们为何要以这种方式开展工作？为何要用这种或那种方法来组织这场"疯狂"？
 
-1. There is a _what_, a _how_, and a _why_ to the practice of successfully and sustainably creating and maintaining open source software.
-2. This guide distills opinions from a sizeable group of open source practitioners, the kind of people always having to answer the question of, "Why do we do this open source thing the way we do it?"
+因此从这个引言中，你应该把握两个要点：
 
-In particular, this guide is a living document that endeavors to gather and spread a diverse group of voices who are similarly (and somewhat-opinionatedly) collecting the best ways to create and manage an open source software community.
+1. 要成功且可持续地创建和维护开源软件，必须明确"做什么"、"怎么做"以及"为什么做"这三个核心问题。
+2. 本指南汇集了大量开源实践者的观点，这些人经常需要回答"我们为何以这种方式开展开源工作"这类问题。
 
-These voices are all part of [this community of practice around open source software community management](https://theopensourceway.org).
+特别说明，本指南是一份动态文档，致力于汇集并传播多元声音——这些声音同样（且带有一定主观性地）在探索创建和管理开源软件社区的最佳方式。
 
-## The shape of things (i.e., assumptions we are making)
-When you look at this guide's table of contents, notice the organizational flow: from user to participant to contributor. This arrangement specifically tracks our view of how a community comes about and grows. And it all starts with a need. If you've worked in open source projects and communities, you've likely seen the cycle many times. It goes something like this:
+这些声音共同构成了[围绕开源软件社区管理的实践社群](https://theopensourceway.org)。
 
-1. A person or group addressing a problem creates the first iteration of software that offers one solution to that problem.
-2. Other people with similar needs start using it, forming the core of a userbase.
-3. From the userbase arise enthusiasts, people who promote the software and the community emerging around it (that is, the values and principles that project seems to espouse).
-4. Eventually arising from the users and the enthusiasts come people who are interested in (and have grown capable of) contributing to the software in some way; they ensure the project remains active and responds to the changing nature of the problem for which it was originally developed.
+## 事物的形状（即我们所做的假设）
 
-Thus, the primary and continual focus for a project is to _take good care of your users_, for some of them will become your contributors, and you want them to do it out of love more than resentment.
+浏览本指南目录时，请注意其组织脉络：从用户到参与者再到贡献者。这种编排方式精准呈现了我们对社区形成与发展过程的理解。而这一切都始于某种需求。若你曾参与开源项目及社区工作，很可能多次见证这样的循环：
 
-A key element of all this is recognizing the value in contributions of all types, at all levels. Rather than valorizing only a single type of contribution, the best practice is to treat all manner of gifts to the project as equal. These contributions comprise content and code, hours and effort, and all types of broad contributions for the project via events, discussion forums, infrastructure maintenance, and so on.
+1. 个人或团体为解决某个问题，开发出提供初步解决方案的软件雏形。
+2. 具有相似需求的人们开始使用该软件，逐渐形成核心用户群
+3. 从用户群中涌现出推广者（爱好者），他们积极推广该软件及其周边形成的社区（即该项目所倡导的价值观与原则）。
+4. 最终，从用户和爱好者中会涌现出这样一群人——他们有意愿（并逐渐具备能力）以某种方式为软件做出贡献；正是这些人确保项目保持活力，并能应对最初开发时所要解决问题的演变特性。
 
-When you lower barriers to participation, you make your project welcoming at all levels. This doesn't mean you _remove all barriers_—just lower most of them appropriately. Appropriate barriers are necessary for someone receiving keys to systems, for example, and these barriers are different from those allowing only certain participants to contribute a help article or a patch to the configuration management system.
+因此，项目持续关注的核心在于悉心维护用户群体，因为其中部分人将成为贡献者——而你需要他们出于热爱而非怨愤参与其中。
 
-## Our core opinion
-There is an opinion at the core of this work, which explains how the content is laid out, how the steps on the path are revealed so that you can find yourself wherever you are in your journey of open source practice.
+这一切的关键在于认可各种类型、各个层级的贡献价值。最佳实践不是只推崇单一类型的贡献，而是将项目获得的所有馈赠都视为同等珍贵。这些贡献包括内容与代码、时间与精力，以及通过活动、论坛讨论、基础设施维护等方式为项目做出的各类广泛贡献。
 
-> Focus on your end users and lower the barriers to participation all around.
+当你降低参与门槛时，你的项目就能在各个层面都显得友好包容。这并不意味着要移除所有障碍——只需合理降低大多数门槛即可。例如，对于需要获取系统权限的人员，适当的准入限制是必要的，这类门槛与那些仅允许特定参与者贡献帮助文档或配置管理系统补丁的限制有着本质区别。
+
+## 我们的核心观点
+
+本指南贯穿着一个核心理念，它决定了内容的编排方式，也指引着路径上每个步骤的呈现——无论你处于开源实践的哪个阶段，都能找到自己的定位。
+> 以用户为中心，全面降低参与门槛。
 >
-> Contributors arise from participants, who all started as users.
+> 贡献者源于参与者，而所有参与者最初都是使用者。
 >
-> Make your software wildly successful by having a user-centric initiative, while making the community open and welcoming those users curious enough to investigate how the software gets created.
+> 以用户为中心推进项目，同时保持社区开放，欢迎那些对软件开发过程产生好奇的用户，从而让你的软件大获成功。
 
-The pathway of this guidebook therefore is:
+因此，本指南的路径是：
 
-1. **Attract users** to your software because it solves the problems they have; then
-2. **Guide participants** who care about open source and sharing good solutions so they can be effective enthusiasts for your software; and
-3. **Grow contributors** from this rich, fertile user and enthusiast base, by making sure when any of those folks look into how the software is made, they see themselves represented and can imagine how they could fit in, too. Make sure when they get to the contributor party, the barriers are clearly lowered and welcoming.
+1. **吸引用户**使用你的软件，因为它能解决他们的问题；然后
+2. **引导参与者**，尤其是那些关心开源和分享好的解决方案的参与者，使他们能够成为你软件的有效爱好者；
+3. **培养贡献者**从这个丰富且充满活力的用户和爱好者群体中，确保这些人在了解软件开发过程时，能够看到自己的影子并构想自己如何融入。确保当他们加入贡献者队伍时，障碍明显降低且氛围友好。
 
-Think of it this way: It's one thing to let people know about your great dance party. It's another thing to empower those dancers to advocate for your way of throwing a dance party. It's a very great thing to make the dance party able to evolve to welcome all manner of music and dance from the world around us.
+可以这样理解：让人们知道你举办了一场精彩的舞会是一回事；而让这些舞者主动宣扬你举办舞会的方式又是另一回事。最了不起的是，能让这场舞会不断进化，欢迎来自世界各地的各种音乐与舞蹈形式。
 
-To get the dancers who see your poster and show up is the first step to stick around, and it helps if they can see right away that this is a place for them and theirs, too.
+让看到海报并前来参与的舞者们留下来是第一步，如果他们能立刻感受到这里也是属于他们的天地，那将大有裨益。
 
-You can see this pathway to project success doesn't necessarily emphasize expertise (or even existing skills relevant to the project) more than curiosity and willingness to try the software, to care about the software, and to help create the software. This does not mean that people don't bring skills to the project; they do, many of them right from first point of contact with the project. But it is easier to teach skills than to teach someone to truly care about your project.
+你可以看到，这条通往项目成功的道路并不一定强调专业技能（甚至与项目相关的现有技能），而是更看重好奇心、愿意尝试软件、关心软件并帮助创造软件的意愿。这并不意味着人们不会为项目带来技能；事实上他们会的，许多人从第一次接触项目时就带来了技能。但比起教会某人真正关心你的项目，传授技能要容易得多。
 
-In this journey, there are many best practices we recommend, including how to put together a plan for measuring your community's progress. We also list some specific areas to be careful of and watch out for, including a robust discussion on self-care and mental health considerations for community managers themselves.
+在这段旅程中，我们推荐了许多最佳实践，包括如何制定衡量社区进展的计划。我们还列出了一些需要特别注意的具体领域，其中包含针对社区管理者自身心理健康与自我关怀的深入讨论。
 
-Our best way of more-deeply conveying all this information is with stories. Aside from stories that naturally arise in the body of the chapter, there are other areas in the guidebook and in [The Open Source Way community](https://theopensourceway.org) to gather all these stories of why.
+我们更深入地传达所有这些信息的最佳方式是通过故事。除了章节正文中自然出现的故事外，本指南和[开源之道社区](https://theopensourceway.org)中的其他领域汇集了这些关于"为什么"的故事。
 
-## Structure of this guide
-Each section of this guide consists of one or more chapters.
+## 本指南的结构
 
-A chapter represents discussion of a discrete topic or closely-related set of topics.
+本指南的每个部分都包含一个或多个章节。
 
-The idea is that you can open and read a chapter as a stand-alone experience without needing to read the rest of the guide to understand and act from the material in that chapter.
+章节用于讨论一个独立主题或一组紧密相关的主题。
 
-Our vision is that each chapter will consist of several aspects:
+其理念在于，你可以独立阅读任意章节，无需通读整本指南即可理解该章节内容并付诸实践。
 
-* An **introduction**
-* **Primary material**, written in third-person point-of-view, focusing on a balance of what, how, and why content. The examples (stories) told here are brief and in the third person
-* A **lexicon** at the end, defining the special usage for terms within that chapter
-* **Stories** from practitioners that share useful and informative experiences (these may be written in the first person)
+我们的愿景是每个章节将包含以下几个部分：
 
-If you notice a chapter is missing one or more of these elements, please consider contributing your own advice and perspective to the project!
+* **引言**
+* **主体内容**，采用第三人称视角撰写，注重平衡"是什么"、"怎么做"和"为什么"的内容。这里讲述的案例（故事）简短且采用第三人称
+* 章节末尾的**术语表**，定义该章节中术语的特殊用法
+* 从业者分享实用且富有启发性的**经验故事**（可以第一人称撰写）
 
-## A community of practice always rebuilding itself
-What you are reading here is just one facet of the growing body of principles, implementations, and examples that this community is gathering, cultivating, and maintaining.
+如果你发现某个章节缺少上述任一要素，欢迎为该项目贡献你的建议与见解！
 
-In the end, it's just one way to pull this material together (one method, you might say, of organizing the madness). We'll be updating this guide. We'll be issuing similar, new guides. And we'll experiment with other ways to understand and present this material.
+## 一个不断自我重建的实践社群
 
-But at the core—in addition to the _what_ and the _how_ that benefit your open source community—you will also learn to understand the _why_, and be able to spread those stories wherever you go.
+你在此读到的内容，只是这个社区不断收集、培育和维护的原则体系、实施方案及案例库中的一个侧面。
 
-[^1]: From "Hamlet" by William Shakespeare, Act 2 Scene 2: Polonius (aside) "Though this be madness, yet there is method in 't."
+归根结底，这只是整理这些材料的一种方式（可以说是一种组织混乱的方法）。我们将持续更新本指南，发布类似的新指南，并尝试用其他方式来理解和呈现这些内容。
+
+但核心在于——除了了解那些能惠及开源社区的"做什么"与"怎么做"——你还将领悟背后的"为什么"，并能将这些深层理念传播到你所至之处。
+
+[^1]: 摘自威廉·莎士比亚的《哈姆雷特》，第二幕第二场：波洛涅斯（旁白）“虽然这很疯狂，但这其中是有道理的。”

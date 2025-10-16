@@ -6,72 +6,72 @@ author: >-
 updated: 2020-11-17T00:00:00.000Z
 ---
 
-# New Project Checklist
+# 新项目启动清单
 
-This is a relatively simple checklist for you to consider when starting a new open source project, especially where the project may be starting small but wants room to grow. By _simple_ we mean: this list doesn't propose a process or project management for accomplishing these items. In its most simple form it does not have definitions for items; it suggests what is to come without prescribing or demanding obedience to the list.
+这是一份相对简单的清单，供你在启动新开源项目时参考，尤其适用于那些初期规模较小但希望留有发展空间的项目。所谓简单是指：本清单不涉及完成这些事项的具体流程或项目管理方法。最简单的形式下，它不包含各项的定义说明；仅提示可能涉及的方面，而非强制要求逐条遵守。
 
-These are separated out into several different lists, depending on the area covered:
+根据涵盖领域的不同，这些内容被划分为若干独立清单：
 
-### Goals of project
+## 项目目标
 
-* [ ] Technical problem addressed by the project
-* [ ] Intended users and value proposition
-* [ ] Establish beginning roadmap with milestones
+- [ ] 项目解决的技术难题
+- [ ] 目标用户与价值主张
+- [ ] 制定初步路线图，包含关键里程碑
 
-### Market positioning
+## 市场定位
 
-* [ ] List of related/similar projects
-* [ ] Why a net-new project?
-* [ ] Key differentiators
+- [ ] 相关/类似项目清单
+- [ ] 为什么要启动全新项目？
+- [ ] 核心差异化优势
 
-## Project name
+## 项目名称
 
-* [ ] Compile and vet candidate list
-* [ ] Logo design
-* [ ] Legal review (if required)
-* [ ] Reserve name (domain name, GitHub, social media handles, etc.)
+- [ ] 汇总并筛选候选名单
+- [ ] 标识设计
+- [ ] 法律审查（如需要）
+- [ ] 预留名称（域名、GitHub 账号、社交媒体账号等）
 
-## Licensing & legal
+## 许可与法律
 
-* [ ] Document license criteria
-* [ ] License selection
-* [ ] Need ™ or other mark registration?
+- [ ] 文档许可标准
+- [ ] 许可证选择
+- [ ] 需要™或其他商标注册？
 
-## Governance
+## 治理机制
 
-* [ ] Define officers & their responsibilities
-* [ ] Org structure, voting reqs & process
-* [ ] Rules for amending governance
-* [ ] Rules for contribution, committer status
-* [ ] Provisions for sub-projects and lifecycle management
-* [ ] Privacy policy
-* [ ] Code of conduct
-* [ ] Foundation membership options, if planned
+- [ ] 明确官员及其职责
+- [ ] 组织结构、投票要求与流程
+- [ ] 治理章程修订规则
+- [ ] 贡献规则与提交者身份认定
+- [ ] 子项目与生命周期管理条款
+- [ ] 隐私政策
+- [ ] 行为准则
+- [ ] 基金会会员选项（如计划中）
 
-## Project infrastructure
+## 项目基础设施
 
-* [ ] Mail tool (and moderators)
-* [ ] Forum/Chat (and moderators)
-* [ ] Doc repository (slides, planning docs, etc)
-* [ ] Web conferencing platform
-* [ ] Community calendar (tool + who will maintain)
-* [ ] Public website and website maintenance
-* [ ] CI/CD, development and test environments
-* [ ] Lab requirements, how they will be acquired
-* [ ] Code contribution tools and process
-* [ ] Project documentation platform
+- [ ] 邮件工具（及版主）
+- [ ] 论坛/聊天（及版主）
+- [ ] 文档库（幻灯片、规划文档等）
+- [ ] 网络会议平台
+- [ ] 社区日历（工具及维护人员）
+- [ ] 公共网站及网站维护
+- [ ] 持续集成/持续交付(CI/CD)、开发与测试环境
+- [ ] 实验室需求及其获取方式
+- [ ] 代码贡献工具与流程
+- [ ] 项目文档平台
 
-## Ownership and financing
+## 所有权与资金筹措
 
-These items may be ignored if donating project assets to a foundation.
+若将项目资产捐赠给基金会，以下事项可忽略。
 
-* [ ] Website URL
-* [ ] Logo
-* [ ] Social media handles
-* [ ] Web conferencing platform (if paid)
-* [ ] Process for funding project needs
+- [ ] 网站地址
+- [ ] 标识
+- [ ] 社交媒体账号
+- [ ] 网络会议平台（如为付费服务）
+- [ ] 项目需求资金筹措流程
 
-## Launch planning
+## 发布规划
 
-* [ ] D\&I plan
-* [ ] Community health and metrics vision/plan
+- [ ] 多元化与包容性计划
+- [ ] 社区健康度与指标愿景/计划

@@ -3,315 +3,317 @@ author: Karsten Wade <kwade@redhat.com>
 updated: 2020-12-12T00:00:00.000Z
 ---
 
-# Defining Healthy Communities
+# 定义健康社区
 
-While we know that no one wants to live and work in an unhealthy community, we also know that it's complex to define and maintain health. First you have to know what you consider to be a healthy situation and set of behaviors. Then you have to check (test) those situations and behaviors over time so you can dynamically predict and respond to maintain health.
+尽管无人愿意在病态社区中生活与工作，但我们也深知社区健康的定义与维护充满挑战。首先必须明确你所认可的良性状态与行为准则，随后需要持续监测（测试）这些状态与行为，从而动态预测并采取应对措施以维持社区健康。
 
-What is healthy may change it's definition over time, as your community evolves. Early on you are going to be putting a lot of effort into having a healthy community for users, especially around how you take in and manage feedback. As you evolve into or grow as a contributor project, the definitions of healthy and how to maintain become exponentially complex.
+健康的定义会随着社区发展而动态变化。初期阶段，你需要投入大量精力打造对用户友好的健康社区，尤其要重视反馈机制的建立与管理。当项目逐步转型或成长为贡献者主导型时，"健康"的定义及其维护方式将呈现指数级复杂性。
 
-However, once you have decided that having a contributor-based open source software community is your goal, you can be aware of and focus on the entirety from the beginning. A project that understands and is healthy at the contributor level, is naturally going to express that health into the other layers of participation and for end users. That is, healthy contributors are involved in creating safe and healthy environments for others as a direct focus and/or side effect of the work they do in being healthy.
+然而，一旦你决定将建立基于贡献者的开源软件社区作为目标，就可以从一开始关注整体生态。一个理解贡献者层面需求并保持健康状态的项目，自然会将其健康态势传递至其他参与层级和终端用户。也就是说，健康的贡献者会通过其核心工作或衍生效应，直接致力于为他人创造安全健康的环境。
 
-As an example, let's presume that kindness is a behavior you consider to be healthy for contributors to have between each other. Kindness toward immediate peers is one way to conduct this behavior. But in open source we can see that extending kindness to each person who enters the project's sphere not only gives them a good experience, it means they extend that kindness into how they interact in the rest project. If your kindness can turn ten users into being more kind toward your fellow contributors, you have magnified that kindness beyond what you can give that peer directly.
+以"友善"为例，假设你认为这是贡献者之间应有的健康行为。对直接同伴友善是践行这种行为的一种方式。但在开源领域，我们会发现将友善延伸至每个进入项目生态的人，不仅能为他们带来良好体验，更会促使他们将这种友善传递到项目其他互动中。如果你的友善能让十位用户对贡献同伴更加友善，这份善意就已超越你直接给予同伴的范畴，产生了乘数效应。
 
-There are two main ways we consider when viewing the health of an open source community.
+我们主要从两个维度来评估开源社区的健康状况。
 
-Because attracting users is a key to success, we look at how the world sees the project. These are the signs people look for when they see a project, from activity levels to maintainer interactions.
+因为吸引用户是成功的关键，我们关注外界如何看待这个项目。从活跃度到维护者的互动，这些都是人们评估项目时会关注的指标。
 
-Because attracting and maintaining participants and contributors is a key of existence, we look at how a project considers its own health.
+因为吸引并维系参与者与贡献者是项目存续的核心，我们审视项目如何评估自身的健康状况。
 
-## How the world sees the project
+## 外界如何看待项目
 
-Later in this chapter we look at how to conduct an audit that measures the health of this aspect of a project. In that audit, you'll see the main top-line questions from here as categories for more in-depth questions. Those questions in the audit section go into further details of the category.
+本章后续内容将探讨如何进行项目健康度审计。在审计中，你会看到这里的主要顶层问题被细化为更深入的调查类别，审计部分的具体问题将进一步展开每个类别的细节。
 
-### Structure
+### 架构
 
-This is the structure of things people see and perceive as they visit your project. If it were a building, it would be the number of floors, can you walk in the front door, is it accessible to wheelchairs and baby-strollers, is there a clear sign with the street address, is there a directory in the lobby so you know where to go, is the lobby well-lit and safe looking, and so forth.
+这是访客接触项目时直观感知的框架体系。若将其比作建筑，则需考量：楼层数量是否合理，正门是否开放通行，轮椅与婴儿车能否无障碍进出，街道地址标识是否清晰醒目，大厅是否设有指引访客的楼层目录，前厅照明是否充足且环境是否令人安心等细节。
 
-* Does the project have a website with a unique/memorable name?
-* Does the website have the elements needed for an open source project?
-* Does the website make clear the project's purpose, how to get and use its software, and so forth?
-* Does the project have a Code of Conduct?
-* Does the project have a diversity and inclusion effort?
-* Does the project put its diversity and inclusion efforts up front?
+* 项目是否拥有一个独特易记的网站名称？
+* 网站是否具备开源项目所需的必备要素？
+* 网站是否明确说明了项目宗旨、软件获取方式及使用方法等内容？
+* 项目是否制定了行为准则？
+* 项目是否开展了多元化和包容性相关举措？
+* 项目是否将多元化和包容性工作置于重要位置？
 
-### Release management
+### 版本管理
 
-What is the project's discipline and process around releasing software for end users?
+该项目针对终端用户的软件发布遵循怎样的规范和流程？
 
-* Does the project release software?
-* Has it done a release?
-* What other types of artifacts are released?
-* What type of development cycle/model are they striving for?
+* 该项目是否发布软件？
+* 是否进行过版本发布？
+* 还发布了哪些其他类型的成果物？
+* 他们追求哪种开发周期/模式？
 
-### Activity
+### 活动
 
-How active is the development of code and content for the project? This requires looking at the project's code and content repositories.
+项目代码和内容的开发活跃度如何？这需要查看项目的代码库和内容仓库。
 
-* What are the release activity data?
-* What is the commits activity?
-* What is the bug reports activity?
-* What is the events and meeting activity?
-* What is the mailing lists activity?
-* What are the communication channels the project uses, in what priority?
+* 发布活动数据有哪些？
+* 提交活动情况如何？
+* 错误报告活动情况如何？
+* 活动与会议参与情况如何？
+* 邮件列表活跃度如何？
+* 该项目使用哪些沟通渠道，优先级如何排序？
 
-### Documentation
+### 文档
 
-This is content useful to a range of people, including end users, developers using or integrating the software, and contributors to the project.
+这些内容对各类人群都很有价值，包括终端用户、使用或集成该软件的开发者，以及项目贡献者。
 
-* What is the overall quality of the documentation?
-* How is documentation created?
-* Who creates the documentation?
+* 文档的整体质量如何？
+* 文档是如何创建的？
+* 谁来编写文档？
 
-### Code quality
+### 代码质量
 
-This is a health area that has been evolving. From when this guidebook first looked at code quality in the 1.0 version to now, there has been a large growth of languages, development enviroments, and schools of thought about how to solve common problems. This category is the most subjective in this chapter.
+这是一个持续演进的健康领域。从本指南 1.0 版本首次探讨代码质量至今，编程语言、开发环境以及解决常见问题的思想流派都经历了巨大发展。该类别是本章节中最具主观性的部分。
 
-* What is the overall quality of the code?
+* 代码的整体质量如何？
 
-### Outreach
+### 对外推广
 
-From attracting users, through exciting participation, to connecting people for collaboration, the way a project reaches out to the world is an important aspect of project health.
+从吸引用户到激发参与热情，再到促成协作连接，一个项目与外界互动的方式是衡量其健康度的重要维度。
 
-* What are the downloads data?
-* What are the blogs data?
-* What are the social media data?
-* What are the events data?
-* What are the communication data?
+* 下载数据是什么？
+* 博客数据包含哪些内容？
+* 社交媒体数据包含哪些内容？
+* 活动数据包含哪些内容？
+* 沟通数据包含哪些内容？
 
-### License
+### 许可证
 
-This is a binary situation: does the project have an [Open Source Initiative approved license](https://opensource.org/licenses), or not?
+这是一个二元性问题：项目是否采用经[开放源代码促进会（Open Source Initiative）](https://opensource.org/licenses)批准的许可证？
 
-* What kind of license does the project have?
+* 该项目拥有什么样的许可证？
 
-## How the project sees and understands itself
+## 项目如何看待和理解自身
 
-This is a highly subject mix, and as a project ourselves, the authors of this guidebook are still exploring this material. For this chapter, we offer a list of considerations that seem generally applicable.
+这是一个高度复杂的主题，作为项目参与者，本指南的作者们仍在探索相关内容。针对本章节，我们提供了一份普遍适用的考量事项清单。
 
-* How is diversity from all angles
-* How is organizational diversity alongside other, more important groups?
-* This is a non-special awareness particular to open source software: projects dominated by a single organization/company are limiting their potential in not being organizationally diverse. That is, the value that diversity brings also applies to having people from diverse organizations.
-* What is the sense of psychological safety? Overall and within teams?
-* Is it clear how to progress in the project toward more responsibility, leadership, and influence? (This is all the governance/merit stuff as it actually works day-to-day.)
-* How hard is it to **do** something?
-* What is the level of automation? Is this level from technical debt, job security, something else?
-* What is the level of cookie licking going on? (This is when known contributors, by speaking up or being present, are presumed by others to own the problem/situation/whatever.)
-* How are things going with cliques? Cliques are a natural social mechanism, which arise in open source communities, and can be a source of joy and fun and productivity, as well as sorrow and angst and feeling left out.
-* Rules aren't always followed; what is the percentage and feeling of the project following its own guidelines? What are the types of rules less followed and more followed?
-* Is there a sense across the project of a healthy work/life balance?
-* Is there a culture of mentorship?
-* How is the process and pain and results around self-documentation?
-* Do the kids have shoes? Does the roof leak?
-* What are the broken stairs? A _broken stair_ is a term for something dysfunctional in a community, which everyone learns to just work around rather than talk about it and get it fixed.
-* How is the sympatico, the interpersonal relationship quality between individuals?
+* 从各个角度看多样性如何
+* 组织多样性与其他更重要群体相比如何
+* 这是开源软件特有的认知：由单一组织/企业主导的项目会因缺乏组织多样性而限制自身潜力。换言之，多样性带来的价值同样适用于吸纳来自不同组织的人才。
+* 心理安全感的意义是什么？在整体层面和团队内部分别如何体现？
+* 是否明确如何在项目中逐步承担更多责任、获得领导地位和影响力？（这涉及日常实际运作中的治理机制与绩效体系。）
+* 完成某项任务的难度有多大？
+* 自动化程度如何？当前水平是源于技术债务、职位保障还是其他因素？
+* 当前存在何种程度的"跪舔"现象？（即当知名贡献者通过发声或在场时，其他人会默认他们拥有该问题/情境/事项的所有权。）
+* 小团体现象进展如何？小团体是一种自然的社会机制，它们在开源社区中形成，既能带来快乐、乐趣和生产力，也可能引发悲伤、焦虑和被排斥感。
+* 规则并非总是被遵守；项目遵循自身准则的比例和感受如何？哪些类型的规则更常被忽视，哪些更受重视？
+* 项目整体是否呈现出健康的工作与生活平衡？
+* 是否存在指导者文化？
+* 关于自我记录的过程、痛点及成果如何？
+* 孩子们有鞋穿吗？屋顶漏雨吗？
+* "破损的台阶"在哪里？这个术语指代社区中存在但被默许的功能失调现象，人们都学会绕开它而非讨论解决。
+* 人与人之间的默契和人际关系质量如何？
 
-## Building healthy communities
+## 构建健康的社区
 
-The actual process and experience of building out an open source community is particular to each situation. That is, it's not unique in it's parts, but it is unique in it's composition. This means you can take various _truisms_ (best practices) and apply them to your particular situation, even though your situation will never resemble a step-by-step process.
+构建开源社区的实际过程和体验因具体情况而异。也就是说，其组成部分并非独一无二，但其组合方式却是独特的。这意味着你可以采纳各种公认准则（最佳实践）并将其应用于你的特定情境，尽管你的情况永远不会像按部就班的流程那样简单。
 
-Following are elements that allow the building and growth of healthy communites.
+以下是构建和发展健康社区的关键要素。
 
-### Communities require care, feeding, and weeding to get started
+### 社区需要精心培育、持续投入和定期修剪才能起步
 
-Imagine if you grow a garden and are very ambitious. The first year you overplant and are unwilling to thin out the seedlings. You end up with overcrowded, unhealthy plants.
+设想你经营一座花园且雄心勃勃。第一年过度种植却不愿间苗，最终只会得到拥挤孱弱的植株
 
-In online communities (including open source communities), there is a strong drive for immediate and explosive growth. This is usually achieved by promoting the project in as many environments as are appropriate, with the result that many people join the community out of casual interest. There's often a strong impulse to accept early adopters as committers, to create the impression of a viable, strong team.
+在网络社区（包括开源社区）中，普遍存在着追求即时爆发式增长的强烈驱动力。通常的做法是在尽可能多的合适场景中推广项目，导致许多人出于一时兴趣加入社区。往往还会产生一种强烈冲动——将早期采用者直接吸纳为代码提交者，以此营造出团队实力雄厚、运作良好的表象。
 
-Contributing community members—those who affect the actual direction of the project—should be chosen based on how much they actually contribute, and the value of their contributions, and overall consensus. If someone contributes fixes to a number of critical bugs, perhaps they should get write access for the project (and a corresponding voice); if, however, that same person creates a poisonous atmosphere for the community, then promotion to maintainer is not a good idea.
+贡献社区成员——那些能影响项目实际发展方向的人——应根据其实际贡献程度、贡献价值及整体共识来选拔。若某人修复了多个关键漏洞，或许应授予其项目写入权限（及相应话语权）；但若同一人营造了有害的社区氛围，则不宜晋升为维护者。
 
-It's also worthwhile to take note of core community members, rewarding those who contribute regardless of coding ability. For example, consider someone who is great at helping new users but hasn't tried to fix bugs—recognizing those contributions creates a positive impression for that user and everyone else. Positive motivation encourages others to do what garnered the reward, which in turn makes the entire community more strong.
+同样值得关注的是核心社区成员，无论编码能力如何，都应奖励那些做出贡献的人。例如，考虑那些擅长帮助新用户但尚未尝试修复漏洞的成员——认可这些贡献能为该用户及其他人留下积极印象。正向激励会鼓励他人效仿受嘉奖的行为，进而使整个社区更加强大。
 
-Growth should always be encouraged, by the entire community; just try to assure that the growth is composed of candidates who've earned membership. This does not mean that everyone has to get along perfectly at all times; personality conflicts are certainly possible (and likely, in some cases). However, the community at large shouldn't allow specific members' opinions to make primary decisions like this; seek consensus rather than responding to the urging of a small subset.
+整个社区都应始终鼓励发展壮大，但要确保新成员是通过自身努力获得资格的。这并不意味着每个人必须时刻完美相处——个性冲突在所难免（某些情况下甚至很常见）。但社区整体不应让个别成员的意见主导此类关键决策，而应寻求共识，而非屈从于少数人的施压。
 
-Of course, a member's actions might be severe enough to warrant a response. Use reason; consider whether anyone would be caught by surprise if an action is taken.
+当然，成员的行为可能严重到需要采取应对措施。运用理性判断；考虑采取行动时是否会让人措手不及。
 
-### Embrace failure
+### 拥抱失败
 
-Fail spectacularly, and don't forget to take notes. There is a lot of crowd wisdom at work here. It's basic physics, too—if you charge ahead and fall on your face, you at least made headway. Like feeling your way around in the dark, each touch, bump, and stub of the toe teaches you more about the environment. When you drive your processes and technology to the brink of failure, repeatedly, you get very comfortable somewhere most people don't even want to go. You also get to set a new standard for what is comfortable for your community, giving you new room to expand even further.
+大胆失败，别忘了做好记录。这其中蕴含着群体的智慧。这也是基本的物理原理——如果你勇往直前却摔了个跟头，至少你前进了。就像在黑暗中摸索，每一次触碰、碰撞和踢到脚趾，都让你更了解周围的环境。当你反复将流程和技术推向失败的边缘时，你会在大多数人避之不及的地方感到游刃有余。你还能为社区设定新的舒适标准，从而获得进一步拓展的新空间。
 
-### Culture of transparency
+### 透明文化
 
-One of the most important elements of an open source community is the level and quality of transparency. Humans need private space, for certain, and that supports our ability to conduct ourselves in public space. Ultimately, all discussions and decisions need to held in front of the entire community. This builds trust, handles objections by including feedback as solutions along the way, and builds toward a community acting as a chorus. Key parts of this element include:
+开源社区最重要的元素之一是透明度的水平与质量。人类确实需要私人空间，这支撑着我们在公共空间中的行为能力。但归根结底，所有讨论和决策都应在整个社区面前进行。这能建立信任，通过持续吸纳反馈意见作为解决方案来处理反对声音，并推动社区形成合唱般的协同效应。该要素的关键组成部分包括：
 
-#### Take extra extra extra care to have all discussions in the open
+#### 万万要注意保持所有讨论公开透明
 
-Even if it means stopping and restarting a conversation in a public/archived location, keep this in mind at all times. If it's not in the public record, then it doesn't exist. This means that when you have private discussions, and such hallway conversations do happen, the responsibility is on the participants to record as best as possible the conversation—notes taken in the middle and at the end can suffice as such documentation. The results of this discussion, minus privately sensitive matters, must be sent to the main openly archived discussion area, such as the community mailing list. Remember that such discussions are not where decisions are made. You can decide on a recommendation, but that must be made to the larger body and openly decided with all able to participate. Trust but verify. A commitment to participatory transparency invests into the mutually held bank of trust. "Just trust us" decisions done behind closed doors spend from the bank of trust. The bank can go broke all too easily.
+即便这意味着需要在公开/存档的场所中止并重启对话，也要时刻牢记这一点。若未记录在公开档案中，则等同于不存在。这意味着当你们进行私下讨论时——这类非正式交谈确实会发生——参与者有责任尽可能完整地记录对话内容，过程中和结束时的笔记均可作为存档文件。讨论结果（涉及私人敏感信息除外）必须发送至主要公开存档的讨论区，例如社区邮件列表。请记住，这类私下讨论并非决策场合。你们可以形成建议，但最终决策必须提交更广泛的群体公开表决，确保所有人都有参与机会。信任但需验证。对参与式透明度的承诺，就是在共同信任银行中储蓄。"相信我们就好"式的闭门决策，则是从信任银行中支取。而这家银行，随时可能破产。
 
-#### Radically visible meetings at all times
+#### 会议全程高度透明
 
-Any private interactions, from the hallway to email/irc to phone calls, are a risk to the project. At the minimum, you must be mindful of reporting back the results of direct conversation. However, this isn't really good enough. A summary of a meeting never shows the reasoned discussion, effectively cutting the community out of the decision making process. There is a reason forums, mailing lists, open chat networks, and repo comments and logs are the baseline for all communication in successful open source projects.
+任何私下交流——无论是走廊谈话、邮件/IRC 往来还是电话沟通——都会给项目带来风险。最起码，你必须注意汇报直接对话的结果。但这远远不够。会议纪要永远无法体现理性讨论的过程，实质上将社区排除在决策流程之外。成功的开源项目之所以将论坛、邮件列表、开放聊天网络以及代码库评论与日志作为所有沟通的基础，正是基于这个原因。
 
-#### No decision point is too small to pre-announce to a mailing list
+#### 再小的决策节点也值得预先在邮件列表中公布
 
-While we can grow trust in the community about technical or other decisions, there are common problem circumstances we can avoid. The corporate sponsor and staff are always more suspect, so need to take extra care to share the decision making process. We cannot guess what is important to contributors, nor why. Presuming they don't care about a decision is a bad idea. The method is to take all decisions to the open forums, until people start complaining that a particular class of decisions can happen in another way/place. This is called, "Building trust by proof through annoying transparency."
+尽管我们可以培养社区对技术或其他决策的信任，但有些常见问题是可以避免的。企业赞助商和员工总是更容易受到质疑，因此需要格外注意共享决策过程。我们无法猜测哪些因素对贡献者重要，更不知其缘由。假定他们不关心某项决策是愚蠢的做法。正确做法是将所有决策都提交到开放论坛讨论，直到人们开始抱怨某类决策可以通过其他方式/场合作出。这种方法被称为"用令人抓狂的透明度来建立信任证明"。
 
-#### It's okay to be disappointed but never okay to be surprised
+#### 失望可以接受，但措手不及绝不可取
 
-No one is going to like every decision made, and people will be disappointed. That is a fact of life we cannot avoid. However, no one should ever be surprised, especially by something perceived as negative. It is a morale killer and eventually drives people away. Sometimes we hold back on letting people know information because we are concerned they'll be disappointed. When mishandled, those folks end up disappointed and surprised, which is a potently negative combination. You may need to inform people in a private communication channel, and should do so often where there is a chance they may not know or could not know a decision. If you find people being surprised too often, do a serious review of your communication methods. For some reason, you are not reaching enough of the people for word to spread. Don't bury decisions in other text that people don't read. As with a software patch, people can understand changes better when they arrive in discrete chunks to the community commons, such as a mailing list or blog planet. You may need to split decisions or discussion points out to individual threads so people can see the various trees as well as the forest. If you find a decision or detail is buried in a discussion and people might miss it, find a way to highlight it so that people are not surprised later.
+没有人会喜欢每一个决定，失望在所难免。这是无法回避的生活现实。然而，任何人都不该感到意外——尤其是面对负面消息时。这种意外会严重打击士气，最终导致人员流失。有时我们因担心他人失望而选择隐瞒信息，但处理不当反而会让他们陷入"既失望又意外"的双重打击。必要时可通过私密渠道提前告知，尤其当对方可能不知情或无法获知某项决定时更应如此。若发现团队成员频繁感到意外，就必须彻底检视沟通方式——某些环节显然未能有效触达足够人群形成信息扩散。切勿将重要决定埋没在无人阅读的长篇文本中。就像软件补丁那样，当变更以独立模块的形式出现在邮件列表或博客聚合平台等公共空间时，人们更容易理解变化。有时需要将决策或讨论点拆分为独立问题，既让人看清局部细节，也能把握整体脉络。 如果你发现某个决定或细节在讨论中被忽略，可能导致他人遗漏，请设法突出显示，以免后续令人意外。
 
-#### Take even more care to do all design decisions in the open
+#### 务必更加谨慎地在开放环境中做出所有设计决策
 
-Even when all content is done using open resources, if you make design decisions via in-person meetings, hallway discussions, over lunch, during the daily commute, and so forth, then you are leaving the community out of work that really matters. They'll notice and care. People talk with each other, and that's fine. Just consider it to be pre-decision discussions and follow these rules:
+即便所有内容都采用开放资源完成，若设计决策通过线下会议、走廊交谈、午餐闲聊或日常通勤时讨论等方式做出，就等于将社区排除在真正重要的工作之外。人们会注意到这一点并在意。彼此交流本无可厚非，但请将其视为决策前讨论并遵循以下原则：
 
-* A decision doesn't exist unless it's discussed in the common forums first.
-* A conclusion isn't justified unless the discussion demonstrating it and evidence backing it up are visible publicly.
-* A discussion doesn't exist unless it's on the community forum—send at least a summary of all non-public discussions to the mailing list, with the conclusions open for further discussion.
+* 决策未经公共论坛讨论则不成立
+* 结论若缺乏公开可见的论证过程与证据支持则不足为凭
+* 结论若缺乏公开可见的论证过程与证据支持则不足为凭
 
-#### Do not put any non-public blocking steps in your process
+#### 流程中不应设置任何非公开的阻碍环节
 
-You must not have anything that can block a release or development process be non-public. For example, you don't want to be in the position of telling your community something is broken in a private test environment and you can't recreate if for their review. Look through your entire process, identify the non-public parts, and figure out how to expose them. You may have some testing and development infrastructure that is non-public and need to work out how to make them public. In some cases, the best you can do (for at least the short-term) is to make reports public. You may end up helping other people to create a similar environment in a public cloud simply to make sure processes are kept flowing.
+任何可能阻碍发布或开发流程的内容都不应设为非公开状态。例如，你不希望出现这种情况：告诉社区某个私有测试环境出了问题，却无法重现问题供他们审查。你需要全面检查整个流程，找出非公开环节，并设法将其公开化。某些测试和开发基础设施可能目前处于非公开状态，需要制定方案使其公开。在某些情况下，（至少短期内）能做到的最佳方案是公开测试报告。最终你甚至可能需要帮助他人在公有云搭建类似环境，只为确保流程持续畅通。
 
-#### Use version control for your content as well as code
+#### 对内容和代码都使用版本控制
 
-That way everyone can watch the changes. Being able to roll back work encourages people to be bold and innovative. One of the currencies of project work is simply making a change to a codebase or a document as an explanation itself. Changes are self-evident in the commit itself. This is why all changes must be accompanied with a comment or summary that explains the _reasons_ behind the change. Version control for your documentation is the meta-documentation that provides the context of why. Equally important is that all project members watch these changes. Responding to the changes on a forum, bug report, or documentation discussion page keeps the discussion associated with the node of origin.
+这样每个人都能追踪变更。能够回退工作成果鼓励人们大胆创新。项目工作的一个基本准则就是，对代码库或文档的修改本身就是一种说明。提交记录中的变更不言自明。正因如此，所有变更都必须附带解释修改原因的注释或摘要。文档的版本控制就是元文档，它提供了"为什么修改"的背景信息。同样重要的是，所有项目成员都要关注这些变更。在论坛、错误报告或文档讨论页面对变更作出回应，能让讨论始终围绕原始修改点展开。
 
-#### Choose open tools that can be extended
+#### 选择可扩展的开源工具
 
-Don't choose tools just because your small team knows them the best. Be careful of choosing something because you are in a hurry and need something quickly. When it comes to tools, talk with trusted community leaders about what you should use. Make governance as clear as possible Even if you choose something out of step with other community members, you will at least know why you did and be prepared to mitigate risk. It is risky to choose closed tools that a community cannot easily scale itself.
+不要仅仅因为小团队最熟悉某些工具就选择它们。匆忙间为求快而草率决定也需谨慎。关于工具的选择，应与可信赖的社区领袖商讨后再做决定。尽可能明确治理规则 即便最终选择与其他社区成员步调不一致，至少你能清楚原因并做好风险应对准备。选用社区难以自主扩展的封闭工具存在风险。
 
-#### Make sure everyone has an equal and clear method for access to write-commit to open tools
+#### 确保每个人都能通过平等明确的途径，向开源工具提交写入权限
 
-With version control under code and content, you can open access to more people. For example, don't require people to go through a lengthy process or to "prove" themselves with X number of patches. Give people access to whatever they need to make a difference, even if they don't use the access. Wikipedia is a prime example here. They use the power of the community size to police bad content changes, rather than limiting the community size behind rules of what it takes to write content changes. More people want to do good for your project than want to do bad. Don't punish the do-gooders because of the potential evil someone might do.
+通过代码和内容的版本控制，你可以向更多人开放访问权限。例如，不必要求人们经历冗长的流程或用若干补丁来"证明"自己。赋予人们实现改变所需的任何权限，即使他们并未使用这些权限。维基百科就是绝佳范例——他们依靠社区规模的力量来监管不良内容修改，而非通过内容修改规则限制社区规模。愿意为项目贡献力量的人远多于蓄意破坏者。不要因少数人可能作恶而惩罚那些行善者。
 
-#### Make governance as clear as possible
+#### 尽可能清晰地制定治理规则
 
-Whatever they are looking for, whatever they need, your contributor community does not want a confusing governance structure. Listen to feedback and make document changes to evolve the language and understanding From that may come evolution of the governance itself, with the corresponding transparency at getting there.
+无论他们寻求什么，无论他们需要什么，你的贡献者社区都不希望面对令人困惑的治理架构。倾听反馈并修改文档，以推动表述方式和理解共识的演进——由此可能带来治理机制本身的进化，同时保持实现路径的透明度。
 
-#### Do not let poisonous people bog down the community
+#### 别让有害分子拖累社区
 
-Remember the paradox of tolerance: if you are tolerant without limit, your ability to be tolerant is [eventually seized or destroyed by the intolerant](#user-content-fn-1)[^1].
+谨记宽容悖论：若无限度地宽容，你的宽容能力[终将被不宽容者剥夺或摧毁](#user-content-fn-1)[^1]。
 
-#### Seek consensus, use voting as a last resort
+#### 寻求共识，投票作为最后手段
 
-Most decisions in an open community are not decided by a vote. As in a well-working democracy, decisions are handled by the experts and knowledgeable people who are in charge at the will of the people around them. Voting is best left for deciding who is in charge and the occasional very contentious issue. Don't you wish it weren't contentious? Wish you could go back and make a consensus?
+在开放社区中，大多数决策并非通过投票决定。正如运作良好的民主制度一样，决策由专家和知情人士处理，他们凭借周围人群的意愿行使职权。投票机制最适用于决定由谁掌权，以及偶尔出现的极具争议性问题。难道你不希望这些争议不存在吗？是否渴望能回到过去达成共识？
 
-### Do not forget to release early and release often <a href="#do_not_forget_to_release_early_and_release_often" id="do_not_forget_to_release_early_and_release_often"></a>
+### 切勿忘记"早发布、常发布"的原则
 
-It's crucial to the success of an open collaboration that no part of the work is held back "until it's just right." Many of us have the tendency to keep code, content, or ideas to ourselves until we get them finished enough, polished enough for others to review. In open source development methodologies, that perfection seeking is the enemy of the good enough. Innovation is a process of building on existing ideas, in novel or even repetitive ways. We need others to see our ideas early and often so their influence can improve the ideas before they are too fixed to be improved. Make it the rule that nothing is held back until finished. Treat it like a Zen practice—release early and often, every day or every hour if need-be.
+对于开放协作的成功而言，最关键的是任何工作成果都不应被"等到完美无缺"才发布。我们许多人都有这样的倾向：将代码、内容或想法保密，直到它们足够完善、足够精炼才让他人审阅。在开源开发方法论中，这种追求完美恰恰是"足够好"的敌人。创新是一个以新颖甚至重复的方式在现有想法基础上构建的过程。我们需要让他人尽早且频繁地看到我们的想法，这样他们的意见才能在想法固化前加以改进。必须遵循"绝不因未完成而保留"的原则。将其视为禅修实践——尽早发布、频繁发布，每天甚至每小时发布都在所不惜。
 
-#### Release early and release often is for more than just code
+#### 尽早发布、频繁发布不仅适用于代码
 
-Every idea deserves the light of day as early as possible. A common mistake is to wait to release a document, process, marketing plan, etc. until it is "just right". People who otherwise fully understand how not to do this in code forget when it comes to other parts of a project. Apply this rule:
+每个想法都应尽早获得展现的机会。常见的错误是等到文档、流程、营销方案等"完美无缺"时才发布。那些完全明白代码不能这样做的人，在涉及项目其他部分时却会忘记这一点。请遵循以下原则：
 
-* If a piece of information is confidential, keep it private;
-* Otherwise, get it out in the public soonest using techniques such as:
-  * Bounce the idea off the mailing list(s)/forums
-  * Make a wiki page
-  * Add to another wiki page
-  * File a ticket in a tracking system
-  * Make a non-coding prototype
-    * Wireform web page in a wysiwyg editor
-    * Graphical mock-up/collage
-    * Bar napkin and pen, scanned or photographed
+* 若信息涉及机密，则予以保密；；
+* 否则，请尽快使用以下方式将其公之于众：
+  * 在邮件列表/论坛上交流想法
+  * 创建 wiki 页面
+  * 添加到另一个 wiki 页面
+  * 在问题跟踪系统中提交工单
+  * 制作非编码的原型
+    * 可视化编辑器中的线框网页
+    * 图形化模型/拼贴图
+    * 草图（扫描或拍照存档）
 
-### Evolve with the growth of your audience and contributors
+### 随着受众和贡献者群体的成长而演进
 
-It's easy to say, "We designed this for such-and-such a reason for this particular audience." It's not so easy to be the only creator and maintainer, though. If you want to grow beyond just you and your niche group, you have to be willing to accept the influx of new ideas and directions that comes with open collaboration.
+说"我们为特定受众设计了这样的功能"很容易。但要成为唯一的创建者和维护者却并非易事。若想突破个人和小圈子的局限，就必须愿意接纳开放协作带来的新思路和新方向。
 
-### Use a predictable schedule type and stick to it
+### 采用可预测的时间安排并坚持执行
 
-There is a lot of disagreement over how fast an open source project should move. Many projects have found the six month release cycle is not too long nor too short. Regardless of what type of schedule you choose, you need to stick to it and keep your community informed about the status of the schedule. Remember, it's OK to disappoint people sometimes, but not surprise them. There are two main types of schedule for delivering open source:
+关于开源项目的发展速度存在诸多分歧。许多项目发现六个月的发布周期既不太长也不太短。无论选择何种进度安排，都需要坚持执行并让社区了解进度状态。记住，偶尔让人失望可以接受，但不要让人措手不及。开源项目主要有两种发布计划类型：
 
-* Time based
-* Feature based
+* 基于时间
+* 基于功能
 
-One reason time based schedules are used so often in open source is that it forces developers to release early and often, and not sit on code waiting for a feature to be completed. Incremental updates provide the community a chance to keep up, help, and contribute. Even if you follow a feature based schedule, it is useful to break it down to smaller, time-based deliverables. This keeps your community interested and able to test, knowing that at regular, predictable intervals there will be something for them to try out.
+开源项目之所以经常采用基于时间的发布周期，是因为它能促使开发者尽早且频繁地发布版本，避免因等待功能完成而囤积代码。增量更新让社区有机会持续跟进、提供协助并参与贡献。即便你采用基于功能的发布计划，将其拆分为更小、基于时间节点的可交付成果也大有裨益。这种做法能维持社区参与热情，使其保持测试能力——成员们知道在固定可预期的时间间隔内，总会有新版本可供体验。
 
-### A good teacher is a good student (ask questions and put yourself in a position of being taught by others)
+### 优秀的教师也是虚心的学生（善于提问并保持向他人学习的态度）
 
-People of all ages and experience levels have knowledge and curiosity to contribute. You can engage with what they know and what they want to know by putting yourself in the position of learning from them, even as they may be learning from you. Part of practicing the open source way is teaching others about how and why they want to adopt this way of working, thinking, and acting. In all your interactions, it helps for you not to presume that you are an expert and know all there is to know. Even in domains you are familiar with, ask basic and dumb and open and revealing questions. Ask any questions that help you make sure to reveal and map the principles of The Open Source Way to an individual domain.
+各个年龄段和经验水平的人都拥有值得贡献的知识与好奇心。通过设身处地向他们学习（正如他们可能也在向你学习），你可以与他们已知和想了解的事物建立联系。践行开源之道的一部分，就是教导他人为何以及如何采纳这种工作、思考和行动方式。在一切互动中，切忌预设自己是无所不知的专家。即便在熟悉的领域，也要敢于提出基础、看似愚蠢、开放且具有启发性的问题。任何能帮助你揭示并将"开源之道"原则映射到特定领域的问题，都值得提问。
 
-### Strive to drive barriers as low as possible
+### 努力将准入门槛降至最低
 
-Open projects need to have low barriers of entry. People and organizations are giving of their time and other resources, so if you are going to make them leap over any barrier, it needs to be a clear barrier with a clear reason. Otherwise, it's an invisible problem that makes people disappear before you even know they are there. If new participants come along and run in to a real, implied, or accidental barrier, a certain percentage of them will just walk away at that moment. At the very least, if you inform those people of what the barriers are and why they are there, then these folks will walk away informed instead of bailing out of ignorance. If you want open collaborators, you must make all barriers as low as possible. You must advertise this access-level clearly. If there are levels of access, such as "can write to the mailing list and file bugs" all the way over to "can commit major code changes to the source repository", then you must make it clear what these levels are and how to obtain them.
+开源项目必须降低准入门槛。人们和组织机构投入了时间和其他资源，因此如果要设置任何障碍，必须确保其目的明确且理由充分。否则，这种隐形障碍会让人群在你察觉之前就已悄然流失。当新参与者遭遇实际存在的、隐含的或意外设置的障碍时，其中一定比例的人会立即选择退出。至少，如果你能告知他们障碍的存在及其缘由，这些人离开时是明明白白而非因困惑放弃。若想获得开放的协作者，就必须将所有门槛尽可能降低。必须清晰地公示这种准入层级。如果存在权限等级——从"可以给邮件列表发信并提交缺陷报告"到"能够向源码库提交重大代码变更"——就必须明确说明这些等级划分及获取方式。
 
-Wikipedia is an example of everyone entering at the same level. There are, however, community levels that are implied and centered around a group of information pages. It is easy to make an edit on a page, even anonymously, but to get that edit to stick (not be reverted by another page watcher in the information community), other, more invisible barriers need to be overcome. This may discourage some casual editors, if the information community around a set of pages are very strict about allowing anonymous edits. Other pages may not have that strict of an information community around them, so anonymous edits are stickier. In the end, this may affect Wikipedia's reputation—some people have experienced or perceive that Wikipedia has an invisible barrier to entry they can't see or overcome.
+维基百科是一个人人平等参与的典范。然而，社区中实际存在着以某些信息页面为核心的层级结构。任何人都能轻松编辑页面（甚至匿名操作），但要使修改得以保留（不被该信息社区的页面维护者回退），还需跨越其他更为隐形的门槛。如果某些页面的信息社区对匿名编辑审核极为严格，这可能会打击部分临时编辑者的积极性。而另一些页面周围可能不存在如此严格的信息社区，匿名编辑就更易被保留。最终，这种情况可能影响维基百科的声誉——有些人亲身经历或感觉维基百科存在他们无法看清或逾越的隐形准入门槛。
 
-### Highlight activity and participation
+### 突出活动与参与度
 
-People want to see themselves and to see what others are up to. It is why sitting at a cafe is considered more special than having coffee at home. It is a social space, just as the elements of an open source community happen in social space. Build systems and processes that make it easy to highlight the activity within the community. In some cases, this might be gamification, with badges, leaderboards, and the like. In most cases, this includes making sure that _everyone_ is acknowledged by name and type/area of contribution when you conduct a release.
+人们渴望看到自己，也好奇他人在做什么。这正是咖啡馆小坐比在家喝咖啡更显特别的原因——它是一个社交场所，正如开源社区的种种互动也发生在这样的社会空间中。构建能够轻松展现社区活动的系统与流程至关重要。有时，这可能是通过游戏化设计实现，比如徽章、排行榜等形式；而大多数情况下，它意味着在项目发布时确保每位贡献者都能以姓名及其贡献类型/领域获得认可。
 
-### Turn newcomers into instant contributors with the Power of To-Document
+### 通过文档的力量让新人快速成为贡献者
 
-Make your community culture be to document answers when asking for help. Ideally, the documenting should be done by the asker. And systems should make it easy for them to do so. People offering help can require that the help be documented. When the asker is a new member of the community, this is a great way to turn them into an instant contributor.
+让社区文化倡导在寻求帮助时记录答案。理想情况下，提问者应负责完成记录工作。系统应简化这一流程，使其易于操作。提供帮助者可要求对方将解答过程归档。当提问者是社区新成员时，这能立即将其转化为贡献者的绝佳方式。
 
-### Four shared virtues
+### 四大基本美德
 
-These four virtues were described by Brian Fitzpatrick and Ben Collins-Sussman in their seminal talk on [avoiding poisonous people in communities](#user-content-fn-2)[^2].
+这四大美德由布莱恩·菲茨帕特里克和本·柯林斯-萨斯曼在其关于[规避社区有害人群的奠基性演讲中提出](#user-content-fn-2)[^2]。
 
-* Politeness
-* Respect
-* Trust
-* Humility
+* 礼貌
+* 尊重
+* 信任
+* 谦逊
 
-These virtues need to be implemented in every part of the community. Public and private discussions, all communication channels from in person to IRC, and sometimes even in the nature of the project itself.
+这些美德需要贯彻到社区的每个角落。无论是公开还是私下的讨论，从面对面交流到 IRC 等所有沟通渠道，有时甚至体现在项目本身的特质中。
 
-### Have a clear understanding of the users (and contributors) you hope to assist and engage
+### 明确了解你希望帮助和吸引的用户（及贡献者）
 
-This is something that comes from your initial project and community planning. It should form some part of your metrics plan, the way you measure the ongoing health of your community for what it provides to its members. When there is evolution in thinking here, as the project changes, this clear understanding needs to be updated. There is a side-effect of feature creep—the phenomenon of how the quantity of features increase via input from users and stakeholders while development is underway. Features that creep and sneak their way into a release may end up attracting more and different users and contributors. These new people are not a bad thing in any way. But if they are unexpected and unnoticed, they become an underserved part of the community. In their bubble, this underserved group has its own understanding of what the project and software needs to do for them. Until you open that bubble and include them in the community view as a whole, their entire worldview is at risk whenever a change comes through the project.
+这源于你最初的项目和社区规划。它应当成为你衡量社区持续健康发展指标的一部分，评估社区为成员所提供的价值。随着项目变化，当这方面的观念发生演变时，需要及时更新这种清晰认知。
 
-### Healthy projects entail thoroughly documented (and continuously evolving) governance models.
+功能蔓延存在一个副作用——即在开发过程中，通过用户和利益相关者的输入导致功能数量增加的现象。那些悄然潜入版本发布的功能，最终可能会吸引更多不同类型的使用者和贡献者。这些新成员的出现绝非坏事。但若他们未被预料或关注，就会成为社区中被忽视的群体。在被隔绝的认知气泡里，这些未被充分服务的群体对项目及软件应满足的需求形成了自己的理解。除非你打破这个气泡，将他们纳入整体社区视野，否则每当项目发生变更时，他们的整个认知体系都将面临风险。
 
-Governance is not a static document and process to be adhered to year after year. As the project evolves along many lines, so should the governance evolve in response, and even in anticipation. You should have robust change management for governance and encourage it to be used early and often. Governance is covered further in the chapter "Project and Community Governance."
+### 健康的项目需要建立完善文档化（且持续演进）的治理模型。
 
-### Visible leadership
+治理并非一份需要年复一年恪守的静态文件和流程。随着项目在多条发展路线上演进，治理机制也应随之调整，甚至需要未雨绸缪。你应当为治理建立完善的变更管理机制，并鼓励尽早且频繁地运用这套机制。更多关于治理的内容详见"项目与社区治理"章节。
 
-Whoever is in charge of the largest or smallest things, it needs to be clear who they are, how to reach them, and so forth. Leaders should be out in front, doing the work with others. This is all part of the idea of what some call a "do-ocracy"—a culture of those who do things become responsible for getting things done.
+### 可见的领导力
 
-### Clear responsibilities for leaders
+无论是负责大事还是小事的人，都必须明确身份、联系方式等信息。领导者应当身先士卒，与众人并肩协作。这正是所谓"行动力至上"文化的核心理念——动手做事的人自然肩负起完成任务的职责。
 
-In healthy projects, members have formally documented release processes and identified release managers to supervise those processes. Healthy open source projects have publicly shared goals and clear processes for reaching those goals. Goals are attainable and clear deadlines exist for tracking progress toward those goals.
+### 明确领导者的责任
 
-## Community audits
+在健康的项目中，成员们会正式记录发布流程，并指定版本经理来监督这些流程。健康的开源项目会公开分享目标，并制定实现这些目标的清晰流程。这些目标具有可实现性，且设有明确的截止日期来追踪达成目标的进度。
 
-The audit process outlined in this chapter uses a worksheet when conducting the audit. In this case, we have the first worksheet available for the external health check.
+## 社区审计
 
-You can download the file here:
+本章概述的审计流程在进行审计时会使用工作表。在此情况下，我们提供了第一份工作表用于外部健康检查。
+
+你可以在此处下载文件：
 
 [https://github.com/theopensourceway/guidebook/blob/master/worksheet\_for\_community\_audits.ods](https://github.com/theopensourceway/guidebook/blob/master/worksheet_for_community_audits.ods)
 
-This is an Open Document Format spreadsheet with the following features:
+这是一份采用开放文档格式的电子表格，具有以下特点：
 
-* First sheet "Overview" is a single overview of all the questions.
-* These questions are in the form of a main question that forms the basis for the sub-questions. The sub-questions may not be applicable to each project, but the main questions always are.
-* Each section such as "Structure", "Release Management", and "Outreach" has it's sheet with the sub-questions.
-* Scoring or notes can be kept on each sheet for roll-up purposes.
-* There is a concept of a health percentage by how many of the questions in each section are answered "yes" or in the positive. A "no" or negative response indicates something essential may be missing or in trouble in the project.
+* 首张工作表“概览”包含所有问题的单一概述。
+* 这些主要问题构成了子问题的基础。子问题可能并不适用于每个项目，但主要问题始终适用。
+* 每个部分，如"架构"、"发布管理"和"社区推广"，都有包含子问题的工作表。
+* 可以在每张工作表中记录评分或备注，以便进行汇总统计。
+* 每个章节中问题回答"是"或积极答案的比例构成健康度指标。"否"或消极回答则表明项目中可能存在关键缺失或隐患。
 
-This list is not comprehensive per-se, but we feel it represents a good overview of what a single, determined individual can discover about a project with one to four hour's of attention and interest. That is, if a user comes to your website and has a positive experience that leads them to becoming a contributor, it is greatly influenced by the set of elements this audit looks at. These are the control points you have for helping that experience turn out positive.
+这份清单本身并不详尽，但我们认为它很好地概括了一个有决心的个体在一到四小时的关注时间内能对项目了解些什么。也就是说，如果用户访问你的网站并获得积极体验，进而成为贡献者，这种转变很大程度上受本次审计所考察要素的影响。这些正是你能够把控、助力体验向好的关键节点。
 
-Here is the overview of a process for using this worksheet:
+以下是使用本工作表的流程概述：
 
-1. Give yourself up to 30 minutes per section (labeled sheets); any more time than that may indicate this is an area with a problem or something that doesn't fit with the audit process. Make a note and move on.
-2. Work only with publicly available information; don't seek out project maintainers for answers, the point of the audit is to see what the average person experiences.
-3. You can parse out the sheets to other people who have more expertise in that area, if it helps.
-4. A health "score" can be derived by tallying up all the parts that are in place or good enough as is, compared to how many are missing or needing improvement.
-5. When you are done, write up a report with a narrative that explains the missing or needing improvement parts.
+1. 每份工作表（标注的表格）最多花费 30 分钟；若耗时过长，可能意味着该环节存在问题或不适合纳入审计流程。做好记录后继续推进即可。
+2. 仅使用公开可获取的信息开展工作；无需向项目维护者寻求答案，审计的核心在于观察普通用户的真实体验。
+3. 你可以将这些表格分发给在该领域更具专业知识的人，如果这能有帮助的话。
+4. 通过统计现有或已达标的部分数量，再对比缺失或待完善的部分数量，可以得出一个健康"评分"。
+5. 完成后，撰写一份报告，用叙述性文字说明缺失或需要改进的部分。
 
-Be aware that at times you may not be aware of a practice that is sufficient but not apparent, because of some aspect of the programming language, build systems, etc.
+需要注意，有时你可能因编程语言、构建系统等方面的特性，未能察觉某些实际上已足够但不够明显的实践做法。
 
-## Addressing mental health and burnout of moderators and community leads
+## 关注版主和社区负责人的心理健康与职业倦怠问题
 
-The sub-section is here to remind you to seriously consider the mental health and burnout risks for members of your community.
+本小节旨在提醒你认真考虑社区成员可能面临的心理健康与职业倦怠风险。
 
-Community leaders hold an important role of holding the project together, especially when things are not going well in the world and lives of the other contributors. For this reason, we have a complete discussion for people who are in this role in the chapter on self-care strategies for community managers.
+社区负责人在维系项目运作方面扮演着关键角色，尤其当其他贡献者的生活或外部环境出现困境时更是如此。因此我们在"社区管理者自我关怀策略"章节中，为担任这一角色的人员提供了完整的探讨。
 
-Individual community members are subject to many of the same stresses, responses, and situations as community leaders. You will find that chapter largely applicable to any community member, although it addresses and focuses primarily on community managers.
+普通社区成员其实与社区领导者面临着诸多相似的压力、应对场景和处境。你会发现该章节内容对任何社区成员都具有广泛适用性，尽管其讨论重点主要针对社区管理者。
 
-In addition to those materials, there are some other areas to consider that apply to all members of the community:
+除了上述资料外，还有一些适用于社区所有成员的注意事项需要考虑：
 
-### Burnout
+### 倦怠
 
-Anyone in the project can experience burnout. In addition to the effects of the individual's choices that may lead to burnout, there are a number of systemic and institutional causes of burnout. You may not be able to fix all of them, but acknowledging they exist can go a long way toward helping people feel less personally responsible for things that are out of their hands to effect.
+项目中的任何人都可能经历倦怠。除了个人选择可能导致倦怠的影响外，还有诸多系统和制度上的原因导致倦怠。你或许无法解决所有问题，但承认它们的存在，能在很大程度上帮助人们减轻对那些无法控制的事情的个人责任感。
 
-### Self-care to community-care
+### 从自我关怀到社区关怀
 
-Self care is often focused on the responsibility of the individual. Of course, as individuals we have a personal responsibility for our well-being but we often are responding to the culture, policies, and procedures of the systems we're working with/engaging with. A community-care approach focuses on lightening the burden of the individual by bringing in the structure and support of the community as a whole.
+自我健康管理往往聚焦于个人责任。诚然，作为个体，我们对自己的福祉负有个人责任，但我们的行为往往是对所处文化环境、政策体系以及工作/参与机制的反应。社群关怀则致力于通过引入整体社群的结构化支持，来减轻个人负担。
 
-### Social strategies
+### 社交策略
 
-As part of community-care, this may provide strategies for managing self-care. Engaging people with appreciation, joy, and acceptance is an antidote to feelings of not being enough, low motivation, and feeling apart—even all the way to feelings of guilt and shame.
+作为社区关怀的一部分，这或许能为自我管理提供策略。以欣赏、愉悦和接纳的态度与人相处，能够消解"不够好"的消极感受、低动力和疏离感——甚至能缓解内疚与羞耻等情绪。
 
-[^1]: Paradox of Tolerance: [https://en.wikipedia.org/wiki/Paradox\_of\_tolerance](https://en.wikipedia.org/wiki/Paradox_of_tolerance)
+[^1]: 宽容悖论：[https://en.wikipedia.org/wiki/Paradox\_of\_tolerance](https://en.wikipedia.org/wiki/Paradox_of_tolerance)
 
-[^2]: Open Source Projects and Poisonous People: [https://www.youtube.com/watch?v=-F-3E8pyjFo](https://www.youtube.com/watch?v=-F-3E8pyjFo)
+[^2]: 开源项目和有毒的人：[https://www.youtube.com/watch?v=-F-3E8pyjFo](https://www.youtube.com/watch?v=-F-3E8pyjFo)

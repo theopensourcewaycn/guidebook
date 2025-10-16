@@ -4,236 +4,236 @@ author: Karsten Wade <kwade@redhat.com>, Guedis Cardenas <guedis@palante.co>
 updated: 2020-12-14
 ---
 
-# Creating a Culture of Mentorship
+# 建立指导者文化
 
-This chapter discusses mentorship, a concept important to open source maintainers interested in creating sustainable projects and communities. It examines what mentoring is, why it's important, and how you might begin cultivating a culture of mentorship in your open source community.
+本章探讨了指导关系这一对开源维护者至关重要的概念，这些维护者致力于创建可持续发展的项目和社区。我们将解析指导关系的定义、其重要性，以及如何在开源社区中培养指导者文化。
 
-## What is mentorship?
+## 什么是指导关系？
 
-Mentorship means different things to different people, depending on their situation, context, culture, and more. To some, for example, mentorship is a formal activity involving a schedule and agenda. To others, mentorship is an informal process among peers; it can even be a one-time conversation. If you ask people to define "mentorship," you will most likely receive wide-ranging responses.
+对于不同处境、背景和文化的人而言，指导关系有着不同的含义。例如，有人将其视为包含时间表和议程的正式活动，也有人认为它是同行间的非正式交流过程，甚至可能只是一次性对话。如果你请人们定义"指导关系"，很可能会得到五花八门的答案。
 
-That is what makes mentorship such an important and powerful concept: it is both universal and personal. It's universal insofar as it has potential to be a positive experience for anyone, yet personal insofar as it occurs differently for every individual and in every relationship.
+这正是指导关系如此重要且强大的原因：它既具有普适性又充满个性化。其普适性体现在任何人都可能从中获得积极体验，而个性化则表现为每个个体和每段师徒关系都会呈现独特的发展轨迹。
 
-Therefore, one way of thinking of mentorship is the following:
+因此，可以将指导关系理解为以下方式：
 
-> Mentorship is an act, experience, and opportunity to share what you can, when you can, how you can.
+> 指导关系是一种行为、体验和机会——在你力所能及之时，以你擅长之方式，分享你所能分享的一切。
 
-Mentorship is important. It helps you, it helps others, it helps the community, and it helps the open source project.
+指导关系至关重要。它既助益于你，也惠泽他人，更能推动社区发展，促进开源项目繁荣。
 
-### It helps you
+### 它使你获益
 
-Mentoring can be a personally rewarding experience. The help and guidance you offer can have valuable, lasting benefits. For example:
+指导他人可以带来个人成就感。你提供的帮助和指引可能产生宝贵而持久的影响，例如：
 
-* Experience the positive emotions of giving back
-* Learn more about yourself
-* Find knowledge gaps in your own thinking
-* Learn something new
-* Expand your world view
-* Make a new friend, ally, or supporter
-* And more
+* 体验回馈带来的积极情感
+* 更深入地认识自我
+* 发现自身思维中的知识盲区
+* 学习新知识
+* 拓展世界观
+* 结交新朋友、盟友或支持者
+* 等等
 
-### It helps others
+### 它使他人获益
 
-Mentorship helps contributors navigating different stages of their careers or different life circumstances. Mentorship has the potential for positive impact (big and small, yet valuable just the same), whether it occurs among people in a specific project of initiative, in general as people get started with the project, and as people grow and advance in their educations and careers.
+指导关系度能帮助贡献者在职业生涯的不同阶段或不同生活境遇中找准方向。无论是在特定项目或倡议中的人际互动，还是人们初次接触项目时的引导，抑或在个人教育与职业发展过程中的成长，指导者关系都可能产生积极的（或大或小但同样珍贵的）影响。
 
-### It helps the community
+### 它使社区获益
 
-Mentoriship has a cumulative effect on community coherence and identity. It might begin between two people, when one person mentors another. But that person may mentor someone else in turn—and the positive ripple effect continues. It might even become a sort of "boomerang of help" that returns to you when you need a helping hand or some advice.
+指导关系对社区凝聚力和认同感具有累积效应。它可能始于两个人之间，当一个人指导另一个人时。但被指导者可能转而指导其他人——这种积极的涟漪效应会持续扩散。它甚至可能形成一种"帮助的回旋镖"，当你需要援手或建议时，这份善意会回馈到你身上。
 
-At scale, it helps contribute towards more inclusive, collaborative, helpful, and innovative communities.
+从宏观层面看，这有助于构建更具包容性、协作性、互助性和创新性的社区。
 
-### It helps the project
+### 它使项目获益
 
-Creating a culture of mentorship—or even a sopecific mentoring program—is important and valuable to the long-term health of an open source project. The rest of this chapter will discuss those benefits specifically.
+在开源项目中培养指导者文化——甚至建立专门的指导计划——对项目的长期健康发展至关重要且极具价值。本章后续内容将具体探讨这些益处。
 
-## Forms and styles of mentorship
+## 指导的形式和风格
 
-Recall that mentorship is an act, experience, and opportunity to share what you can, when you can, how you can.
+请记住，指导是一种行为、一种体验，也是在能力范围内以各种方式分享知识的机会。
 
-In an open source project, this can manifest in various ways. It can be informal, formal, peer-to-peer, mentor-to-mentee, and other variants. The relationship dynamics can also differ, such to one-to-one, one-to-many, and many-to-many. The how and when communication occurs also varies, such as asynchronous or synchronous. The kinds of questions being asked and the responses can also influence how mentorship occurs.
+在开源项目中，这种关系可以表现为多种形式。它可以是非正式的、正式的、同伴互助式的、师徒式的，以及其他变体。关系动态也各不相同，如一对一、一对多和多对多。交流方式与时机同样存在差异，比如异步或同步沟通。所提问题的类型及回应方式也会影响指导者关系的具体形态。
 
-Another thing to keep in mind is how people mentor and the different roles they assume. Below are some type of styles (not an exhaustive list, there are plenty).
+还需注意的是人们的指导方式及其承担的不同角色。以下是几种典型风格（并非详尽列举，实际类型更为丰富）。
 
-**Educator**
+**教育工作者**
 
-* Teach and inform on concepts, ideas, and more
-* Help explain and clarify material
-* Share knowledge and experiences
+* 传授概念、理念等相关知识
+* 帮助解释和阐明材料内容
+* 分享知识和经验
 
-**Encourager**
+**激励者**
 
-* Provide encouragement
-* Remind them of their progress, accomplishments
-* Fuel potential to keep doing great work
+* 给予鼓励
+* 提醒他们取得的进展和成就
+* 激发持续做出优秀工作的潜能
 
-**Listener**
+**倾听者**
 
-* Instead of solely providing answers and guidance, actively listen
-* Radiate solidarity and acknowledge that folks are being heard
+* 除了提供答案和指导外，更要积极倾听
+* 传递团结并确保每个人的声音被听见
 
-**Finder/Researcher**
+**发现者/研究者**
 
-* Discover questions/resources/people that can provide insights
+* 发现能提供见解的问题/资源/人物
 
-**Connector**
+**连接者**
 
-* Share resources such as articles, books, media, events, and programs. Introduce people to each other
+* 分享文章、书籍、媒体资源、活动及项目等信息。为大家互相引荐
 
-In summary, it is beneficial to acknowledge that mentorship can go beyond traditionally providing guidance. There are various ways to mentor and in doing so, it provides valuable and lasting benefits for the contributors, open source project, and community.
+总之，应当认识到指导者关系可以超越传统的指导模式。多元化的指导方式能为贡献者、开源项目及社区创造持久而宝贵的价值。
 
-## Mentoring new contributors
+## 指导新贡献者
 
-Part of starting, or growing, a successful open source community is designing the community to be sustainable. This means the project needs to be able to reliably, and repeatedly, bring in new people and help them become ongoing contributors. Let's talk about how mentoring new contributors is crucial to enabling a community to be sustainable.
+创建或发展一个成功的开源社区，其关键在于设计具有可持续性的社区。这意味着项目需要能够可靠且持续地吸引新人，并帮助他们成为长期贡献者。让我们探讨如何通过指导新贡献者来确保社区的可持续发展。
 
-If this matches your projects's version of sustainable, then a mentoring program is absolutely crucial. It's at the center of how to take a project from "three people who know and do everything" to make it something many people can contribute to in a self-sustaining fashion.
+如若这与贵项目的可持续发展理念相契合，那么建立指导者计划便至关重要。该计划能将项目从"仅由三人包揽全部事务"的状态，转变为让众多贡献者以自我维系的方式参与其中的核心机制。
 
-Self-sustainability is an important focus for a mentoring program. And don't think anyone goes from "mentoring people" to "a mentoring program" by accident. Here's the argument:
+自我可持续性是指导者计划的重要关注点。不要以为有人会偶然从"指导他人"发展到"建立指导者计划"。以下是论证依据：
 
-1.  If we can agree that lowering the barriers for entry into a project is key to bringing in new people; and
-2.  If we can agree that people coming into a new project benefit from having one or more people they feel permitted and even encouraged to ask questions and learn from; and
-3.  If we can agree new people having lackluster or negative interactions with existing project members is likely to drive the new people away; and
-4.  If we can agree that having a person (mentor, friend) for new people to turn to is a way to prevent the driving-away and especially prevent *silent segfaults* (people just disappearing with no explanation);
-5.  Then we can see that doing mentoring with even a tiny bit of repeatable process support is going to yield better, more satisfying results than an ad-hoc process.
+1. 如果我们能达成共识：降低项目准入门槛是吸引新成员的关键；
+2. 如果我们认同，新加入项目的人员若能获得一位或多位可自由提问并从中学习的引导者，将受益匪浅；
+3. 如果我们能达成共识，新人与现有项目成员之间平淡或负面的互动很可能会让新人望而却步；
+4. 如果我们认同为新成员配备一位指导者（指导者、朋友）能有效防止人才流失，尤其是避免无声的"程序崩溃"（成员毫无征兆地消失）；
+5. 由此可见，即便是采用最基础的流程化支持来进行指导关系培养，其效果和满意度也远胜于临时性的随意安排。
 
-Once you agree that even a lightweight program is better than an ad-hoc process, we're going in the right direction. With this in mind, here are a few absolute must-have elements to include in your mentoring program.
+一旦你认同轻量级方案优于临时流程，我们就走在了正确的道路上。基于这一认知，以下是构建指导者计划时必须包含的几个核心要素。
 
-### Written, iterative process
+### 书面化、迭代式流程
 
-Even if it's lightweight, write it down and give it an initial try.
+即便是轻量级的内容，也要记录下来并初步尝试。
 
-For that first e.g. six months, get a handful of volunteers to try out the program. This gives time to work out the kinks in processes, and to attract more mentors for when you make the program more prominent.
+在最初的六个月里，招募少量志愿者试行该项目。这有助于完善流程中的细节问题，同时为项目扩大规模时吸引更多指导者储备人才。
 
-When you have a process you have tried and tested once or twice, put up a "Mentoring" section on your project website and include links to all the elements of your mentoring program. Make sure people who have even the slightest inkling of getting involved in the project can look ahead and see how they are going to be taken care of as a new contributor.
+当你已经对某个流程进行过一两次实践验证后，请在项目网站上设立"指导者计划"专区，并附上所有指导者计划相关内容的链接。确保那些对参与项目哪怕只有一丝兴趣的人，都能提前了解作为新贡献者将获得怎样的支持。
 
-After each full mentoring period (refer to time commitment, below), conduct a retrospective to learn from the mentoring period and improve the process iteratively.
+在每个完整的指导周期结束后（参考下方的时间投入说明），进行一次回顾总结，从指导过程中汲取经验并持续优化流程。
 
-It's not just promising there will be a map and directions, it is showing the actual map and idea of what the directions will be.
+这不仅仅是承诺会有地图和指引，而是展示实际的地图以及指引将呈现的构想。
 
-### Mentoring guidelines and a code of conduct for your mentors
+### 指导者的指导准则和行为准则
 
-Even people who are very experienced at mentoring benefit from having guidelines for how to mentor and work with mentoring subjects (mentees), mentoring ethics, and so forth.
+即便是经验丰富的指导者，也能从明确的指导准则中获益——这些准则涵盖如何指导学习者、与学习者协作、指导伦理道德等方面。
 
-As a deeper reference when creating a mentoring program, there is [an upstream guide to mentoring itself](https://www.mentorship.guide/). You can use materials from that project to create the elements your mentoring program needs.
+在创建指导者计划时，有一份[关于指导关系度的上游指南](https://www.mentorship.guide/)可作为深度参考。你可以利用该项目的材料来构建你指导者计划所需的各项要素。
 
-Mentors have a special role of trust—the project trusts them to represent the community, and the mentees (mentoring subjects) trust the mentor to lead them down the right path. Mentors need to conduct themselves with an appropriate standard, and there needs to be a way to keep them accountable to that standard and report problems or abuses of conduct by mentors. Such a Code of Conduct needs to be visible up front and prominent for everyone looking at your mentoring program.
+指导者肩负着特殊的信任角色——项目方信任他们能代表社区，而被指导者（学习者）则信任指导者能引领他们走上正确道路。指导者需以恰当的行为标准要求自己，同时必须建立机制确保其遵守该标准，并能够举报指导者的不当行为或滥用职权现象。这份行为准则必须公开醒目地展示，让所有关注你指导者计划的人都能清楚看到。
 
-Not having a Code of Conduct for your mentors, or making it hard to find, is a warning signal to potential new contributors that this project should be avoided.
+若你的项目缺少指导者行为准则，或将其隐藏得难以查找，这等于向潜在的新贡献者发出警示信号：应当避开这个项目。
 
-If your project already has a Code of Conduct, make sure it is sufficient to cover the mentoring program, and make sure all participants are aware of its existence.
+如果项目已有行为准则，请确保其内容足以覆盖指导者计划，并让所有参与者都知晓该准则的存在。
 
-### Mentors make mentors
+### 指导者培养指导者
 
-It's one thing to have a few mentors and to start a mentoring program. But to make it sustainable, the mentoring program needs to doing more than attracting mentors, it needs to be creating new mentors.
+拥有几位指导者并启动一个指导者计划是一回事。但要使其可持续发展，该计划不仅要吸引指导者，还需要培养出新的指导者。
 
-The core idea is to make sure that your mentors are also teaching explicitly and by example "how to be a mentor." Your mentors should be thinking overall and in specific instances, How can I help this person be successful at mentoring other contributors? That way new mentors are made of people who have had positive experiences as mentees and are also encouraged in their own mentoring activities beyond.
+核心理念是确保你的指导者们既通过明确指导也以身作则地传授"如何成为指导者"。指导者们应当从整体和具体案例出发思考：我如何帮助这个人成功指导其他贡献者？这样，新指导者将由那些作为学习者有过积极体验，并在自身指导活动中持续获得激励的人担任。
 
-A new contributor who is mentored well can immediately turn around and offer similar mentoring lessons to other contributors, new and existing alike. Even the same day.
+得到良好指导的新贡献者可以立即转身为其他贡献者（无论新人还是资深成员）提供类似的指导。甚至当天就能实现。
 
-Whenever you are answering a question for a new contributor, how you answer that question is where mentoring comes in. You can answer in such a way that this new contributor feels empowered to share their new-found knowledge. If they take in the lesson of not just what was conveyed but how it was conveyed, they carry this simple lesson of mentoring forward with their own interactions across the project.
+每当为新贡献者解答问题时，你的回应方式正是指导艺术的体现。你可以赋能的方式回答，让这位新贡献者感受到分享新知识的自信。如果他们不仅吸收了传递的内容，更领悟了传递的方式，就能将这种简单的指导之道融入自己在项目中的每一次互动。
 
-### Easy norms for mentees
+### 学习者简单规范
 
-Unlike your mentors, you want the fewest demands and lightest burdens for your mentees.
+与指导者不同，你希望为学习者设置最简要求和最轻负担。
 
-This is information that should be prominent on your mentoring program webpages, and can cover:
+这些信息应突出显示在指导者计划网页上，内容可涵盖：
 
-* In our project, here is how to find and/or approach a mentor.
-* What the work/effort commitment for a mentee is likely to be.
-* Clarify the relationship, e.g., a mentor is specifically not a friendship role; the mentoring may be time-bound (six months, etc.) or otherwise have a box once left means the mentoring has concluded; mentors are volunteers and deserve equal respect; mentors are held to a Code of Conduct that mentees should know and follow as well. And so forth.
-* What does a normal mentor/mentee relationship look like in this specific project.
+* 在我们的项目中，以下是寻找或接触指导者的方法。
+* 学习者可能需要承担的工作/精力投入。
+* 明确关系定位，例如指导者角色明确区别于朋友关系；指导可能设有时限（如六个月等），或存在明确边界，一旦跨越即意味着指导关系终结；指导者均为志愿者，应获得同等尊重；指导者需遵守行为准则，学习者亦应知晓并遵循。诸如此类。
+* 在这个特定项目中，常规的指导者/学习者关系是怎样的。
 
-You are looking for a balance where mentees know what is expected of them, while leaving space for the mentor to help grow that understanding of project norms, from technical to cultural.
+你需要寻求一种平衡：既让学习者清楚预期责任，又为指导者留出空间，帮助学习者从技术规范到文化理念逐步深化对项目准则的理解。
 
-### Named person or group who leads the mentoring program
+### 任命负责指导计划的指定个人或团队
 
-For everything from people being stuck, through to disappearing mentors, to Code of Conduct violations, there needs to be a clear and obvious person or persons to contact.
+无论是遇到困难的人员、失联的指导者，还是违反行为准则的情况，都必须有明确且显而易见的联系人可供联系。
 
-This contact information and its purpose should be prominent on your mentoring program webpages.
+这些联系信息及其用途应在指导计划网页上显著展示。
 
-This group will be one of the rare areas of your project that maintains privacy and a well-understood barrier to transparency for specific topics. Mentors need to be able to talk with other mentors to seek guidance; this group can provide that private space. It can also help with any sensitive matters that arise.
+该小组将成为项目中少数几个对特定问题保持隐私性并设有明确透明度界限的领域。指导者们需要与其他指导者交流以寻求指导；这个小组能提供这样的私密空间。它还能协助处理任何出现的敏感问题。
 
-The governance for this group or role needs to have a clear and short escalation path to the highest levels of project leadership.
+该群体或角色的治理机制需建立清晰简明的升级路径，直通项目最高领导层。
 
-### A reasonable time and effort commitment plan for mentors
+### 为指导关系定合理的时间与精力投入计划
 
-Mentoring relationships can last years or be completed in a weekend. Make a reasonable schedule, perhaps one that is tied to your release schedule or other rhythms such as specific conferences or events you organize around.
+指导者关系可能持续数年，也可能在一个周末内完成。建议制定合理的时间表，可将其与项目发布周期或其他节奏（如特定会议或活动）相挂钩。
 
-For some projects' experience, the six-month commitment seems to work well. It is enough time to get to know each other, talk through how to help as a mentor/be helped as a mentee, and then some months in the middle for the mentees to actually get feedback on real activities.
+根据部分项目经验，六个月周期效果良好。这段时间足以让双方相互了解，探讨指导者如何提供帮助/学习者如何获得指导，中间数月则能让学习者在实际活动中获得真实反馈。
 
-Especially if you are starting out, you want to attract mentors. If there is too long of a time and effort commitment, or if there is not clear closure to a round of mentoring, many potential mentors will not join or even inquire further about your program.
+尤其是当你刚开始时，你需要吸引指导者参与。如果时间精力投入周期过长，或是一轮指导缺乏明确的结束节点，许多潜在指导者就会望而却步，甚至不再进一步询问你的项目详情。。
 
-Making the time and effort commitment nebulous is like sprinkling mentoring repellant on your project. Be clear on what participants are getting into, and your mentoring program can be on a path to success.
+对时间和精力的承诺含糊其辞，就像在项目上撒了驱赶指导者的药剂。明确参与者需要付出什么，你的指导者计划才能走向成功。
 
-## Mentoring new community managers
+## 指导新任社区管理者
 
-This section was informed by a meeting of community managers, talking about their experiences around mentoring and new community managers.
+本节内容源自社区管理者们的一次讨论，他们分享了关于指导及新任社区管理者的经验。
 
-In the early days of open source, projects did not have community managers. Collaboration among developers was a given, and if you were lucky, some people in your community enjoyed tasks other than software development, like tending to infrastructure, organizing events, or leading a marketing team. As open source has matured, there are many more projects created from within large companies, and these things are no longer a given. Increasingly, people inside those companies are designated the Community Manager or Community Architect, and are tasked with ensuring that projects run well as collaborative, multi-vendor efforts.
+在开源的早期，项目并没有社区管理者。开发者之间的协作被视为理所当然，如果你足够幸运，社区中会有一些人喜欢软件开发之外的工作，比如维护基础设施、组织活动或领导营销团队。随着开源的成熟，越来越多项目由大公司内部创立，这些角色不再自然而然地存在。越来越多公司内部人员被指定为社区管理者或社区架构师，他们的职责是确保项目作为多方协作的成果顺利运行。
 
-Much has been written here about what a community manager may or may not do—but if one thing is certain, it is that projects evolve, and the role of community manager evolves with them.
+关于社区管理者可能或不可能做什么，这里已经写了很多——但有一点是确定的：项目会发展，社区管理者的角色也会随之演变。
 
-In the life of a project, a time may come when the original community manager is moving on—to a different job, a different role in the project, or just taking a back seat because of life.
+在项目的生命周期中，可能会出现这样的情况：最初的社区管理者要离开了——可能是换工作、在项目中担任不同角色，或者只是因为生活原因退居二线。
 
-During these transition periods, a new community manager may emerge in the project.
+在这些过渡期间，项目中可能会出现新的社区管理者。
 
-During this period, it can be tempting, as the outgoing community manager, to jump in and start helping the new community person come up to speed. The risk, however, is that you deprive the new person of an opportunity to make the role their own. They will certainly have a different conception of the most important jobs to be done, and a different skill set to bring to bear on the project.
+作为即将离任的社区管理者，在这个时期很容易忍不住插手，开始帮助新人快速入门。然而这样做的风险是，你剥夺了新人让这个角色打上自己烙印的机会。他们肯定会对最重要的工作任务有不同的理解，也会为项目带来不同的技能组合。
 
-As a mentor, it is important to strike a balance between being a resource, sharing relevant history, and saying how things have been done.
+作为指导者，关键在于在提供资源支持、分享相关历史经验与传授既有工作方法之间取得平衡。
 
-What is the best way for more experienced community managers successfully mentor newer community managers? How can you help them to be successful, allowing them the very valuable space to try new things, even if they will potentially fail along the way? How do you balance scoping the role, while allowing them to define the role in the way that they see fit?
+资深社区管理者如何才能最有效地指导新任社区管理者？如何帮助他们获得成功，同时给予宝贵的尝试空间——即使过程中可能会遭遇失败？如何在界定职责范围的同时，允许他们按照自己的理解来定义角色？
 
-### Chart the waters
+### 绘制水域图
 
-One of the things that is most useful when you are coming into a new role is a list of the people with whom you will be working.
+接手新角色时，最有用的准备之一就是获得你将合作的人员名单。
 
-If there are stakeholders who might be able to help you, or people you will work with who have concerns about community goals, this information will enable a new person to come into the role and avoid any pitfalls or faux-pas.
+如果有利益相关者可能帮助你，或者你将与之合作的人对社区目标存有疑虑，这些信息能让新接手者顺利过渡，避免任何陷阱或失礼行为。
 
-As the outgoing community manager, one of the most valuable things you can do for the new community manager is to introduce them to people who you have worked with, to smooth the transition, and ensure that they don't have to spend minutes explaining who they are and why they are turning up in places where they are not expected.
+作为即将离任的社区管理者，你能为新任社区管理者做的最有价值的事情之一，就是引荐他们与你共事过的人。这能平稳过渡，确保他们无需费时解释自己的身份以及为何出现在意料之外的场合。
 
-### Give room to fail
+### 给予失败的空间
 
-A common theme among people who have had bad mentorship experiences is the omnipresent micro-manager. One community manager described an experience where they took on a community role from someone who was stretched too thin. However, everything that they did in the role resulted in email correcting them and telling them how they should have done the task differently. As a result, they drifted away from taking on the role. One question more than any can make a person in a new role feel small and inadequate: "Why didn't you just...?"
+在糟糕指导者经历中，一个普遍现象是无所不在的微观管理者。有位社区管理者分享道，他们从一位分身乏术的成员手中接任社区职务，但每项工作都会收到纠正邮件，被告知应该如何以不同方式完成任务。最终他们逐渐淡出了这个角色。有个问题尤其会让新任职者感到渺小与无能："你为什么不直接...？"
 
-A new person in any role will do things differently than the person who went before. There can be a few reasons for that. Maybe they don't know how to do it the way it was done in the past. There may be reasons which led to you doing things the way you did, but they're unaware of the history. It's also possible that they bring a different skill set and perspective to the role, and their way is just as valid and just as good.
+任何岗位的新人都可能以不同于前任的方式行事。这背后可能有几个原因。也许他们不清楚过去的工作方式；或许某些历史因素促成了你当初的做法，而他们对此并不了解。当然，也可能是他们带来了不同的技能组合与视角——他们的方法同样合理且有效。
 
-Whatever the reason, avoid asking your mentee "why didn't you...?"
+无论出于何种原因，避免询问你的学习者"为什么你不...？"
 
-You have to give the new person in the role the freedom to do things differently. Even if they make mistakes, it is important that they feel ownership over the role.
+你必须给予新上任者以自由，让他们能够以不同的方式行事。即使他们会犯错，让他们对角色产生主人翁意识也至关重要。
 
-As a mentor, one of the hardest things is to watch someone struggle to do something which you have done in the past. That does not mean that you should completely abandon your new community manager. Instead of telling them what to do, ensure that you have good documentation for tasks they will need to do in the role, and point them at the documentation.
+作为指导者，最困难的事情之一就是看着他人苦苦挣扎于你曾经做过的事情。但这并不意味着你应该完全放弃你的新社区管理者。与其告诉他们该做什么，不如确保你为他们将在角色中需要执行的任务准备了良好的文档，并将他们引导至相关文档。
 
-This gives them guided experience, while showing up any places where documentation is lacking and also giving them the freedom to tweak things along the way.
+这既为他们提供了有指导的实践经验，又暴露了文档可能存在的不足之处，同时也给予他们在过程中自由调整的空间。
 
-### Help them with visibility
+### 帮助他们获得可见性
 
-Ironically for the most public-facing people in a project, people in community roles can see their careers suffer for lack of visibility. More than one person mentioned seeing their careers suffer because their management chain was unaware of the work they were doing, or did not understand its value.
+颇具讽刺意味的是，作为项目中最面向公众的群体，从事社区工作的人员却常因工作缺乏可见性而遭遇职业发展困境。不止一人提到，由于管理层不了解他们从事的工作或未能认识其价值，导致职业晋升受阻。
 
-As the experienced community manager, one of the best gifts you can offer a junior community person is being a credible cheerleader for their work.
+作为经验丰富的社区管理者，你能给予新人最宝贵的馈赠之一，就是为他们的工作成果提供可信的背书。
 
-New community managers can get stretched thin, or can focus their efforts on tasks that do not provide a significant impact on the community.
+新任社区管理者往往容易陷入精力分散的困境，或将精力集中在那些对社区发展影响甚微的事务上。
 
-As a mentor, you have an opportunity to help them channel their efforts on aspects of the role that provide value to the sponsoring company, in addition to benefiting the community.
+作为指导者，你既能引导他们将精力投入到对社区有益的工作中，同时也能帮助他们聚焦那些能为赞助企业创造价值的职责领域。
 
-You may also have the ability to communicate their successes in a way that will help their management chain understand the value that they bring to the project.
+你可能还需要具备一种能力，即通过恰当的方式传达他们的成就，帮助管理层理解他们为项目带来的价值。
 
-## Get started
+## 上手指南
 
-Guiding a new community manager through their first few months on the job can be a very rewarding experience. As the experienced person, you can help them be effective and successful, give them confidence in their ability to execute in a new role, and increase the amount of community knowledge in your company and in the industry.
+指导一位新任社区管理者度过最初几个月的工作期，可能会带来非常丰厚的回报。作为经验丰富的前辈，你能帮助他们高效且成功地开展工作，增强他们对新角色执行能力的信心，同时提升公司和行业内社区知识的储备总量。
 
-What would the first 30 days of a mentorship program for a new community manager look like? You might try to:
+一个新晋社区管理者的指导者计划前 30 天会是什么样子？你可能需要尝试：
 
-* Maintain a weekly one-on-one call so that they can ask you for advice and help as they feel the need.
+* 保持每周一次的一对一通话，以便他们在需要时能随时向你寻求建议和帮助。
 
-* Organize introduction meetings with five stakeholders across different functional areas of the project, to help them chart the waters of the project.
+* 组织与项目中五个不同职能领域的利益相关者召开介绍会议，帮助他们熟悉项目情况。
 
-* Identify three recurring tasks they will take over, and arm them with documentation on how you managed the activity.
+* 找出他们将接手的三个重复性任务，并提供你管理这些活动的相关文档。
 
-* Help them identify two high-value, high-visibility projects to deliver in their first month, and communicate their work when they are delivered.
+* 帮助他们确定两项高价值、高曝光度的项目，在其入职第一个月内完成交付，并在项目完成时及时传达工作成果。
 
-Beyond the first month, you should be fading increasingly into the shadows, moving your one-on-one calls to every two weeks, and providing guidance on-demand only.
+第一个月之后，你应该逐渐退居幕后，将一对一沟通调整为每两周一次，并仅在需要时提供指导。
 
-If you have done your job well, your mentee will be well on their way to making the job their own.
+如果你工作到位，你的指导对象将能顺利接手并独当一面。
 
-## Conclusion
+## 结论
 
-This chapter discussed what mentoring is, why it is vitally important to your open source project, and how it helps you and others. Then it described why and how to make a mentoring program for your community. Finally, the chapter concludes with why and how to mentor a new community manager who is taking a role you already are familiar with.
+本章探讨了指导的含义、它对开源项目至关重要的原因，以及它如何惠及你与他人。接着阐述了为何及如何为社区制定指导计划。最后，本章以指导新任社区管理者为例作结——当你对相关职责已驾轻就熟时，该如何引导新人胜任角色。

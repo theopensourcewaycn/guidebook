@@ -4,90 +4,99 @@ author: Dave Neary <dneary@redhat.com>
 updated: 2025-05-21T00:00:00.000Z
 ---
 
-# Setting goals
-Anyone advising open source communities on project goals has likely found themselves asking project leaders the same basic questions. This chapter outlines seven of the most common questions communities can ask themselves as they work to articulate a project's goal:
+# 设定目标
 
-1. What is the project?
-1. Who are the project's users?
-1. How do you engage with your user base today?
-1. What alternatives to your project already exist?
-1. Can you work closely with adjacent projects?
-1. What are your goals for the project?
-1. Who are your key stakeholders?
+任何为开源社区提供项目目标建议的人，可能会发现自己反复向项目负责人提出相同的基础问题。本章概述了社区在明确项目目标时可自我提问的七个最常见问题：
 
-### What is the project?
-This should be a very basic question. But its answers typically aren't. Too often, open source projects describe themselves in terminology unfamiliar to many potential users, or they focus on _how_ they do what they do, rather than on the _problems_ they can solve. When formulating potential answers to this question, focus them on _how the project helps its users_. What problem does it solve? How would you describe your project to a potential user of the project in the most succinct terms possible?
+1. 项目是什么？
+1. 项目的用户群体是谁？
+1. 目前如何与用户群体互动？
+1. 你的项目存在什么替代方案？
+1. 你能与相关项目紧密合作吗？
+1. 你对这个项目的目标是什么？
+1. 谁是你的关键利益相关者？
 
-For example, let's imagine we're asking an Istio developer what Istio is. The most basic answer is "it's a service mesh." One might argue, however, that most container application developers don't entirely understand what a "service mesh" is. So the shorthand description—"It's a service mesh!"—doesn't help a novice understand if or how to use it. A better explanation might involve describing Istio in terms of an application data plane and control plane (if I am talking to someone from the networking world), or perhaps a concept of traffic cops assigned to components of an application (if I am explaining the project to someone unfamiliar with the concept of a service mesh).
+## 项目是什么？
 
-Ask as many follow-up questions as your community needs in order to develop a simple, straightforward understanding of project and what it _can do_.
+这似乎是个非常基础的问题。但它的答案往往并不简单。开源项目常常用许多潜在用户不熟悉的术语来描述自己，或者专注于它们于_如何_实现功能，而非它们能解决什么_问题_。思考这个问题的可能答案时，要聚焦于_项目如何帮助其用户_。它能解决什么痛点？用最简练的语言，你会如何向潜在用户描述你的项目？
 
-### Who are the project's users?
-Many open source projects do not clearly understand who uses their projects and what those users do with the project's tools. Consider using the concept of "personas" to characterize archetypal groups of key users, and be sure to think in terms of "jobs to be done."
+举例来说，假设我们询问 Istio 开发者什么是 Istio。最基础的答案是"这是个服务网格"。但有人可能会反驳，大多数容器应用开发者并不完全理解"服务网格"的含义。因此这个简略描述——"这是个服务网格！"——并不能帮助新手判断是否需要使用或如何使用它。更好的解释可能是：用应用数据平面和控制平面来描述 Istio（如果对方来自网络领域），或是用"分配给应用组件的交通警察"这样的概念（如果向不了解服务网格的人解释该项目）。
 
-You might categorize a project's potential or current users with a number of criteria:
+根据社区需求提出尽可能多的后续问题，以形成对项目及其功能的简单直接理解。
 
-* Is the project more useful to an individual or to an organization?
-* Is your project particularly useful in a specific industry vertical or business domain?
-* What size organization will find your project most useful? Are you targeting sysadmins in large enterprises, or the small and medium business space?
-* What are the job titles of the people who will be downloading, installing and using your project? Are they the same people? Or are the users different from the project administrators?
-* What is the relationship between the people who download and install open source projects and the people who evaluate and purchase commercial products?
+## 项目的用户群体是谁？
 
-Answers to these questions will influence the priorities your community sets for structuring the project, promoting it, and even the degree of engineering effort you'll invest into certain features. For example, if your project runs in a datacenter or on a cluster of servers, your audience will typically be a business audience—people running IT professionally (or as a volunteer in a university). For a mobile application or a web development framework, the majority of your audience will be running your project on their personal computer, workstation, or cellphone. Each of these groups has different resource prerequisites, and the problems motivating their use of the project and its tools are different.
+许多开源项目并不清楚谁在使用他们的项目，以及这些用户如何利用项目工具。建议采用"用户画像"概念来刻画关键用户的典型群体，并确保从"待完成的任务"角度进行思考。
 
-Moreover, anyone interested in developing an open source _product_ strategy should think additionally about the critical relationship between project _users_ and product _buyers_. A company's path to adopting open source doesn't usually follow a straight line from use of an upstream open source project to conversion to an enterprise open source product. Open source adoption tends to be "grassroots," bottom-up; enterprise open source products are often evaluated and purchased top-down. Those adopting an open source project inside a company can be valuable influencers when consulting on purchasing decisions—if they're connected to the purchasing process, or if the person responsible for purchasing is aware that the company is already using the product.
+你可以通过多项标准对项目潜在或现有用户进行分类：
 
-### How do you engage with your user base today?
-Once people are turning up to your project, engagement is key to growing the project's user base and community. You can engage with users in multiple ways, each requiring different degrees of effort and resulting in differing outcomes.
+* 该项目对个人更有用，还是对组织更有用？
+* 你的项目是否在特定行业领域或商业场景中特别有用？
+* 什么规模的组织会觉得你的项目最有用？你的目标用户是大型企业的系统管理员，还是中小型企业？
+* 哪些人会下载、安装并使用你的项目？他们的职位头衔是什么？他们是同一批人吗？还是说用户与项目管理员不同？
+* 开源项目的下载安装者与商业产品的评估采购者之间存在怎样的关系？
 
-Figuring out where you should focus your efforts can be difficult. So it's useful to take stock of all of the ways you're currently engaging with project users in order to identify blind spots and opportunities for improvement. Consider characterizing engagement techniques as "low-," "medium-," and "high-touch" (terminology borrowed from sales). **Low-touch** methods represent very little interaction between potential users and your community, while **high-touch** methods represent one-to-one or one-to-few efforts.
+这些问题的答案将影响社区在项目架构、推广乃至特定功能开发投入力度上的优先级排序。例如，若项目运行于数据中心或服务器集群，目标用户通常是企业用户——专业从事 IT 运维的人员（或大学志愿者）。而对于移动应用或网页开发框架，多数用户会在个人电脑、工作站或手机上运行项目。不同用户群体对资源的需求各异，驱动他们使用项目及工具的痛点也各不相同。
 
-Here are some examples of the types of things you can categorize this way:
+此外，任何有意制定开源_产品_战略的人都应进一步思考项目_用户_和产品_买家_之间的关键关系。企业采用开源技术通常不会沿着"直接使用上游开源项目→转向企业级开源产品"的直线路径发展。开源采用往往是"草根式"自下而上推进；而企业级开源产品的评估采购则多呈现自上而下的特征。当企业内部采用某开源项目的人员能参与采购决策咨询——无论是因其与采购流程有直接联系，还是因为采购负责人知晓公司已在用该产品——这些人都可能成为极具价值的影响者。
 
-* **Low touch**: Website, documentation, online training, newsletters, podcasts, blogs
-* **Medium touch**: Mailing list, bug tracker, community forum, conference presentation, webinars, user groups
-* **High touch**: Phone calls, one-on-one or one-to-few training, conversations at conferences, community meetings
+## 目前如何与用户群体互动？
 
-Ideally, your project will have a healthy mix of each of these. Working on your website, documentation, and promotional materials allows new users to act autonomously and without much help from a senior community member. Your bug tracker, mailing list, and forum provide opportunities for community members to engage with your community, ask questions, and provide feedback. This kind of activity provides an opportunity to learn more about how people are using your project. Finally, high-effort activities like training, conference booth attendance and follow-up, and in-person conversations can be extremely valuable on a one-on-one basis—but those techniques do not scale well.
+当人们开始关注你的项目时，有效互动是扩大项目用户基础和社区规模的关键。你可以通过多种方式与用户建立联系，每种方式所需投入的精力不同，产生的效果也各异。
 
-The "sales funnel" model may be useful to communities thinking about engagement activities and project goals.
+确定应该将精力集中在何处可能很困难。因此，盘点当前与项目用户互动的所有方式非常有用，这有助于发现盲点和改进机会。不妨将互动方式划分为"低接触"、"中接触"和"高接触"（该术语借鉴自销售领域）**低接触**方式意味着潜在用户与社区之间极少互动，而**高接触**则代表一对一的深度交流或小范围互动。
 
-Low-touch activities are good for raising awareness of your project and getting people to look at it for the first time. Ensuring your web site and other materials clearly communicate what the project does, how it can help users, and how contributors can try it out and get started quickly is paramount. Medium-touch activities are great for creating a "center of gravity" around your project—not only making communication with users possible but also enabling those users to help each other (hopefully generating a network effect). And high-touch activities are great for building relationships with key community users, gathering community case studies, and helping larger groups be productive with and become advocates for your project.
+以下是可以按此分类的典型方式示例：
 
-A key consideration for groups crafting potential engagement pathways is _how someone unfamiliar with the project might start using it_ and, over time, gain seniority in the project to the point of becoming a core contributor.
+* **低接触**：网站、文档、在线培训、新闻通讯、播客、博客
+* **中接触**：邮件列表、缺陷追踪系统、社区论坛、会议演讲、网络研讨会、用户群组
+* **高接触**：电话沟通、一对一或小规模培训、会议交流、社区聚会
 
-### What alternatives to your project already exist?
-You can tell a lot about a project by assessing who that project competes with, or what other projects people use to accomplish the same (or similar) tasks. Consider asking:
+理想情况下，你的项目应均衡融合这些要素。完善网站、文档和宣传材料能让新用户自主操作，无需资深社区成员过多协助。通过缺陷追踪系统、邮件列表和论坛，社区成员可参与互动、提问并提供反馈，这类活动有助于深入了解用户如何使用你的项目。最后，培训课程、会议展台值守与跟进、面对面交流等高投入活动在一对一场景中极具价值——但这些方式的扩展性较为有限。
 
-* If your project doesn't have any competition, why is that the case?
-* Is it in an area of emerging technology?
-* Are people using similar projects to do work they could accomplish with your project—just in a different way?
-* If other projects do the same job, but have no clear leader, how are they approaching the problem differently than you are?
-* If your project has open source competitors, is joining them (rather than trying to compete with them)an option? If not, why not?
-* If a competitor is an incumbent in the market, what can you tell about them and their customers?
-* Who are your competitor's customers? What do they have in common?
-* What are people's motivations for using a competing project?
+"销售漏斗"模型或许能为思考参与活动和项目目标的社区提供参考。
 
-Analyzing your competition can help you begin answering a number of key questions early in a project's goal-setting process, and answering these questions will help when your community begins prioritizing features and deciding how to contact potential users. Perhaps, for example, you can piggy-back on existing gatherings between people already interested in a competitor's technology and spread your message there. Or if you're an upstart disruptor, your goals and messaging may be anchored to your competition: "cheaper than," "an open source alternative to," "simpler and faster than." If you're in a new market and your project is involved in a "land grab," you'll need to focus on spreading your message fast—which means a higher marketing budget or more aggressive community plan, and more focus on defining the problems you solve for potential users.
+低接触活动非常适合提升项目知名度并吸引初次关注者。确保网站和其他材料清晰传达项目功能、如何帮助用户以及贡献者如何快速试用和上手至关重要。中接触活动能有效为项目打造"引力中心"——不仅实现与用户的沟通，还能促使用户间互助（有望产生网络效应）。而高接触活动则有利于与核心社区用户建立关系、收集社区案例研究，并帮助大型群体高效利用项目资源，最终成为项目倡导者。
 
-### Can you work closely with adjacent projects?
-If your software is frequently consumed _with_ or is particularly useful to users _of_ another project, then you may see opportunities for growing awareness of your project in its early stages and better understanding your users' needs. For example, Ceph can manage storage for OpenStack or Kubernetes; for Ceph, then, OpenStack and Kubernetes are adjacent communities. Catering to adjacent projects to find an audience may affect your technology roadmap, the events you target, the effort you put into specific integration projects, and so on. An adjacent project provides you with a potentially friendly audience who have the same problems your technology solves, so you can engage in some joint market research or UX testing, or coordinate joint events to meet and engage with potential users. This is also connected to understanding your competition; the communities important to them will also be important to you.
+团队在规划潜在参与路径时，一个关键考量是：_如何让不熟悉项目的人开始使用它_，并随着时间的推移逐步提升在项目中的地位，最终成为核心贡献者。
 
-### What are your goals for the project?
-The existential question for every open source project is: "Why does this project exist?" Specifically, for a project released by or driven by a vendor, that question becomes: "What do we want to achieve by investing in this project?"
+## 你的项目存在什么替代方案？
 
-Surprisingly, many projects have difficulty answering this question.
+通过评估项目的竞争对手或人们完成相同（或类似）任务时使用的其他项目，你能获得许多洞见。不妨思考以下问题：
 
-As a vendor, ask: Why did you open source this piece of software in the first place? Are you trying to grow a market, promote a standard, disrupt a competitor, or increase demand for another product in your portfolio? Each of these requires a different message and different set of investments.
+* 如果你的项目没有任何竞争对手，原因是什么？
+* 是否属于新兴技术领域？
+* 人们是否正在使用类似项目来完成本可通过你的项目实现的工作——只是方式不同？
+* 如果其他项目做着相同的工作但没有明确的领导者，他们处理问题的方式与你有何不同？
+* 如果你的项目存在开源竞争对手，加入他们（而非与之竞争）是否可行？如果不可行，原因何在？
+* 如果竞争对手已在市场中占据主导地位，你能了解到他们及其客户的哪些信息？
+* 你的竞争对手的客户是谁？他们有什么共同点？
+* 人们使用竞争项目的动机是什么？
 
-Understanding the reasons for open sourcing your project will help you clarify the investment required to achieve your goal remain aligned across engineering, product, and sales teams down the road. In the absence of a strong common vision for the project's goals, you may find yourself under-funding the open source project, in part because of perceptions that it competes with products you build on top of it. A good open source product strategy provides clarity on which markets you are targeting, the market segmentation between product and project, and the role that the project plays in your entire business strategy and product portfolio. Clarifying these things will pay dividends in future discussions concerning the technical roadmap, or the relative prioritization of community promotion versus sales lead generation.
+分析竞争对手能帮助你在项目目标设定初期回答若干关键问题，而解答这些问题将为社区后续确定功能优先级和制定潜在用户触达策略提供依据。例如，你可以借力竞争对手技术爱好者现有的聚会活动，在这些场合传播你的理念。若你属于颠覆式创新者，你的目标与宣传话术可能需要围绕竞品展开："比 XX 更便宜"、"XX 的开源替代方案"、"比 XX 更简单快速"。若身处新兴市场且项目正处于"跑马圈地"阶段，你就需要快速扩大声量——这意味着更高的营销预算或更激进的社区计划，同时要更聚焦于阐明项目能为潜在用户解决哪些痛点。
 
-### Who are your key stakeholders?
-A small number of people who will care deeply about your project, and can represent a group of people or interests which affect the project. These people are your stakeholders.
+## 你能与相关项目紧密合作吗？
 
-In the case of vendor-sponsored projects, this group typically includes an engineering lead, product management, product marketing, and a representative of the field (field engineer, sales). You may also want to include in this group someone from your content services or support organizations and someone from product security. This is the group of people you will brief to prepare a stakeholder review, and you should gather them once every six to 12 months to check in on the state of the project and ensure alignment on the goals and the required investments to achieve those goals.
+如果你的软件常被其他项目的用户使用或对其特别有用，那么在项目初期你可能会发现提升项目知名度、更深入了解用户需求的机遇。例如，Ceph 能为 OpenStack 或 Kubernetes 提供存储管理；对 Ceph 而言，OpenStack 和 Kubernetes 就是相邻社区。通过服务相邻项目来寻找受众，可能会影响你的技术路线规划、目标活动选择，以及在特定集成项目上的投入力度等。相邻项目为你提供了潜在友好受众，他们正面临你的技术能解决的问题，因此你可以开展联合市场调研或用户体验测试，或协调联合活动来接触潜在用户。这与理解竞争格局也息息相关——对他们重要的社区，对你同样重要。
 
-## Reviewing the results
-Answers to these seven questions can furnish a single-page document that forms a baseline, a frame of reference, for any project planning conversations. After running this exercise, your team or community should share some understanding of the problems your project solves, and for whom. You will be able to communicate the value of your project in language that makes sense in your potential users' frame of reference. You will understand how your project fits into a market, and what you want to achieve with it there. Finally, you will have identified the key group inside your organization who should be aligned on your current status and future strategy.
+## 你对项目的目标是什么？
 
-Combining the answers to these seven questions, next steps for your project should become obvious to all involved—and your community will be ready to help your project succeed in achieving its goals.
+每个开源项目存在的根本问题是：“这个项目为何存在？”具体而言，对于由供应商发布或推动的项目，这个问题则变为：“我们希望通过投资这个项目达成什么目标？”
+
+令人惊讶的是，许多项目都难以回答这个问题。
+
+作为供应商，请问：你们最初为何要将这款软件开源？是为了开拓市场、推广标准、打击竞争对手，还是为了提升产品组合中其他产品的需求？每种目标都需要传递不同的信息并采取不同的投入策略。
+
+理解开源项目的原因将有助于明确实现目标所需的投入，确保项目、产品和销售团队在未来保持目标一致。若缺乏对项目目标的共同愿景，可能会导致开源项目资金不足，部分原因在于人们认为它与基于该项目构建的产品存在竞争。优秀的开源产品策略能清晰界定目标市场、产品与项目间的市场划分，以及项目在整个商业战略和产品组合中的角色。明确这些要点将在未来的技术路线图讨论中带来回报，或在社区推广与销售线索生成的优先级权衡中发挥积极作用。
+
+## 谁是你的关键利益相关者？
+
+会对你项目极为关注的小部分人，他们能代表影响该项目的群体或利益方。这些人就是你的利益相关者。
+
+对于供应商赞助的项目，这类人群通常包括项目负责人、产品经理、产品市场人员以及一线代表（现场工程师、销售人员）。你可能还需要将内容服务或支持团队的人员以及产品安全部门的代表纳入其中。这个群体就是你为利益相关方评审会需要汇报的对象，应当每 6 到 12 个月召集他们一次，同步项目进展状态，确保各方对目标及实现这些目标所需投入达成共识。
+
+## 审视成果
+
+回答这七个问题可以形成一份单页文档，为任何项目规划讨论提供基准和参考框架。完成这项练习后，你的团队或社区应对项目解决的问题及目标用户达成共识。你将能够用潜在用户熟悉的语言传达项目价值，理解项目在市场中的定位及预期目标，并明确组织内部哪些关键群体需要与项目现状及未来战略保持一致。
+
+综合这七个问题的答案，项目的后续方向对所有参与者而言将变得清晰明了——而你的社区也将准备好助力项目实现目标。

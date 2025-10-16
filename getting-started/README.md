@@ -1,23 +1,23 @@
 ---
-description: 
+description: 开源实践入门指南
 author: Karsten Wade <kwade@redhat.com>
 updated: 2020-12-04
 ---
 
-# Getting Started
+# 入门指南
 
-Wherever you are in your journey as an open source practitioner, it is always useful to understand and pay attention to the basics. These basics include some of the types of _common knowledge_ that "everyone knows in the community", yet no one is sure how they learned it, and it's not always written down. The chapters in this section are good places to start for practioners of all levels.
+无论你作为开源实践者处于哪个阶段，理解和关注基础知识总是有益的。这些基础包括某些"社区内人尽皆知"的_常识_类型，但没人确定它们是如何被习得的，而且往往没有书面记载。本部分的章节对所有水平的实践者来说都是很好的入门起点。
 
-This section contains chapters that:
+本节包含的章节：
 
-* Introduce some core concepts around open source communities.
-* Outline steps you might take in starting an open source project.
-* Define key terms and words you will encounter throughout this guidebook.
+* 介绍围绕开源社区的一些核心概念。
+* 概述你在启动开源项目时可能采取的步骤。
+* 定义本指南中将会遇到的关键术语和词汇。
 
-This section is useful for you if:
+本节内容在以下情况特别有用：
 
-* You are unsure where to start.
-* You want to read an overview of the steps of starting a new open source project.
-* You want to see what steps to take for growing strong community.
-* You are looking for the definition or more meaning about a term or word you encounter in this guidebook or in the open source world in general.
-* You like to read things from the beginning.
+* 你不知从何入手。
+* 你想了解启动新开源项目的步骤概述。
+* 你想了解建设强大社区需要采取什么步骤。
+* 你想查看本指南或开源领域中遇到的术语或词汇的定义和更多含义。
+* 你喜欢从头开始阅读。

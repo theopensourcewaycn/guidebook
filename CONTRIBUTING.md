@@ -1,81 +1,83 @@
-# Contributing to The Open Source Way
+# 为《开源之道》做贡献
 
-We aim to make contributing to The Open Source Way a pleasant and enriching experience for all project participants, and we welcome contributions of all kinds.
+我们旨在让所有项目参与者的贡献过程既愉快又充实，欢迎各种形式的贡献。
 
-## Getting acclimated
-This project uses a GitHub-based workflow to manage Markdown-formatted files that combine to form a **guidebook**. Each **chapter** of the guidebook is a Markdown file. Chapter files are organized into **sections** denoted by folders. Review [the composition](https://github.com/theopensourceway/guidebook) of the Open Source Way guidebook to determine where you'd like to make your first contribution.
+## 马上开始
+本项目使用基于 GitHub 的工作流来管理 Markdown 格式的文件，这些文件组合在一起形成一本 **手册**。手册的每个 **章节** 都是一个 Markdown 文件。章节文件按 **章节**（由文件夹表示）组织。请查看《开源之道》指南手册的[组成结构](https://github.com/theopensourcewaycn/guidebook)，以确定你想要进行的首次贡献位置。
 
-Additionally, you can review outstanding [issues](https://github.com/theopensourceway/guidebook/issues) and help us address them. You can also brainstorm ideas with the project maintainers and community members by initiating a [discussion](https://github.com/theopensourceway/guidebook/discussions).
+此外，你可以查看未解决的[问题](https://github.com/theopensourcewaycn/guidebook/issues)，帮助我们处理它们。你也可以通过发起[讨论](https://github.com/theopensourcewaycn/guidebook/discussions)与项目维护者和社区成员一起头脑风暴。
 
-For a more comprehensive look at the project, read [the wiki](https://github.com/theopensourceway/the-project/wiki).
+想更全面了解项目，请阅读[维基页面](https://github.com/theopensourcewaycn/the-project/wiki)。
 
-## Community architecture
-We've defined a set of roles and responsibilities around an initial, core group of contributors most familiar with the goals of the project. Beyond that, we'll evolve with the participation of new contributors and update our contribution guidelines accordingly.
+## 社区架构
+我们为一批最熟悉项目目标的核心贡献者定义了一套角色和职责。随后，随着新贡献者的加入，我们会不断演进并相应更新贡献指南。
 
-At the moment:
+目前：
 
-* Project Lead Karsten Wade (@quaid) is responsible for providing vision and leadership to evolve from his original 1.0 work
-* Lead Editor Brian Proffitt (@bproffitt) is responsible for leading a team of editors to work with multiple authors and content sources toward a cohesive, highly readable guide
-* Lead Writer Shaun McCance (@shaunix) is responsible for working directly with writers to shape their content into the level, style, and narrative of the overall guide
-* Editing team (Brian Proffitt, Karsten Wade, Shaun McCance) is responsible for polishing and integrating submissions to ensure consistency of quality and voice
-* Writing team (Bryan Behrenshausen (@semioticrobotic), Brian Proffitt, Karsten Wade, Shaun McCance) is responsible for composing, collecting, and otherwise curating materials included in the guidebook.
+* 项目负责人 Karsten Wade（@quaid）负责提供愿景并在其原始 1.0 工作的基础指南上进行演进
+* 首席编辑 Brian Proffitt（@bproffitt）负责领导编辑团队，与多位作者和内容来源合作，打造连贯、易读的指南
+* 首席撰稿人 Shaun McCance（@shaunix）负责直接与撰稿人合作，将其内容塑造成整体指南的层次、风格和叙事
+* 编辑团队（Brian Proffitt、Karsten Wade、Shaun McCance）负责润色并整合提交内容，确保质量和语调的一致性
+* 撰稿团队（Bryan Behrenshausen（@semioticrobotic）、Brian Proffitt、Karsten Wade、Shaun McCance）负责撰写、收集以及策划指南手册中包含的材料
 
-## Contribution process
+## 贡献流程
 
-### 1. Review outstanding issues
+### 1. 查看未解决的问题
 
-- Check [the list of outstanding issues](https://github.com/theopensourceway/guidebook/issues) to identify something the project needs and you'd like to offer.
+- 检查[未解决的问题列表](https://github.com/theopensourcewaycn/guidebook/issues)，找出项目需要且你愿意提供帮助的事项。
 
-### 2. Raise your hand
+### 2. 报名参与
 
-- Once you've found an issue you can help us address, join the conversation about it. You can do this by responding to a pre-existing [issue](https://github.com/theopensourceway/guidebook/issues), creating a new one, or starting a more general [discussion](https://github.com/theopensourceway/guidebook/discussions). Project maintainers and guidebook editors will want to know who's volunteering to add new material or assist with.
+- 找到可帮助解决的问题后，加入讨论。你可以通过回复已有的[问题](https://github.com/theopensourcewaycn/guidebook/issues)、创建新问题，或发起更广泛的[讨论](https://github.com/theopensourcewaycn/guidebook/discussions)。项目维护者和指南编辑会想了解谁自愿添加新内容或提供协助。
 
-### 3. Start working
+### 3. 开始工作
 
-We classify issues into three general types:
+我们将问题分为三类：
 
-- `Bug`: Something is broken and needs to be fixed (a link does work, a word is misspelled, a footnote points to the wrong place, etc.)
-- `Feature`: Something is missing that should be added (an existing chapter could be expanded, a new chapter could be added, etc.)
-- `Task`: Something that isn't necessarily *broken* or *missing* but nevertheless needs to be *done* (chapters could be re-ordered, a new version of the guide should ship, etc.)
+- `Bug`（错误）：某些内容出现错误，需要修复（链接失效、拼写错误、脚注指向错误等）。
+- `Feature`（特性）：缺少应当添加的内容（可扩展已有章节、增加新章节等）。
+- `Task`（任务）：虽不一定*错误*或*缺失*，但仍需*完成*的工作（章节重新排序、发布新版本指南等）。
 
-#### Providing a bugfix
+#### 提交错误修复
 
-If you've selected an issue marked `Bug`, you can start contributing immediately following these steps:
+若你选择了标记为 `错误` 的问题，可按以下步骤立即开始贡献：
 
-- Comment on [the issue](https://github.com/theopensourceway/guidebook/issues) you've selected, expressing your interest and indicating what you're thinking of contributing. 
-- Alternatively, simply dive right in a fix the issue by opening a pull request! Link that pull request to an open issue so maintainers know what your work is meant to address.
-- Refer to the project [style guide](https://github.com/theopensourceway/the-project/wiki/Style-Guide) (updated regularly) for guidance on how to format your fixes.
+- 在你选中的[问题](https://github.com/theopensourcewaycn/guidebook/issues)下评论，表达兴趣并说明你计划的贡献内容。
+- 或者直接着手修复，提交 Pull Request！请将其关联到相应的问题，以便维护者了解你的工作目标。
+- 参考项目[风格指南](https://github.com/theopensourcewaycn/the-project/wiki/Style-Guide)（会定期更新），获取格式化修复的指引。
 
-#### Adding a feature
+#### 添加 Feature
 
-If you've selected an issue marked `Feature`, you can start contributing immediately following these steps:
+若你选择了标记为 `Feature` 的问题，可按以下步骤立即开始贡献：
 
-- If you're prosing a new chapter, open [an issue](https://github.com/theopensourceway/guidebook/issues) to describe what you'd like to add to the guidebook. If you're ready, sketch a brief but comprehensive outline for it. You can do this directly in the issue itself. If you need more guidance on what should be in the outline, just ask! Don't let a blank page (or file) keep you from getting started.
-- If you're proposing material for a pre-existing chapter, fork the project repository and add material on a topic of your choice to that chapter. Then submit a pull request outlining your changes so an editor can review what you've added and work with you to polish it.
-- Refer to the project [style guide](https://github.com/theopensourceway/the-project/wiki/Style-Guide) (updated regularly) for pointers—but don't let small details slow you down. An editor will help you polish your work before it's finished.
+- 若你打算新建章节，请先在[问题](https://github.com/theopensourcewaycn/guidebook/issues)中描述你想要添加的内容，并提供一个简要但完整的大纲。若需要大纲写作指引，随时提问！不要让空白页面阻碍你起步。
+- 若你要为已有章节补充材料，先 fork 项目仓库，在相应章节中添加你选择的主题内容。随后提交 Pull Request，说明你的更改，编辑者会审阅并协助润色。
+- 参考项目[风格指南](https://github.com/theopensourcewaycn/the-project/wiki/Style-Guide)，但不要因细节拖慢进度。编辑者会在最终提交前帮助你完善。
 
-#### Completing a task
+#### 完成 Task
 
-If you've selected an issue marked `Task`, you can start contributing immediately by following these steps:
+若你选择了标记为 `Task` 的问题，可按以下步骤立即开始贡献：
 
-- Comment on [the issue](https://github.com/theopensourceway/guidebook/issues) you've selected, indicating your willingness to pitch in.
-- Describe your proposed approach to completing the task. Occasionally, issues of this type will contain *problems* but not *solutions*. Help us identify the solution!
+- 在你选中的[问题](https://github.com/theopensourcewaycn/guidebook/issues)下评论，表明你愿意参与。
+- 描述你计划的完成方案。有时此类问题只列出*问题*而未给出*解决方案*，请帮助我们找出答案！
 
-## Suggesting a change via a GitHub pull request
+## 通过 GitHub Pull Request 提出更改
 
-You are welcome to make pull requests against this repo from your own fork. Here is how we recommend you manage this:
+欢迎你从自己的 fork 对本仓库提交 Pull Request。以下是我们推荐的操作流程：
 
-### Forking and cloning the upstream repo
+### Fork 并克隆上游仓库
 
-1. Go to https://github.com/theopensourceway/guidebook and click on the '''Fork''' button, and make a fork in your own repo.
-Tip: modify the name to make it clear it is your fork and not the upstream original, e.g. `yourname-fork-reponame`
-1. Go to your personal fork at https://github.com/you/forkname, click '''Code''' > Local > SSH, and click the copy icon to the right of the URL.
-1. Open your command line session and clone your repo locally:
+### 分叉和克隆上游仓库
+
+1. 访问 https://github.com/theopensourceway/guidebook 并点击 '''Fork''' 按钮，在你的仓库中创建一个分叉。
+提示：修改名称以清楚表明这是你的分叉，而不是上游原始仓库，例如 `yourname-fork-reponame`
+2. 访问你的个人分叉 https://github.com/you/forkname，点击 '''Code''' > Local > SSH，然后点击 URL 右侧的复制图标。
+3. 打开命令行会话并在本地克隆你的仓库：
    - `git clone git@github.com:[you]/[you]-tosw-guidebook.git`
    - `cd [you]-tosw-guidebook`
-1. Add the upstream repo so your clone can sync with upstream:
+4. 添加上游仓库，以便你的克隆可以与上游同步：
    - `git remote add upstream git@github.com:theopensourceway/guidebook.git`
-1. Check your configuration to be like this:
+5. 检查你的配置，应该如下所示：
 ```
 git remote -vv
 origin	git@github.com:[you]/[you]-tosw-guidebook.git (fetch)
@@ -83,7 +85,7 @@ origin	git@github.com:[you]/[you]-tosw-guidebook.git (push)
 upstream	git@github.com:theopensourceway/guidebook.git (fetch)
 upstream	git@github.com:theopensourceway/guidebook.git (push)
 ```
-1. Confirm that you can sync with upstream:
+6. 确认你可以与上游同步：
 ```
 git fetch origin
 git rebase origin/main
@@ -92,14 +94,13 @@ git branch
 * main
 ```
 
+### 进行更改并将其作为拉取请求（PR）推送到 GitHub
 
-### Making changes and pushing them to GitHub as a pull request (PR)
+当你想要进行更改时，你将在你的克隆中进行更改，并将更改提交到上游作为拉取请求（PR）。
 
-When you want to make a change, you will make the change in your clone and submit the change to the upstream as a pull request (PR).
-
-We recommend you also work in a branch within your clone.
-This is necessary if you want to work on more than one change intended for different PRs.
-Also, you can more easily discern which change you are working on by checking which branch you are in.
+我们建议你在克隆中也在一个分支上工作。
+如果你想在不同的 PR 上进行多个更改，这是必要的。
+此外，你可以更轻松地通过检查你所在的分支来辨别你正在进行的更改。
 
 ```
 git checkout -b [branchname]  ## e.g. you-copyedits-01
@@ -108,11 +109,11 @@ git branch
 * you-copyedits-01
 ```
 
-This confirms you are working in the branch `you-copyedits-01` and are ready for 01 or more copyedit submissions.
+这确认你正在 `you-copyedits-01` 分支上工作，并准备提交 01 个或多个文案编辑。
 
-### Creating the PR
+### 创建 PR
 
-When you are ready to push your changes from local to GitHub, you need to commit them and configure the push:
+当你准备将本地更改推送到 GitHub 时，你需要提交它们并配置推送：
 
 ```
 git add ./filenames
@@ -120,10 +121,9 @@ git commit -m "Short descriptive message"  ## Or open a text editor for multi-li
 git push --set-upstream origin [branchname]
 ```
 
-The output will look something like the below. Note the link include in the output for making a PR only makes the PR in your fork ''not'' in the upstream.
+输出将类似于以下内容。请注意，输出中包含的链接仅在你的分叉中创建 PR，而不是在上游中。
 
-To make the PR in the upstream, visit https://github.com/theopensourceway/guidebook ; you may need to reload the page for the '''Compare & pull request''' button to appear.
-
+要在上游中创建 PR，请访问 https://github.com/theopensourceway/guidebook；你可能需要重新加载页面以使 '''Compare & pull request''' 按钮出现。
 
 ```
 Enumerating objects: 5, done.
@@ -142,5 +142,5 @@ To github.com:you/you-tosw-guidebook.git
 branch 'you-copyedits-01' set up to track 'origin/you-copyedits-01'.
 ```
 
-Follow the steps in the pull request dialog, adding any addition comments you want.
-You can fill out other details if you know the answers, otherwise you can complete the PR.
+按照拉取请求对话框中的步骤，添加你想要的任何附加评论。
+如果你知道答案，可以填写其他详细信息，否则你可以完成 PR。

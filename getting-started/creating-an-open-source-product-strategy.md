@@ -1,64 +1,64 @@
 ---
-description: 
+description: 制定开源产品战略的指南
 author: Dave Neary <dneary@redhat.com>
 updated: 2020-12-16T00:00:00.000Z
 ---
 
-# Creating an Open Source Product Strategy
+# 制定开源产品策略
 
-"Should we open source this project?"
+"我们应该开源这个项目吗？"
 
-This chapter won't answer that question for you. But it _will_ outline some considerations you should make as you answer the question when it arises.
+本章不会直接为你解答这个问题，但会勾勒出当你面对这个问题时应当考虑的一些关键因素。
 
-First, ask yourself why you are considering an open source approach. Before committing to creating and maintaining an open source project, understand _why_ open sourcing the project will help you or your organization achieve certain goals. Identifying those benefits is the first step in creating an open source strategy.
+首先，请自问为何考虑采用开源模式。在承诺创建和维护开源项目之前，先理解开源该项目将_如何_帮助你或组织实现特定目标。明确这些收益是制定开源战略的第一步。
 
-## Understand the economics of open source
+## 理解开源的经济学原理
 
-Open source is not a business model. It is a way to develop software collaboratively and increase a project's distribution and reach by lowering acquisition costs. To understand the business rationale that makes an open source strategy appealing, consider these economic principles:
+开源并非商业模式，而是一种协作开发软件的方式，通过降低获取成本来扩大项目的分发范围和影响力。要理解开源战略吸引人的商业逻辑，请考虑以下经济学原理：
 
-**Reducing the price of a good increases the demand for it**\
-In the case of open source, lowering the cost of acquisition maximizes demand and, therefore, project adoption. Note that the cost of adoption is not only monetary; it also includes the time and effort needed to adopt and migrate from whatever solution you're currently using.
+**商品价格下降会提升其市场需求**\\
+在开源领域，降低获取成本能够最大化需求，从而促进项目采用。需要注意的是，采用成本不仅指金钱支出，还包括从现有解决方案迁移所需投入的时间和精力。
 
-**When the price of one good decreases, demand for its substitutes also decreases.**\
-Open source projects can undermine established proprietary software companies by being convenient to adopt at a lower cost. This principle explains how open source can be an agent for market disruption. Disruption is an opportunity to capitalize on the adoption of alternatives and grow another market.
+**当某商品价格下降时，其替代品的需求也会相应减少。**\\
+开源项目能以较低成本便捷采用，从而撼动专有软件公司的市场地位。这一原理揭示了开源如何成为市场颠覆的推动力。颠覆意味着抓住替代方案采用的机遇，培育新兴市场。
 
-**All else being equal, when the price of a good decreases, demand for its complements increases.**\
-Every successful commercial open source strategy is based on this principle. If your goal is revenue, then you will need to determine the complements to the software that you'll be releasing as open source. Those complements should provide additional value to customers.
+**其他条件不变时，商品价格下降会带动其互补品需求上升。**\\
+每个成功的商业开源战略都基于这一原则。若你的目标是营收，则需要确定与开源软件配套的增值服务，这些配套服务应为客户提供额外价值。
 
-When establishing an open source strategy, your goal is to connect these principles with a concrete business goal.
+制定开源战略时，你的目标是将这些原则与具体的商业目标相衔接。
 
-## Define your team and the field
+## 明确团队构成与业务领域
 
-Creating a strategy requires input and buy-in from multiple stakeholders.
+制定战略需要多方利益相关者的参与和支持。
 
-* Strike a balance between involving too many people at an early stage and ensuring buy-in from a diverse group of people from the start.
-* Organize your stakeholders using a model of growing, concentric circles. Identify a core team that shares draft proposals early and often and engages with additional groups to gain awareness of concerns or constraints. Involving these stakeholders early will help you catch and address deal-breaking issues early.
-* Ensure that all stakeholders share an understanding of the problem your work is addressing. Develop your understanding of both the landscape in which the project operates and the relative benefit of investing in one option over others.
+* 在早期阶段既要避免过多人员参与，又要确保从一开始就获得多元化群体的支持。
+* 采用逐渐扩大的同心圆模型来组织利益相关方。确定一个核心团队，他们需要频繁地分享草案提案，并与更多群体互动以了解潜在问题或限制。尽早让这些利益相关方参与进来，有助于及早发现并解决关键性问题。
+* 确保所有利益相关方对项目要解决的问题达成共识。既要理解项目所处的整体环境，也要评估不同投资选项的相对收益。
 
-## Generate a draft strategy proposal
+## 制定初步战略提案草案
 
-Next, compose a strategy proposal document. It should contain:
+接下来，撰写一份战略提案文档。它应包含：
 
-**An elevator pitch**\
-A high-level description of the open source project's goal and a short explanation of how the project benefits the sponsoring company. No two projects will have identical goals, so no two projects will share exactly the same product strategy.
+**项目简介**
+对开源项目目标的高层次描述，并简要说明该项目如何使赞助公司受益。由于每个项目的目标都不尽相同，因此任何两个项目的产品战略也不会完全一致。
 
-**A business rationale**\
-A definition of how success for the community project translates into success for the company or product team. For example, "Wide adoption of this project will help people glean more benefit from our other products," or "An open source reference implementation of a standard will encourage adoption of the standard by multiple companies, enabling a network effect for others building on top of the standard."
+**商业依据**
+明确社区项目如何转化为公司或产品团队的成功。例如："该项目的广泛采用将帮助人们从我们的其他产品中获得更多收益"，或"标准的开源参考实现将鼓励多家公司采用该标准，从而为基于该标准构建的其他产品带来网络效应。"
 
-**A high-level execution plan**\
-Including key performance indicators (KPIs) that will be important for determining success. Project goals suggest these KPIs. For example, if your goal is de facto standard implementation with wide adoption, then you might measure the number of vendors distributing standard-compliant implementations. If your goal is market education, then the performance of introductory documentation, learning paths, tutorials, and magazine articles will be your top priority.
+**高层执行计划**
+包含对衡量成功至关重要的关键绩效指标(KPI)。项目目标决定了这些 KPI。例如，如果你的目标是实现被广泛采用的事实标准，则可以衡量符合标准的分发供应商数量；如果目标是市场教育，那么入门文档、学习路径、教程和杂志文章的表现将是首要关注指标。
 
-## Move from strategy to action
+## 从战略到行动的转变
 
-Strategy documents are useful if they affect action by allowing individuals to make local decisions in support of global goals. Communicating your strategy is therefore crucial to achieving strategic ends. Everyone should understand how their work impacts the open source strategy. When the entire organization understands the project's goal, reaching consensus on budget and resource allocation is much easier.
+战略文件若能通过授权个人做出支持全局目标的局部决策来影响行动，便具有实际价值。因此，传达战略对实现战略目标至关重要。每位成员都应理解自身工作对开源战略的影响。当整个组织明确项目目标时，就预算和资源分配达成共识将变得更为容易。
 
-**Continually monitor and communicate progress toward project goals.**\
-If fostering a diverse group of codevelopers is your community goal, then celebrate contributions from new participants and include growth figures in your monthly newsletter.
+**持续监控并通报项目目标的推进情况。**
+如果培养多元化的共同开发者群体是你的社区目标，那么请为新参与者的贡献庆贺，并在每月通讯中纳入增长数据。
 
-**Allocate resources in a way that makes success possible.**\
-If your goal is to move an entire industry from a proprietary competitor to an open source project, and you have one person working part time to promote the open source project, then your chances of success are low.
+**分配资源以确保成功成为可能。**
+如果你的目标是将整个行业从专有竞争对手转向开源项目，却只让一个人兼职推广这个开源项目，那么你的成功几率将十分渺茫。
 
-**Ensure that your strategy is a living document.**\
-Revisit it regularly with key stakeholders to ensure that your open source strategy stays fresh and relevant.
+**确保你的战略是一份活文件。**
+定期与关键利益相关者重新审视它，以确保你的开源战略保持新颖性和相关性。
 
-Crafting an open source strategy requires representing all key constituencies in the development process to achieve buy-in, exploring reasons why open sourcing makes sense for the organization's goals, ensuring you are measuring the right things to gauge your success, and preparing to pivot if necessary. Do all of this well, and you can turn everyone involved into an advocate for the open source project.
+制定开源战略需要在开发过程中代表所有关键利益相关方以获得支持，探索开源如何契合组织目标的深层原因，确保衡量指标能准确评估成效，并做好必要时调整方向的准备。若能妥善完成这些环节，你就能让每位参与者都成为该开源项目的拥护者。
