@@ -1,6 +1,7 @@
 [book]
 authors = ["The Open Source Way Contributors"]
 language = "zh-cn"
+multilingual = false
 src = "."
 title = "The Open Source Way 中文版"
 
@@ -21,10 +22,10 @@ level = 1
 enable = true
 limit-results = 30
 
-# Pandoc 输出配置（用于生成 PDF）
-[output.pandoc]
+# PDF 输出配置（需要安装 mdbook-pdf）
+[output.pdf]
 optional = true
 
-[output.pandoc.profile.pdf]
-output-file = "guidebook.md"
-standalone = true
+# 或者使用 mdbook-pdf-outline（另一个 PDF 生成器）
+# [output.pdf-outline]
+# like-wkhtmltopdf = true
