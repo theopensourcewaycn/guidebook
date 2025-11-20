@@ -56,22 +56,36 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Setup Rust
+        uses: dtolnay/rust-toolchain@stable
+
       - name: Setup mdBook
         uses: peaceiris/actions-mdbook@v2
         with:
           mdbook-version: 'latest'
 
-      - name: Install mdbook-pdf
+      - name: Install Pandoc and LaTeX
         run: |
-          cargo install mdbook-pdf
-          # 或者使用预编译版本
-          # wget https://github.com/HollowMan6/mdbook-pdf/releases/latest/download/mdbook-pdf-x86_64-unknown-linux-gnu.tar.gz
-          # tar -xzf mdbook-pdf-x86_64-unknown-linux-gnu.tar.gz
-          # chmod +x mdbook-pdf
-          # sudo mv mdbook-pdf /usr/local/bin/
+          sudo apt-get update
+          sudo apt-get install -y pandoc texlive-xetex texlive-latex-extra texlive-fonts-recommended
 
-      - name: Build PDF
+      - name: Install mdbook-pandoc
+        run: cargo install mdbook-pandoc
+
+      - name: Build HTML first
         run: mdbook build
+
+      - name: Generate PDF with Pandoc
+        run: |
+          mkdir -p book/pdf
+          mdbook-pandoc --standalone
+          pandoc book/pandoc/guidebook.md -o book/pdf/guidebook.pdf \
+            --pdf-engine=xelatex \
+            --toc \
+            --variable mainfont="DejaVu Sans" \
+            --variable monofont="DejaVu Sans Mono" \
+            --variable CJKmainfont="Noto Sans CJK SC" \
+            -V geometry:margin=1in
 
       - name: Upload PDF artifact
         uses: actions/upload-artifact@v4
