@@ -54,7 +54,7 @@ updated: 2020-10-29T00:00:00.000Z
 如果项目遵循特定的编码规范，请务必在开发者文档中明确说明这些规范。因为代码缩进方式不合要求而被维护者拒绝补丁，可能会大大打击贡献者的积极性。但对于用户来说，这些技术细节通常并不必要。
 
 {% hint style="success" %}
-为项目制定风格指南，并确保在面向开发者的文档中易于查找。并非所有项目都需要创建自己的风格指南，但注明项目将遵循的代码规范是最佳实践。如果项目采用已发布的风格指南，务必在[开发者文档](#user-content-fn-1)[^1]中提供其链接。
+为项目制定风格指南，并确保在面向开发者的文档中易于查找。并非所有项目都需要创建自己的风格指南，但注明项目将遵循的代码规范是最佳实践。如果项目采用已发布的风格指南，务必在开发者文档[^guides]中提供其链接。
 {% endhint %}
 
 ### 虚拟展示：精心打造项目网站
@@ -69,7 +69,7 @@ updated: 2020-10-29T00:00:00.000Z
 
 请将这段信息视为向从未听说过你项目的人解释它为何重要的机会——用 30 秒或更短时间。例如，Drupal 的[简介页面](https://www.drupal.org/about)是这样描述该项目的：
 
-> Drupal 是内容管理软件。你日常使用的许多网站和应用程序都由它构建而成。Drupal 具备出色的标准功能，例如便捷的内容创作、可靠的性能以及卓越的安全性。但使其与众不同的是其灵活性——模块化设计正是其核心理念之一。其工具能帮助你构建动态网络[体验所需](#user-content-fn-2)[^2]的多样化、结构化内容。
+> Drupal 是内容管理软件。你日常使用的许多网站和应用程序都由它构建而成。Drupal 具备出色的标准功能，例如便捷的内容创作、可靠的性能以及卓越的安全性。但使其与众不同的是其灵活性——模块化设计正是其核心理念之一。其工具能帮助你构建动态网络体验所需的多样化、结构化内容。
 
 在这段简短的描述中，我们了解到：
 
@@ -81,7 +81,7 @@ updated: 2020-10-29T00:00:00.000Z
 
 当访问项目主页[kubernetes.io](http://kubernetes.io/)时，访客立即看到以下说明：
 
-> Kubernetes（K8s）是一个用于自动化部署、扩展和管理容器化应用程序的开源系统。它将构成应用程序的容器分组为逻辑单元，便于管理和发现。Kubernetes 基于 Google 15 年生产环境工作负载的运行经验，并结合了来自[社区的](#user-content-fn-3)[^3]最佳创意和实践。
+> Kubernetes（K8s）是一个用于自动化部署、扩展和管理容器化应用程序的开源系统。它将构成应用程序的容器分组为逻辑单元，便于管理和发现。Kubernetes 基于 Google 15 年生产环境工作负载的运行经验，并结合了来自[社区的](https://kubernetes.io/)最佳创意和实践。
 
 在这个描述中，我们可以立即了解到：
 
@@ -129,7 +129,7 @@ updated: 2020-10-29T00:00:00.000Z
 
 #### 什么是问题跟踪器？
 
-_问题跟踪器_（issue tracker）（有时也称为_错误跟踪器_、_问题列表_或_问题队列_）是一种工具，当用户认为软件[运行不符合预期](#user-content-fn-4)[^4]时，可通过该工具提交问题报告。作为一种监控待办事项并支持对进行中的工作展开协作评论与审查的方式，部分项目会通过问题追踪器来管理整个开发流程。
+_问题跟踪器_（issue tracker）（有时也称为_错误跟踪器_、_问题列表_或_问题队列_）是一种工具，当用户认为软件运行不符合预期[^not-working]时，可通过该工具提交问题报告。作为一种监控待办事项并支持对进行中的工作展开协作评论与审查的方式，部分项目会通过问题追踪器来管理整个开发流程。
 
 本节将讨论如何使用问题追踪器来报告软件故障。通过项目的问题追踪器提交问题，你可以确保负责维护的人员看到你的报告并采取相应措施。
 
@@ -179,7 +179,7 @@ _问题跟踪器_（issue tracker）（有时也称为_错误跟踪器_、_问�
 
 有时，解决特定问题的细节可能会在社区内引发紧张或争论。
 
-在任何蓬勃发展的项目中——无论是软件还是其他领域——健康且相互尊重的辩论都是不可或缺的一部分，但情绪很容易升温，而且（[正如大量记录所显示的](#user-content-fn-5)[^5]）人们在网络上的行为往往不如面对面时那么文明。
+在任何蓬勃发展的项目中——无论是软件还是其他领域——健康且相互尊重的辩论都是不可或缺的一部分，但情绪很容易升温，而且正如[大量记录所显示的](https://www.bbc.com/future/article/20180403-why-do-people-become-trolls-online-and-in-social-media)人们在网络上的行为往往不如面对面时那么文明。
 
 若某个问题引发激烈争议且讨论变得粗鲁或煽动性，可限制该问题的访问权限一段时间（例如 24 至 48 小时），让人们有时间冷静思考，以更平和、建设性的方式阐述观点。
 
@@ -197,7 +197,7 @@ _问题跟踪器_（issue tracker）（有时也称为_错误跟踪器_、_问�
 
 > “虽然开发社区的规模和技能限制了问题单的处理速度，但项目至少应在问题单出现时立即予以确认。即使问题单会滞留一段时间，及时回应也能鼓励提交者保持参与，因为她能感受到自己的付出已被人工记录（请记住，提交问题单通常比发送电子邮件需要更多精力）。”
 >
-> —[Karl Fogel，《Producing Open Source Software》](#user-content-fn-6)[^6]
+> — Karl Fogel, Producing Open Source Software[^fogel-oss]
 
 感谢提交者提出问题。帮助项目改进是对项目健康的卓越贡献。此外，通过保持亲切、友善和热情的态度，你将鼓励问题报告者持续参与和贡献。
 
@@ -275,7 +275,7 @@ _问题跟踪器_（issue tracker）（有时也称为_错误跟踪器_、_问�
 
 正如本章通篇所讨论的，保持友善与得体的沟通对项目的持续健康发展至关重要。虽然人们可能自然而然地认为每个人都理解"友善与得体的沟通"是什么样子，但我们不能假定所有参与者对此有一致的理解，尤其是在面对全球受众时。项目维护者和社区成员以身作则固然重要，但明确阐述何为文明讨论、哪些内容与项目无关、以及项目对沟通者（尤其是涉及可能引发争议的事项时）的期望，能为项目设定恰当的基调。
 
-摘录自[Dreamwidth项目多样性声明](#user-content-fn-7)[^7]：
+摘录自[Dreamwidth项目多样性声明](https://www.dreamwidth.org/legal/diversity):
 
 > 我们欢迎任何性别认同或表达、种族、民族、体型、国籍、性取向、能力水平、神经类型、宗教信仰、长者身份、家庭结构、文化背景、亚文化群体、政治观点、身份认同与自我定义的人。我们欢迎社会活动家、艺术家、博主、手工艺人、文艺爱好者、音乐家、摄影师、阅读者、写作者、平凡人与非凡者，以及介于其间的所有人。我们欢迎想改变世界的人，想与朋友保持联系的人，想创作伟大艺术作品的人，以及仅仅需要工作后放松的人。我们欢迎爱好者、极客、书呆子和卷流量的IT民工挂逼。（我们也欢迎那些不确定这些黑话含义的互联网新手。）无论你上中学时互联网是否已家喻户晓，抑或万维网诞生时你早已退休——我们都欢迎你的加入。
 >
@@ -322,16 +322,6 @@ _问题跟踪器_（issue tracker）（有时也称为_错误跟踪器_、_问�
 
 在开源项目中实现高效沟通的最佳方式是以善意和礼貌待人，初次接触素未谋面者时秉持善意揣测。尽管本章包含众多有效沟通的最佳实践指南，但以优雅姿态待人始终是达成良好沟通的首要前提。请牢记：屏幕另一端阅读你文字的是有血有肉的人，请以你期望获得的同等尊重相待。
 
-[^1]: For a sample style guide, see [PEP 8 — Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/) or the [style guide for contributing to Mozilla Firefox](https://firefox-source-docs.mozilla.org/code-quality/coding-style/index.html), a project that employs multiple programming languages in its development.
-
-[^2]: [https://www.drupal.org/about](https://www.drupal.org/about) 访问于2020年6月22日 05:43 CET
-
-[^3]: Kubernetes主页，[https://kubernetes.io/](https://kubernetes.io/)，访问于2020年6月22日 05:57 CET
-
-[^4]: [5](https://www.theopensourceway.org/the_open_source_way-guidebook-2.0.html#_footnoteref_5). 作者感谢Kent C.Dodds和Sara Drasner在他们的文章[开源礼仪指南](https://css-tricks.com/open-source-etiquette-guidebook/)中的工作，访问于2020年6月24日 12:52 CET。
-
-[^5]: Gaia Vince，[进化解释为什么我们在网上行为不同](https://www.bbc.com/future/article/20180403-why-do-people-become-trolls-online-and-in-social-media)。
-
-[^6]: [https://producingoss.com/en/producingoss-letter.pdf](https://producingoss.com/en/producingoss-letter.pdf)，第64页，访问于2020年6月24日 11:46 CET
-
-[^7]: [https://www.dreamwidth.org/legal/diversity](https://www.dreamwidth.org/legal/diversity) 访问于2020年7月2日 13:37 CET (能够多么精彩 :)
+[^guides]: 关于风格指南的示例，请参阅 [PEP 8 — Python 代码风格指南](https://www.python.org/dev/peps/pep-0008/) 或 [Mozilla Firefox 贡献风格指南](https://firefox-source-docs.mozilla.org/code-quality/coding-style/index.html)，后者是一个在开发中使用多种编程语言的项目。
+[^not-working]: 作者感谢 Kent C.Dodds 和 Sara Drasner 在其文章 [《开源礼仪指南》](https://css-tricks.com/open-source-etiquette-guidebook/) 中所做的工作。
+[^fogel-oss]: [https://producingoss.com/en/producingoss-letter.pdf](https://producingoss.com/en/producingoss-letter.pdf)，第 64 页。

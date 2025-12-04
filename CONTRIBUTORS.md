@@ -6,10 +6,13 @@
   * 作者：[Karsten Wade](mailto:kwade@redhat.com)
 * 社区入门指南
   * 作者：[Bryan Behrenshausen](mailto:bryan.behrenshausen@sas.com), [Dave Neary](mailto:dneary@redhat.com), [Karsten Wade](mailto:kwade@redhat.com)
+* 社区建设要点
+  * 作者：[Andy Oram](mailto:andyo@praxagora.com)
+* 构建战略
+  * 作者：[Dave Neary](mailto:dneary@redhat.com) (主笔), [Bryan Behrenshausen](mailto:bryan.behrenshausen@sas.com)
 * 新项目清单
   * 作者：[Lisa Caywood](mailto:lcaywood@redhat.com), [Josh Berkus](mailto:jberkus@redhat.com), [Bryan Behrenshausen](mailto:bryan.behrenshausen@sas.com), [Karsten Wade](mailto:kwade@redhat.com)
-* 制定开源产品战略
-  * 作者：[Dave Neary](mailto:dneary@redhat.com)
+  * Editor: [Bryan Behrenshausen](mailto:bryan.behrenshausen@sas.com)
 * 开源软件项目中的沟通规范 
   * 作者：[Leslie Hawthorn](mailto:lhawthor@redhat.com)
   * 编辑/审阅：[Paula Dickerson](mailto:pdickers@redhat.com) (主编), 编辑团队
@@ -25,8 +28,6 @@
   * 作者：[Dave Neary](mailto:dneary@redhat.com)
 * 什么是贡献？
   * 作者：[Karsten Wade](mailto:kwade@redhat.com)
-* 社区建设要点
-  * 作者：[Andy Oram](mailto:andyo@praxagora.com)
 * 构建新用户引导体验
   * 作者：[Ray Paik](mailto:ray@cube.dev), [Bryan Behrenshausen](mailto:bryan.behrenshausen@sas.com)
 * 创造指导文化
